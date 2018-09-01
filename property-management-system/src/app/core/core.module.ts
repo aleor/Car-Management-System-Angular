@@ -2,7 +2,7 @@ import { NgModule, Optional, SkipSelf } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
-
+import { AngularMaterialModule } from '../angular-material.module';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { throwIfAlreadyLoaded } from './module-import.guard';
 
@@ -10,7 +10,8 @@ import { throwIfAlreadyLoaded } from './module-import.guard';
   imports: [
       CommonModule,
       RouterModule,
-      HttpClientModule
+      HttpClientModule,
+      AngularMaterialModule
     ],
   exports: [
       RouterModule,
