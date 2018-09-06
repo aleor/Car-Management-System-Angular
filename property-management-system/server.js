@@ -119,9 +119,9 @@ app.listen(4200);
 
 console.log('Express listening on port 4200.');
 
-//Open browser
+// Open browser
 var opn = require('opn');
 
 opn('http://localhost:4200').then(() => {
-    console.log('Browser closed.');
+    console.log('Browser started.');
 });
