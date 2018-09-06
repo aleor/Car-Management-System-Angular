@@ -1,10 +1,10 @@
 "use strict";
-var express = require('express'),
-    bodyParser = require('body-parser'),
-    fs = require('fs'),
-    app = express(),
-    customers = JSON.parse(fs.readFileSync('data/properties.json', 'utf-8')),
-    states = JSON.parse(fs.readFileSync('data/states.json', 'utf-8'));
+const express = require('express');
+const bodyParser = require('body-parser');
+const fs = require('fs');
+const app = express();
+let customers = JSON.parse(fs.readFileSync('data/properties.json', 'utf-8'));
+let states = JSON.parse(fs.readFileSync('data/states.json', 'utf-8'));
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
