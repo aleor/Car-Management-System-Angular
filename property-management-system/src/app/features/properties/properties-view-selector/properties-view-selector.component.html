@@ -1,3 +1,23 @@
+<mat-expansion-panel>
+    <mat-expansion-panel-header>
+        View Mode
+    </mat-expansion-panel-header>
+    <div>
+        <button mat-button class="block">
+            <mat-icon>view_module</mat-icon>
+            <span>Card View</span>
+        </button>
+        <button mat-button class="block">
+            <mat-icon>view_headline</mat-icon>
+            <span>Table View</span>
+        </button>
+        <button mat-button class="block">
+            <mat-icon>place</mat-icon>
+            <span>Map View</span>
+        </button>
+    </div>
+</mat-expansion-panel>
+
 <ul class="nav navbar-nav">
     <li class="toolbar-item">
         <a (click)="changeViewMode(propertiesViewMode.Card)" [class.active]="viewMode === propertiesViewMode.Card">

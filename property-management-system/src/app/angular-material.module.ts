@@ -9,7 +9,8 @@ import {
   MatPaginatorModule,
   MatSidenavModule,
   MatTableModule,
-  MatToolbarModule
+  MatToolbarModule,
+  MatExpansionModule
  } from '@angular/material';
 
 @NgModule({
@@ -23,7 +24,8 @@ import {
     MatPaginatorModule,
     MatSidenavModule,
     MatTableModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatExpansionModule
   ],
   exports: [
     MatButtonModule,
@@ -35,7 +37,8 @@ import {
     MatPaginatorModule,
     MatSidenavModule,
     MatTableModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatExpansionModule
   ],
   declarations: []
 })

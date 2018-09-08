@@ -10,6 +10,7 @@ export class PropertiesViewSelectorComponent implements OnInit {
 
   viewMode: PropertiesViewMode;
   propertiesViewMode: PropertiesViewMode = PropertiesViewMode.Card;
+
   constructor() { }
 
   ngOnInit() {
