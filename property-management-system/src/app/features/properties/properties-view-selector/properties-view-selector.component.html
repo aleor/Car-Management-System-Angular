@@ -1,24 +1,24 @@
-<mat-expansion-panel>
-    <mat-expansion-panel-header>
-        View Mode
-    </mat-expansion-panel-header>
-    <div>
-        <button mat-button class="block">
-            <mat-icon>view_module</mat-icon>
-            <span>Card View</span>
-        </button>
-        <button mat-button class="block">
-            <mat-icon>view_headline</mat-icon>
-            <span>Table View</span>
-        </button>
-        <button mat-button class="block">
-            <mat-icon>place</mat-icon>
-            <span>Map View</span>
-        </button>
-    </div>
-</mat-expansion-panel>
+<button mat-icon-button [matMenuTriggerFor]="viewMenu">
+    <mat-icon>menu</mat-icon>
+    <span>View Mode</span>
+  </button>
 
-<ul class="nav navbar-nav">
+<mat-menu #viewMenu="matMenu">
+    <button mat-menu-item>
+      <mat-icon>view_module</mat-icon>
+      <span>Card View</span>
+    </button>
+    <button mat-menu-item>
+      <mat-icon>view_headline</mat-icon>
+      <span>Table View</span>
+    </button>
+    <button mat-menu-item>
+      <mat-icon>place</mat-icon>
+      <span>Map View</span>
+    </button>
+</mat-menu>
+
+<!-- <ul class="nav navbar-nav">
     <li class="toolbar-item">
         <a (click)="changeViewMode(propertiesViewMode.Card)" [class.active]="viewMode === propertiesViewMode.Card">
             <span class="glyphicon glyphicon-th-large"></span> Card View
@@ -39,4 +39,4 @@
             <span class="glyphicon glyphicon-plus"></span> Add new property
         </a>
     </li>
-</ul>
+</ul> -->

@@ -20,4 +20,8 @@ export class PropertiesComponent implements OnInit {
     this.dataService.getProperties().subscribe(res => this.properties = res);
   }
 
+  applyFilter(filterBy: string) {
+    console.log(filterBy);
+  }
+
 }

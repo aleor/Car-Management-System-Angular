@@ -1,13 +1,24 @@
 <div class="customers view indent">
     <div class="container">
-        <header>
-            <h3>
-                <span class="glyphicon glyphicon-user"></span> Properties
-            </h3>
-        </header>
-        <br />
-        <div class="row">
-            <pms-properties-view-selector></pms-properties-view-selector>
+        <div class="header">
+            <mat-icon>domain</mat-icon>
+            <span>Properties</span>
+        </div>
+
+        <div class="properties-panel">
+            <div>
+                <button mat-button color="primary">
+                    <mat-icon>add</mat-icon>
+                    <span>Add new property</span>
+                </button>
+                <pms-properties-view-selector></pms-properties-view-selector>
+            </div>
+            <mat-form-field>
+                <input matInput (keyup)="applyFilter($event.target.value)" placeholder="Filter">
+            </mat-form-field>
+        </div>
+        <div class="filter">
+
         </div>
         <pms-properties-card-view [properties]="properties"></pms-properties-card-view>
     </div>
