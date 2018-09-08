@@ -1,0 +1,22 @@
+<ul class="nav navbar-nav">
+    <li class="toolbar-item">
+        <a (click)="changeViewMode(propertiesViewMode.Card)" [class.active]="viewMode === propertiesViewMode.Card">
+            <span class="glyphicon glyphicon-th-large"></span> Card View
+        </a>
+    </li>
+    <li class="toolbar-item">
+        <a (click)="changeViewMode(propertiesViewMode.Table)" [class.active]="viewMode === propertiesViewMode.Table">
+            <span class="glyphicon glyphicon-align-justify"></span> List View
+        </a>
+    </li>
+    <li class="toolbar-item">
+        <a (click)="changeViewMode(propertiesViewMode.Map)" [class.active]="viewMode === propertiesViewMode.Map">
+            <span class="glyphicon glyphicon-map-marker"></span> Map View
+        </a>
+    </li>
+    <li class="toolbar-item">
+        <a routerLink="/customers/0/edit">
+            <span class="glyphicon glyphicon-plus"></span> Add new property
+        </a>
+    </li>
+</ul>

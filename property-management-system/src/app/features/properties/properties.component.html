@@ -2,42 +2,25 @@
     <div class="container">
         <header>
             <h3>
-                <span class="glyphicon glyphicon-user"></span> Title bindng here
+                <span class="glyphicon glyphicon-user"></span> Properties
             </h3>
         </header>
         <br />
         <div class="row">
-            <pms-properties-card-view></pms-properties-card-view>
-            <!-- <div class="col-md-10">
-                <div class="navbar">
-                    <ul class="nav navbar-nav">
-                        <li class="toolbar-item">
-                            <a (click)="changeDisplayMode(displayModeEnum.Card)" [class.active]="displayMode === displayModeEnum.Card">
-                                <span class="glyphicon glyphicon-th-large"></span> Card View
-                            </a>
-                        </li>
-                        <li class="toolbar-item">
-                            <a (click)="changeDisplayMode(displayModeEnum.Grid)" [class.active]="displayMode === displayModeEnum.Grid">
-                                <span class="glyphicon glyphicon-align-justify"></span> List View
-                            </a>
-                        </li>
-                        <li class="toolbar-item">
-                            <a (click)="changeDisplayMode(displayModeEnum.Map)" [class.active]="displayMode === displayModeEnum.Map">
-                                <span class="glyphicon glyphicon-map-marker"></span> Map View
-                            </a>
-                        </li>
-                        <li class="toolbar-item">
-                            <a routerLink="/customers/0/edit">
-                                <span class="glyphicon glyphicon-plus"></span> New Customer
-                            </a>
-                        </li>
-                    </ul>
-                    <cm-filter-textbox class="navbar-right" (changed)="filterChanged($event)"></cm-filter-textbox>
-        </div> -->
+            <pms-properties-view-selector></pms-properties-view-selector>
         </div>
+        <pms-properties-card-view [properties]="properties"></pms-properties-card-view>
     </div>
+</div>
+<!-- <div class="col-md-10">
+                <div class="navbar">
+                    
+                    <cm-filter-textbox class="navbar-right" (changed)="filterChanged($event)"></cm-filter-textbox>
+        </div> 
+        </div>-->
 
-    <!-- <cm-customers-card 
+
+<!-- <cm-customers-card 
           [customers]="filteredCustomers" 
           [hidden]="displayMode !== displayModeEnum.Card"></cm-customers-card>
     
@@ -61,4 +44,5 @@
             [pageSize]="pageSize" 
             (pageChanged)="pageChanged($event)"></cm-pagination> -->
 
-</div>
+<!-- </div>
+</div> -->

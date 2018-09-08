@@ -17,7 +17,7 @@ export class PropertiesComponent implements OnInit {
   }
 
   getProperties() {
-    this.dataService.getProperties().subscribe(res => { this.properties = res; console.log(this.properties); });
+    this.dataService.getProperties().subscribe(res => this.properties = res);
   }
 
 }
