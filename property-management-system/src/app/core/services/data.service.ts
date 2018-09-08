@@ -7,18 +7,31 @@ import { Booking } from '../../shared/models/booking.model';
 import { State } from '../../shared/models/state.model';
 import { Property } from '../../shared/models/property.model';
 import { PagedResults } from '../../shared/models/paged-results.model';
+import { Car } from '../../shared/models/car.model';
 
 // import { ICustomer, IOrder, IState, IPagedResults, IApiResponse } from '../../shared/interfaces';
 
 @Injectable()
 export class DataService {
 
+    private readonly carsBaseUrl = '/api/cars';
     private readonly propertiesBaseUrl = '/api/properties';
     private readonly bookingsBaseUrl = '/api/bookings';
     orders: Booking[];
     states: State[];
 
     constructor(private http: HttpClient) { }
+
+    getCars(): Observable<Car[]> {
+        return this.http.get<Car[]>(this.carsBaseUrl)
+            .pipe(
+                map(car => {
+                    // this.calculateCustomersOrderTotal(properties);
+                    return car;
+                }),
+                catchError(this.handleError)
+            );
+    }
 
     takeProperties(page: number, pageSize: number): Observable<PagedResults<Property[]>> {
         return this.http.get<Property[]>(

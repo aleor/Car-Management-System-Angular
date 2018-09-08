@@ -1,2113 +1,2239 @@
 [{
-        "_id": "5b93f706e0969ebaf68c5dc3",
-        "model": "",
-        "type": "",
-        "isAvailable": false,
-        "isDamaged": true,
-        "totalBalance": "$30,917.96",
-        "picture": "http://placehold.it/32x32",
-        "age": 11,
-        "location": {
-            "latitude": "-85.627034",
-            "longitude": "54.233172"
-        },
-        "address": "409 Creamer Street, Bend, Hawaii, 8200",
-        "description": "Voluptate mollit deserunt tempor excepteur esse nulla ea incididunt aliquip ipsum tempor. Adipisicing veniam sit occaecat non eu culpa consectetur. Pariatur pariatur ea dolor voluptate sit cillum.",
-        "registered": "2018-05-21T13:56:45.508Z",
-        "comments": "",
-        "events": [{
-                "id": 0,
-                "event": "",
-                "amount": "-$2,671.11",
-                "timestamp": 1487316934926
-            },
-            {
-                "id": 1,
-                "event": "",
-                "amount": "$1,784.40",
-                "timestamp": 1455127835719
-            },
-            {
-                "id": 2,
-                "event": "",
-                "amount": "-$2,661.39",
-                "timestamp": 1517834585010
-            },
-            {
-                "id": 3,
-                "event": "",
-                "amount": "$3,317.41",
-                "timestamp": 1467134910604
-            },
-            {
-                "id": 4,
-                "event": "",
-                "amount": "$6,575.30",
-                "timestamp": 1476597242866
-            },
-            {
-                "id": 5,
-                "event": "",
-                "amount": "-$3,065.17",
-                "timestamp": 1531488743533
-            },
-            {
-                "id": 6,
-                "event": "",
-                "amount": "$2,878.58",
-                "timestamp": 1499276055968
-            },
-            {
-                "id": 7,
-                "event": "",
-                "amount": "$3,524.61",
-                "timestamp": 1454901664353
-            },
-            {
-                "id": 8,
-                "event": "",
-                "amount": "$5,452.53",
-                "timestamp": 1430395564659
-            },
-            {
-                "id": 9,
-                "event": "",
-                "amount": "$6,227.76",
-                "timestamp": 1469108804509
-            }
-        ]
-    },
-    {
-        "_id": "5b93f70672f7bb5729e2c2ef",
-        "model": "",
-        "type": "",
-        "isAvailable": false,
-        "isDamaged": false,
-        "totalBalance": "$30,433.40",
-        "picture": "http://placehold.it/32x32",
-        "age": 7,
-        "location": {
-            "latitude": "19.924542",
-            "longitude": "-27.71964"
-        },
-        "address": "231 Doscher Street, Mammoth, South Carolina, 1963",
-        "description": "Deserunt aliquip proident pariatur esse cillum nisi cillum tempor irure nostrud sit anim do. Magna consectetur laborum do eu sint tempor Lorem consequat minim excepteur. Consectetur aute duis elit aliquip amet Lorem sunt ad. Ex nostrud nostrud sit commodo commodo fugiat Lorem. Esse minim laborum officia laborum ut exercitation amet fugiat commodo enim voluptate cupidatat incididunt do. Aute dolore quis incididunt cupidatat laborum incididunt eiusmod adipisicing amet pariatur.",
-        "registered": "2014-08-28T06:49:44.430Z",
-        "comments": "",
-        "events": [{
-                "id": 0,
-                "event": "",
-                "amount": "$6,016.97",
-                "timestamp": 1452199334773
-            },
-            {
-                "id": 1,
-                "event": "",
-                "amount": "$4,178.58",
-                "timestamp": 1442637581656
-            },
-            {
-                "id": 2,
-                "event": "",
-                "amount": "-$1,956.43",
-                "timestamp": 1483313017293
-            },
-            {
-                "id": 3,
-                "event": "",
-                "amount": "-$2,542.29",
-                "timestamp": 1481820828360
-            },
-            {
-                "id": 4,
-                "event": "",
-                "amount": "$6,438.66",
-                "timestamp": 1498219503707
-            },
-            {
-                "id": 5,
-                "event": "",
-                "amount": "-$1,130.14",
-                "timestamp": 1479032414800
-            },
-            {
-                "id": 6,
-                "event": "",
-                "amount": "$4,442.75",
-                "timestamp": 1523709174071
-            },
-            {
-                "id": 7,
-                "event": "",
-                "amount": "$5,785.43",
-                "timestamp": 1469531549559
-            },
-            {
-                "id": 8,
-                "event": "",
-                "amount": "-$139.69",
-                "timestamp": 1453486165234
-            },
-            {
-                "id": 9,
-                "event": "",
-                "amount": "$5,310.86",
-                "timestamp": 1449492300085
-            },
-            {
-                "id": 10,
-                "event": "",
-                "amount": "$6,089.22",
-                "timestamp": 1447654457729
-            }
-        ]
-    },
-    {
-        "_id": "5b93f706aa354f77af0f4247",
-        "model": "",
-        "type": "",
-        "isAvailable": false,
-        "isDamaged": true,
-        "totalBalance": "-$4,376.32",
-        "picture": "http://placehold.it/32x32",
-        "age": 7,
-        "location": {
-            "latitude": "85.475185",
-            "longitude": "25.188467"
-        },
-        "address": "857 Tapscott Street, Joppa, Northern Mariana Islands, 1094",
-        "description": "Quis aute laborum elit esse enim dolor. Tempor elit ut incididunt amet ipsum irure nulla. Nisi non labore cupidatat amet officia nulla voluptate consectetur. Id duis ullamco officia tempor ipsum nisi ad ipsum consectetur. Ex Lorem nostrud aute dolore eiusmod ad quis esse do aliqua. Consequat eiusmod occaecat minim sit enim tempor commodo mollit consectetur anim ex amet irure. Minim voluptate commodo id ex reprehenderit reprehenderit fugiat ullamco et do dolore deserunt.",
-        "registered": "2015-07-26T22:02:07.893Z",
-        "comments": "",
-        "events": [{
-                "id": 0,
-                "event": "",
-                "amount": "-$2,093.00",
-                "timestamp": 1443984722281
-            },
-            {
-                "id": 1,
-                "event": "",
-                "amount": "-$4,793.58",
-                "timestamp": 1455042230809
-            },
-            {
-                "id": 2,
-                "event": "",
-                "amount": "$4,759.49",
-                "timestamp": 1427804428144
-            },
-            {
-                "id": 3,
-                "event": "",
-                "amount": "-$4,999.15",
-                "timestamp": 1486210692539
-            },
-            {
-                "id": 4,
-                "event": "",
-                "amount": "$6,151.84",
-                "timestamp": 1522810139156
-            },
-            {
-                "id": 5,
-                "event": "",
-                "amount": "-$4,646.74",
-                "timestamp": 1453331461354
-            }
-        ]
-    },
-    {
-        "_id": "5b93f706b51145435fc32e42",
-        "model": "",
-        "type": "",
-        "isAvailable": false,
-        "isDamaged": false,
-        "totalBalance": "$36,200.22",
-        "picture": "http://placehold.it/32x32",
-        "age": 11,
-        "location": {
-            "latitude": "-10.637523",
-            "longitude": "118.960209"
-        },
-        "address": "847 Keap Street, Northridge, Mississippi, 6667",
-        "description": "Sit mollit reprehenderit consectetur mollit est nisi officia eu consectetur. Fugiat Lorem adipisicing cillum laboris amet do pariatur laborum ullamco eiusmod nostrud qui. Id sint dolor consequat amet minim aute veniam sunt cillum do minim tempor proident. Ipsum anim velit occaecat aliquip sint ad. Eu labore labore est minim ut proident reprehenderit sit eiusmod velit nulla. Amet ea adipisicing ex irure sunt et adipisicing est adipisicing consectetur pariatur mollit.",
-        "registered": "2016-12-09T04:55:52.312Z",
-        "comments": "",
-        "events": [{
-                "id": 0,
-                "event": "",
-                "amount": "$2,087.24",
-                "timestamp": 1447615694136
-            },
-            {
-                "id": 1,
-                "event": "",
-                "amount": "$2,762.84",
-                "timestamp": 1482454965460
-            },
-            {
-                "id": 2,
-                "event": "",
-                "amount": "-$708.91",
-                "timestamp": 1442300927478
-            },
-            {
-                "id": 3,
-                "event": "",
-                "amount": "-$194.85",
-                "timestamp": 1440081628882
-            },
-            {
-                "id": 4,
-                "event": "",
-                "amount": "$5,517.61",
-                "timestamp": 1481385011085
-            },
-            {
-                "id": 5,
-                "event": "",
-                "amount": "-$2,931.63",
-                "timestamp": 1422037452034
-            },
-            {
-                "id": 6,
-                "event": "",
-                "amount": "-$2,135.66",
-                "timestamp": 1510625208003
-            }
-        ]
-    },
-    {
-        "_id": "5b93f706b77f4eeeeeefe656",
-        "model": "",
-        "type": "",
-        "isAvailable": false,
-        "isDamaged": false,
-        "totalBalance": "$1,389.06",
-        "picture": "http://placehold.it/32x32",
-        "age": 7,
-        "location": {
-            "latitude": "17.280719",
-            "longitude": "18.133385"
-        },
-        "address": "402 Underhill Avenue, Westphalia, Pennsylvania, 5650",
-        "description": "Officia nostrud elit dolore laborum magna irure aliqua elit consectetur consequat voluptate nisi do. Voluptate est sit sint aute enim duis occaecat eu anim. Velit consequat eiusmod cupidatat minim ullamco eiusmod ex velit ullamco ipsum commodo veniam qui. Anim enim reprehenderit aliqua elit. Culpa mollit fugiat ea magna ipsum dolore nostrud laborum ut in. Sint eu in ullamco nostrud cupidatat cillum laboris sunt laborum ut in dolore exercitation.",
-        "registered": "2018-03-17T07:23:29.115Z",
-        "comments": "",
-        "events": [{
-                "id": 0,
-                "event": "",
-                "amount": "$1,392.36",
-                "timestamp": 1509460002806
-            },
-            {
-                "id": 1,
-                "event": "",
-                "amount": "$877.05",
-                "timestamp": 1457604644980
-            },
-            {
-                "id": 2,
-                "event": "",
-                "amount": "$5,665.94",
-                "timestamp": 1463074525388
-            },
-            {
-                "id": 3,
-                "event": "",
-                "amount": "$1,709.34",
-                "timestamp": 1514316980247
-            },
-            {
-                "id": 4,
-                "event": "",
-                "amount": "-$1,019.27",
-                "timestamp": 1481221258070
-            },
-            {
-                "id": 5,
-                "event": "",
-                "amount": "$4,978.49",
-                "timestamp": 1495485030863
-            },
-            {
-                "id": 6,
-                "event": "",
-                "amount": "-$4,899.39",
-                "timestamp": 1426549223185
-            },
-            {
-                "id": 7,
-                "event": "",
-                "amount": "$4,295.17",
-                "timestamp": 1482171516025
-            },
-            {
-                "id": 8,
-                "event": "",
-                "amount": "-$4,576.01",
-                "timestamp": 1521606856806
-            },
-            {
-                "id": 9,
-                "event": "",
-                "amount": "$5,151.78",
-                "timestamp": 1494014325640
-            },
-            {
-                "id": 10,
-                "event": "",
-                "amount": "-$4,688.68",
-                "timestamp": 1444144783837
-            },
-            {
-                "id": 11,
-                "event": "",
-                "amount": "$3,953.07",
-                "timestamp": 1519580635884
-            },
-            {
-                "id": 12,
-                "event": "",
-                "amount": "$2,518.68",
-                "timestamp": 1464081604933
-            }
-        ]
-    },
-    {
-        "_id": "5b93f7065f4f65921c4628c5",
+        "_id": "5b93faa6301064f9223b9032",
         "model": "",
         "type": "",
         "isAvailable": true,
         "isDamaged": false,
-        "totalBalance": "$13,641.04",
+        "totalBalance": "24,632.91",
         "picture": "http://placehold.it/32x32",
         "age": 2,
         "location": {
-            "latitude": "-33.239752",
-            "longitude": "-81.455902"
+            "latitude": "-59.835241",
+            "longitude": "86.012897"
         },
-        "address": "121 Irving Place, Allison, New York, 222",
-        "description": "Laboris enim non cillum occaecat dolor exercitation. Et irure amet aliquip voluptate non consequat id veniam. Quis aliqua in dolor qui sint id anim sunt voluptate ad amet ex. Excepteur in amet incididunt duis velit consequat voluptate culpa irure proident.",
-        "registered": "2018-05-25T21:32:52.858Z",
+        "address": "427 Harbor Lane, Dixie, Wisconsin, 6752",
+        "description": "Excepteur duis voluptate aliqua laboris et amet duis dolor magna. Minim enim enim elit laborum dolor id consectetur proident duis excepteur ex sunt. Commodo est dolore dolore ipsum. Consequat elit ipsum aliquip velit culpa nulla aliquip nostrud cillum magna eu est. Laborum magna non ipsum occaecat consectetur fugiat non minim excepteur veniam tempor aute consequat elit. Enim magna culpa enim do nulla ea enim magna et eiusmod est sint non do.",
+        "registeredAt": "2014-09-25T23:03:59.661Z",
         "comments": "",
-        "events": [{
+        "history": [{
                 "id": 0,
                 "event": "",
-                "amount": "-$2,353.11",
-                "timestamp": 1517878006725
+                "amount": "-4,665.19",
+                "timestamp": 1430244657038
             },
             {
                 "id": 1,
                 "event": "",
-                "amount": "$4,537.27",
-                "timestamp": 1484290380215
+                "amount": "-2,379.99",
+                "timestamp": 1511644166883
             },
             {
                 "id": 2,
                 "event": "",
-                "amount": "$319.95",
-                "timestamp": 1495972042422
+                "amount": "5,620.98",
+                "timestamp": 1507520813970
             },
             {
                 "id": 3,
                 "event": "",
-                "amount": "-$1,195.64",
-                "timestamp": 1470738553783
+                "amount": "4,475.94",
+                "timestamp": 1492209744612
             },
             {
                 "id": 4,
                 "event": "",
-                "amount": "$4,734.12",
-                "timestamp": 1482291488563
+                "amount": "5,521.46",
+                "timestamp": 1468014915820
             },
             {
                 "id": 5,
                 "event": "",
-                "amount": "$6,929.01",
-                "timestamp": 1470891744693
+                "amount": "5,194.70",
+                "timestamp": 1477339740553
             },
             {
                 "id": 6,
                 "event": "",
-                "amount": "$5,144.85",
-                "timestamp": 1436122095579
+                "amount": "2,181.96",
+                "timestamp": 1505662330160
             },
             {
                 "id": 7,
                 "event": "",
-                "amount": "$6,919.53",
-                "timestamp": 1432302487673
-            },
-            {
-                "id": 8,
-                "event": "",
-                "amount": "-$2,819.66",
-                "timestamp": 1434765511810
-            },
-            {
-                "id": 9,
-                "event": "",
-                "amount": "$893.05",
-                "timestamp": 1428965458121
-            },
-            {
-                "id": 10,
-                "event": "",
-                "amount": "$4,610.32",
-                "timestamp": 1450899629946
-            },
-            {
-                "id": 11,
-                "event": "",
-                "amount": "$719.48",
-                "timestamp": 1442711360624
+                "amount": "-3,827.36",
+                "timestamp": 1489998663563
             }
         ]
     },
     {
-        "_id": "5b93f706ea01718dc9bb6f5a",
+        "_id": "5b93faa645fcc141adbd7fd7",
+        "model": "",
+        "type": "",
+        "isAvailable": true,
+        "isDamaged": false,
+        "totalBalance": "11,070.78",
+        "picture": "http://placehold.it/32x32",
+        "age": 12,
+        "location": {
+            "latitude": "59.479677",
+            "longitude": "75.53333"
+        },
+        "address": "767 Girard Street, Cliff, New Hampshire, 9451",
+        "description": "Aute cupidatat pariatur est non sit laborum ut est ea. Aute id sunt sint Lorem mollit minim sit et incididunt adipisicing. Do anim amet eu mollit magna ut consequat quis aliqua magna adipisicing commodo. Aliqua incididunt eu officia eu esse deserunt ipsum minim eu labore Lorem. Mollit officia irure dolor officia enim deserunt aute eu incididunt ea culpa aute nulla laborum.",
+        "registeredAt": "2016-09-08T20:04:08.201Z",
+        "comments": "",
+        "history": [{
+                "id": 0,
+                "event": "",
+                "amount": "-4,088.98",
+                "timestamp": 1481475841750
+            },
+            {
+                "id": 1,
+                "event": "",
+                "amount": "6,534.50",
+                "timestamp": 1442801093278
+            },
+            {
+                "id": 2,
+                "event": "",
+                "amount": "6,628.54",
+                "timestamp": 1507035015430
+            },
+            {
+                "id": 3,
+                "event": "",
+                "amount": "6,027.72",
+                "timestamp": 1519352177919
+            },
+            {
+                "id": 4,
+                "event": "",
+                "amount": "-3,028.35",
+                "timestamp": 1532854221064
+            },
+            {
+                "id": 5,
+                "event": "",
+                "amount": "1,762.29",
+                "timestamp": 1532740687240
+            },
+            {
+                "id": 6,
+                "event": "",
+                "amount": "4,839.53",
+                "timestamp": 1420859741236
+            },
+            {
+                "id": 7,
+                "event": "",
+                "amount": "96.20",
+                "timestamp": 1496089562071
+            }
+        ]
+    },
+    {
+        "_id": "5b93faa6c6b44bc8c8b8e228",
         "model": "",
         "type": "",
         "isAvailable": false,
-        "isDamaged": false,
-        "totalBalance": "$7,491.33",
+        "isDamaged": true,
+        "totalBalance": "15,201.89",
+        "picture": "http://placehold.it/32x32",
+        "age": 1,
+        "location": {
+            "latitude": "58.244403",
+            "longitude": "50.137061"
+        },
+        "address": "489 Hubbard Street, Elizaville, Alabama, 7344",
+        "description": "Aliqua dolor dolore amet non dolor qui eu nulla labore consequat ad dolore. Exercitation cillum laboris aute id velit anim. Sit consectetur dolore aliquip consectetur in ut id nisi sunt. Lorem velit tempor elit ut fugiat dolore excepteur dolor cupidatat do quis. Irure sint non ullamco pariatur ad reprehenderit nisi. Qui consequat cupidatat ex in dolore quis occaecat excepteur labore Lorem est sint.",
+        "registeredAt": "2017-09-25T02:12:28.391Z",
+        "comments": "",
+        "history": [{
+                "id": 0,
+                "event": "",
+                "amount": "-2,826.84",
+                "timestamp": 1470448412378
+            },
+            {
+                "id": 1,
+                "event": "",
+                "amount": "2,970.49",
+                "timestamp": 1520016997001
+            },
+            {
+                "id": 2,
+                "event": "",
+                "amount": "-3,986.01",
+                "timestamp": 1519969740856
+            },
+            {
+                "id": 3,
+                "event": "",
+                "amount": "6,600.92",
+                "timestamp": 1478684534520
+            },
+            {
+                "id": 4,
+                "event": "",
+                "amount": "2,368.27",
+                "timestamp": 1495341223922
+            },
+            {
+                "id": 5,
+                "event": "",
+                "amount": "-4,579.20",
+                "timestamp": 1493094574128
+            },
+            {
+                "id": 6,
+                "event": "",
+                "amount": "-509.62",
+                "timestamp": 1427119288461
+            },
+            {
+                "id": 7,
+                "event": "",
+                "amount": "6,378.39",
+                "timestamp": 1448386231733
+            },
+            {
+                "id": 8,
+                "event": "",
+                "amount": "4,827.01",
+                "timestamp": 1474681714702
+            },
+            {
+                "id": 9,
+                "event": "",
+                "amount": "-1,095.11",
+                "timestamp": 1513881191268
+            }
+        ]
+    },
+    {
+        "_id": "5b93faa6bcf5fbb991188f5a",
+        "model": "",
+        "type": "",
+        "isAvailable": true,
+        "isDamaged": true,
+        "totalBalance": "4,487.73",
+        "picture": "http://placehold.it/32x32",
+        "age": 8,
+        "location": {
+            "latitude": "46.025385",
+            "longitude": "-105.780363"
+        },
+        "address": "992 Albany Avenue, Bagtown, New York, 7961",
+        "description": "Aliqua aliqua ipsum sit in ipsum et non magna. Cupidatat dolor ea occaecat mollit cillum velit. Velit irure qui eiusmod mollit cupidatat fugiat aute commodo elit anim tempor. Excepteur occaecat commodo aliquip aliquip aliquip.",
+        "registeredAt": "2015-01-17T13:48:59.927Z",
+        "comments": "",
+        "history": [{
+                "id": 0,
+                "event": "",
+                "amount": "-1,794.63",
+                "timestamp": 1475168445727
+            },
+            {
+                "id": 1,
+                "event": "",
+                "amount": "-4,531.65",
+                "timestamp": 1497341322807
+            },
+            {
+                "id": 2,
+                "event": "",
+                "amount": "5,551.23",
+                "timestamp": 1423732613955
+            },
+            {
+                "id": 3,
+                "event": "",
+                "amount": "-2,734.45",
+                "timestamp": 1422598931956
+            },
+            {
+                "id": 4,
+                "event": "",
+                "amount": "-4,246.83",
+                "timestamp": 1463182747785
+            },
+            {
+                "id": 5,
+                "event": "",
+                "amount": "-1,058.91",
+                "timestamp": 1514032183589
+            },
+            {
+                "id": 6,
+                "event": "",
+                "amount": "-2,662.15",
+                "timestamp": 1534166188308
+            },
+            {
+                "id": 7,
+                "event": "",
+                "amount": "-805.04",
+                "timestamp": 1534672570307
+            },
+            {
+                "id": 8,
+                "event": "",
+                "amount": "1,285.82",
+                "timestamp": 1519669874803
+            }
+        ]
+    },
+    {
+        "_id": "5b93faa61f37168f5ebc94dc",
+        "model": "",
+        "type": "",
+        "isAvailable": true,
+        "isDamaged": true,
+        "totalBalance": "18,159.72",
         "picture": "http://placehold.it/32x32",
         "age": 10,
         "location": {
-            "latitude": "-68.285723",
-            "longitude": "87.188671"
+            "latitude": "-60.593829",
+            "longitude": "-29.369961"
         },
-        "address": "177 Polhemus Place, Odessa, Ohio, 6700",
-        "description": "Do ullamco consectetur pariatur anim adipisicing cillum duis ut. Minim nisi tempor id non ex laboris exercitation anim nostrud. Est voluptate sunt tempor ullamco et. Nisi fugiat est commodo cillum incididunt fugiat. Veniam laboris ea ex magna nisi aute. Ex laboris labore officia cillum proident ullamco.",
-        "registered": "2015-11-07T18:01:17.665Z",
+        "address": "742 Roosevelt Place, Bellamy, Utah, 9567",
+        "description": "Ex non voluptate aute nisi ut duis officia sint fugiat enim aliqua eu in mollit. Mollit in aliquip amet esse nulla. Irure id occaecat esse exercitation dolor aliqua ea pariatur est magna enim.",
+        "registeredAt": "2016-07-17T13:32:37.872Z",
         "comments": "",
-        "events": [{
+        "history": [{
                 "id": 0,
                 "event": "",
-                "amount": "-$4,793.55",
-                "timestamp": 1503336904189
+                "amount": "5,333.39",
+                "timestamp": 1430661213039
             },
             {
                 "id": 1,
                 "event": "",
-                "amount": "-$4,387.94",
-                "timestamp": 1453335567609
+                "amount": "-3,122.33",
+                "timestamp": 1498249225594
             },
             {
                 "id": 2,
                 "event": "",
-                "amount": "$2,307.87",
-                "timestamp": 1502443466859
+                "amount": "5,400.40",
+                "timestamp": 1468332025976
             },
             {
                 "id": 3,
                 "event": "",
-                "amount": "$1,273.94",
-                "timestamp": 1449988511836
-            }
-        ]
-    },
-    {
-        "_id": "5b93f706e5b17b802621eecd",
-        "model": "",
-        "type": "",
-        "isAvailable": false,
-        "isDamaged": false,
-        "totalBalance": "-$2,136.97",
-        "picture": "http://placehold.it/32x32",
-        "age": 5,
-        "location": {
-            "latitude": "-16.848521",
-            "longitude": "-164.748227"
-        },
-        "address": "683 Bridgewater Street, Goochland, Illinois, 3690",
-        "description": "Velit voluptate cupidatat qui proident Lorem reprehenderit commodo adipisicing magna. Quis do eiusmod consectetur non ea duis amet minim in consequat nostrud officia nisi sunt. Velit id enim voluptate eiusmod aliquip aliquip aliqua incididunt ea ea anim dolore pariatur proident. Pariatur voluptate esse nostrud reprehenderit commodo mollit eu velit. Velit tempor consequat nisi eiusmod ut eu aliquip fugiat magna occaecat dolor. Commodo nulla cupidatat nostrud culpa mollit deserunt esse aliqua.",
-        "registered": "2014-11-09T01:31:06.569Z",
-        "comments": "",
-        "events": [{
-                "id": 0,
-                "event": "",
-                "amount": "-$3,156.16",
-                "timestamp": 1472001808566
-            },
-            {
-                "id": 1,
-                "event": "",
-                "amount": "$6,568.11",
-                "timestamp": 1516868994888
-            },
-            {
-                "id": 2,
-                "event": "",
-                "amount": "$677.91",
-                "timestamp": 1487708856065
-            },
-            {
-                "id": 3,
-                "event": "",
-                "amount": "$5,226.95",
-                "timestamp": 1429680892791
-            }
-        ]
-    },
-    {
-        "_id": "5b93f706146b46c02a09bae6",
-        "model": "",
-        "type": "",
-        "isAvailable": true,
-        "isDamaged": true,
-        "totalBalance": "$30,106.51",
-        "picture": "http://placehold.it/32x32",
-        "age": 11,
-        "location": {
-            "latitude": "-76.043685",
-            "longitude": "31.313682"
-        },
-        "address": "263 Llama Court, Klondike, Texas, 4077",
-        "description": "Ex ea ipsum nostrud magna. Pariatur irure proident excepteur enim. Aute Lorem sunt labore non sint ut minim do ipsum sunt. Ut ex eiusmod sunt veniam magna do labore veniam. Excepteur sint voluptate Lorem commodo ad aute. Eu quis amet duis enim labore elit incididunt minim dolor Lorem.",
-        "registered": "2016-11-14T09:25:19.465Z",
-        "comments": "",
-        "events": [{
-                "id": 0,
-                "event": "",
-                "amount": "-$190.25",
-                "timestamp": 1463717287963
-            },
-            {
-                "id": 1,
-                "event": "",
-                "amount": "$538.48",
-                "timestamp": 1471682638523
-            },
-            {
-                "id": 2,
-                "event": "",
-                "amount": "$5,916.05",
-                "timestamp": 1527277001958
-            },
-            {
-                "id": 3,
-                "event": "",
-                "amount": "$1,214.98",
-                "timestamp": 1482745295921
+                "amount": "915.97",
+                "timestamp": 1501718501829
             },
             {
                 "id": 4,
                 "event": "",
-                "amount": "$3,916.38",
-                "timestamp": 1515656017809
+                "amount": "-1,132.27",
+                "timestamp": 1487177555177
             },
             {
                 "id": 5,
                 "event": "",
-                "amount": "-$4,895.67",
-                "timestamp": 1482360691906
+                "amount": "-2,765.43",
+                "timestamp": 1509118054885
             },
             {
                 "id": 6,
                 "event": "",
-                "amount": "-$4,627.47",
-                "timestamp": 1490151390872
+                "amount": "-2,521.19",
+                "timestamp": 1456790943152
             },
             {
                 "id": 7,
                 "event": "",
-                "amount": "-$95.66",
-                "timestamp": 1489613667436
+                "amount": "-4,273.44",
+                "timestamp": 1423761669970
             },
             {
                 "id": 8,
                 "event": "",
-                "amount": "-$3,754.90",
-                "timestamp": 1457812845620
-            }
-        ]
-    },
-    {
-        "_id": "5b93f706c024e6063f08a8ed",
-        "model": "",
-        "type": "",
-        "isAvailable": true,
-        "isDamaged": false,
-        "totalBalance": "$23,434.36",
-        "picture": "http://placehold.it/32x32",
-        "age": 3,
-        "location": {
-            "latitude": "0.721462",
-            "longitude": "6.830651"
-        },
-        "address": "828 Verona Street, Sisquoc, Tennessee, 9742",
-        "description": "Adipisicing pariatur ipsum pariatur nostrud in elit commodo labore amet. Aliqua ex non ullamco velit magna pariatur eiusmod reprehenderit. Enim cillum pariatur adipisicing esse pariatur dolore ullamco nisi amet enim consequat cupidatat. Excepteur pariatur minim ea est mollit laborum commodo id. Labore quis incididunt eu amet velit anim non anim velit occaecat et in.",
-        "registered": "2014-07-21T22:24:56.410Z",
-        "comments": "",
-        "events": [{
-                "id": 0,
-                "event": "",
-                "amount": "-$1,164.68",
-                "timestamp": 1511364020467
-            },
-            {
-                "id": 1,
-                "event": "",
-                "amount": "$720.87",
-                "timestamp": 1443375329872
-            },
-            {
-                "id": 2,
-                "event": "",
-                "amount": "$5,859.15",
-                "timestamp": 1449684347912
-            },
-            {
-                "id": 3,
-                "event": "",
-                "amount": "-$3,597.37",
-                "timestamp": 1488765020436
-            },
-            {
-                "id": 4,
-                "event": "",
-                "amount": "$2,411.07",
-                "timestamp": 1534944226744
-            },
-            {
-                "id": 5,
-                "event": "",
-                "amount": "-$3,055.33",
-                "timestamp": 1512437666766
-            },
-            {
-                "id": 6,
-                "event": "",
-                "amount": "-$4,904.05",
-                "timestamp": 1523646049775
-            },
-            {
-                "id": 7,
-                "event": "",
-                "amount": "$5,649.02",
-                "timestamp": 1447567326118
-            },
-            {
-                "id": 8,
-                "event": "",
-                "amount": "-$386.96",
-                "timestamp": 1534917430429
-            }
-        ]
-    },
-    {
-        "_id": "5b93f7061b840b8312df33ac",
-        "model": "",
-        "type": "",
-        "isAvailable": true,
-        "isDamaged": true,
-        "totalBalance": "$11,553.81",
-        "picture": "http://placehold.it/32x32",
-        "age": 12,
-        "location": {
-            "latitude": "21.948261",
-            "longitude": "171.740064"
-        },
-        "address": "885 Hemlock Street, Idledale, New Jersey, 1226",
-        "description": "Et laboris laboris dolore labore in exercitation enim. Ex nisi exercitation esse veniam adipisicing fugiat exercitation. Et mollit nostrud aute laborum ut aliquip voluptate Lorem do adipisicing irure exercitation elit. Proident eiusmod amet est irure eu ullamco ipsum.",
-        "registered": "2015-12-21T16:10:23.200Z",
-        "comments": "",
-        "events": [{
-                "id": 0,
-                "event": "",
-                "amount": "$6,928.91",
-                "timestamp": 1510337968823
-            },
-            {
-                "id": 1,
-                "event": "",
-                "amount": "$4,493.98",
-                "timestamp": 1499969316375
-            },
-            {
-                "id": 2,
-                "event": "",
-                "amount": "$6,380.59",
-                "timestamp": 1461249002677
-            },
-            {
-                "id": 3,
-                "event": "",
-                "amount": "$6,608.76",
-                "timestamp": 1531857302171
-            },
-            {
-                "id": 4,
-                "event": "",
-                "amount": "-$2,775.13",
-                "timestamp": 1423994068116
-            },
-            {
-                "id": 5,
-                "event": "",
-                "amount": "$2,712.30",
-                "timestamp": 1530713625772
-            },
-            {
-                "id": 6,
-                "event": "",
-                "amount": "-$2,339.58",
-                "timestamp": 1516913951427
-            },
-            {
-                "id": 7,
-                "event": "",
-                "amount": "-$2,792.85",
-                "timestamp": 1503640131220
-            }
-        ]
-    },
-    {
-        "_id": "5b93f70674b1a9c19f9bfe6e",
-        "model": "",
-        "type": "",
-        "isAvailable": false,
-        "isDamaged": true,
-        "totalBalance": "$5,314.64",
-        "picture": "http://placehold.it/32x32",
-        "age": 5,
-        "location": {
-            "latitude": "-21.359391",
-            "longitude": "-140.115632"
-        },
-        "address": "679 Stockholm Street, Yonah, Federated States Of Micronesia, 4801",
-        "description": "Pariatur magna sint elit labore ullamco exercitation. Quis sint velit enim nulla anim ipsum irure mollit ullamco consectetur aliqua elit. Aliqua sit eiusmod eu Lorem anim adipisicing sunt commodo excepteur aute in cupidatat incididunt. Consequat dolore excepteur culpa cillum tempor velit exercitation fugiat. Id proident Lorem commodo anim esse.",
-        "registered": "2017-06-05T21:43:32.635Z",
-        "comments": "",
-        "events": [{
-                "id": 0,
-                "event": "",
-                "amount": "$1,524.05",
-                "timestamp": 1524681430344
-            },
-            {
-                "id": 1,
-                "event": "",
-                "amount": "-$1,138.44",
-                "timestamp": 1492340674313
-            },
-            {
-                "id": 2,
-                "event": "",
-                "amount": "$258.05",
-                "timestamp": 1421382340613
-            },
-            {
-                "id": 3,
-                "event": "",
-                "amount": "-$3,066.02",
-                "timestamp": 1517791200986
-            },
-            {
-                "id": 4,
-                "event": "",
-                "amount": "-$3,115.11",
-                "timestamp": 1458860312817
-            },
-            {
-                "id": 5,
-                "event": "",
-                "amount": "$2,127.82",
-                "timestamp": 1456195658509
-            },
-            {
-                "id": 6,
-                "event": "",
-                "amount": "$5,374.68",
-                "timestamp": 1443177102961
-            },
-            {
-                "id": 7,
-                "event": "",
-                "amount": "$2,200.88",
-                "timestamp": 1463982382691
-            }
-        ]
-    },
-    {
-        "_id": "5b93f706806c5ba9daed9587",
-        "model": "",
-        "type": "",
-        "isAvailable": false,
-        "isDamaged": true,
-        "totalBalance": "$33,185.43",
-        "picture": "http://placehold.it/32x32",
-        "age": 11,
-        "location": {
-            "latitude": "49.036763",
-            "longitude": "-61.758337"
-        },
-        "address": "596 Coffey Street, Hobucken, Minnesota, 7812",
-        "description": "Voluptate mollit nostrud deserunt excepteur reprehenderit incididunt cupidatat exercitation ut ea ut officia adipisicing. Sunt mollit laborum occaecat sit fugiat aute anim laboris sit ipsum cupidatat. Aliquip sit sint magna minim laborum occaecat duis. Eu ipsum nulla velit et non veniam cupidatat minim et dolor eu. Dolor sit amet cillum irure irure aliquip occaecat fugiat.",
-        "registered": "2018-04-12T02:58:25.422Z",
-        "comments": "",
-        "events": [{
-                "id": 0,
-                "event": "",
-                "amount": "$3,324.75",
-                "timestamp": 1535355305907
-            },
-            {
-                "id": 1,
-                "event": "",
-                "amount": "-$1,175.82",
-                "timestamp": 1498224047520
-            },
-            {
-                "id": 2,
-                "event": "",
-                "amount": "-$4,704.09",
-                "timestamp": 1488426971821
-            },
-            {
-                "id": 3,
-                "event": "",
-                "amount": "-$674.38",
-                "timestamp": 1457430749117
-            },
-            {
-                "id": 4,
-                "event": "",
-                "amount": "$916.24",
-                "timestamp": 1473517179902
-            },
-            {
-                "id": 5,
-                "event": "",
-                "amount": "-$1,619.86",
-                "timestamp": 1491659481490
-            },
-            {
-                "id": 6,
-                "event": "",
-                "amount": "$3,789.45",
-                "timestamp": 1495407603051
-            },
-            {
-                "id": 7,
-                "event": "",
-                "amount": "$3,303.39",
-                "timestamp": 1508380467599
-            },
-            {
-                "id": 8,
-                "event": "",
-                "amount": "-$681.46",
-                "timestamp": 1521113266228
+                "amount": "6,756.79",
+                "timestamp": 1435991126045
             },
             {
                 "id": 9,
                 "event": "",
-                "amount": "$5,834.16",
-                "timestamp": 1522865833840
+                "amount": "-3,938.94",
+                "timestamp": 1471409536202
             },
             {
                 "id": 10,
                 "event": "",
-                "amount": "-$4,065.35",
-                "timestamp": 1498976310443
-            }
-        ]
-    },
-    {
-        "_id": "5b93f7061d9d1885d6623509",
-        "model": "",
-        "type": "",
-        "isAvailable": true,
-        "isDamaged": false,
-        "totalBalance": "$34,889.86",
-        "picture": "http://placehold.it/32x32",
-        "age": 12,
-        "location": {
-            "latitude": "65.028848",
-            "longitude": "39.612093"
-        },
-        "address": "837 Emerson Place, Keyport, Utah, 2996",
-        "description": "Aliqua eu reprehenderit amet ut officia excepteur irure ex nisi. Ea exercitation sunt ea magna ullamco laborum ea in sunt labore occaecat. Consectetur anim aute pariatur sint esse. Cillum sit do veniam labore.",
-        "registered": "2017-11-09T16:34:03.807Z",
-        "comments": "",
-        "events": [{
-                "id": 0,
-                "event": "",
-                "amount": "$4,154.27",
-                "timestamp": 1486312291597
-            },
-            {
-                "id": 1,
-                "event": "",
-                "amount": "-$70.39",
-                "timestamp": 1452669119651
-            },
-            {
-                "id": 2,
-                "event": "",
-                "amount": "-$1,510.81",
-                "timestamp": 1534818202730
-            },
-            {
-                "id": 3,
-                "event": "",
-                "amount": "-$953.89",
-                "timestamp": 1469951566862
-            },
-            {
-                "id": 4,
-                "event": "",
-                "amount": "$2,731.97",
-                "timestamp": 1513161049220
-            },
-            {
-                "id": 5,
-                "event": "",
-                "amount": "$1,506.28",
-                "timestamp": 1532398983107
-            },
-            {
-                "id": 6,
-                "event": "",
-                "amount": "$3,605.96",
-                "timestamp": 1514729922156
-            }
-        ]
-    },
-    {
-        "_id": "5b93f706277f749cca7210cc",
-        "model": "",
-        "type": "",
-        "isAvailable": true,
-        "isDamaged": false,
-        "totalBalance": "$25,679.51",
-        "picture": "http://placehold.it/32x32",
-        "age": 3,
-        "location": {
-            "latitude": "-63.842222",
-            "longitude": "145.164113"
-        },
-        "address": "243 Crawford Avenue, Blairstown, West Virginia, 9543",
-        "description": "Labore elit ex labore magna culpa non. Sunt cupidatat enim ullamco in officia labore et ut excepteur aliquip. Fugiat nulla sit officia occaecat fugiat ea tempor incididunt ex. Elit sunt qui ullamco irure.",
-        "registered": "2018-01-16T00:02:27.229Z",
-        "comments": "",
-        "events": [{
-                "id": 0,
-                "event": "",
-                "amount": "-$312.19",
-                "timestamp": 1518523381135
-            },
-            {
-                "id": 1,
-                "event": "",
-                "amount": "$6,050.58",
-                "timestamp": 1517331275281
-            },
-            {
-                "id": 2,
-                "event": "",
-                "amount": "$1,556.37",
-                "timestamp": 1488753257485
-            },
-            {
-                "id": 3,
-                "event": "",
-                "amount": "-$1,044.49",
-                "timestamp": 1462964757390
-            },
-            {
-                "id": 4,
-                "event": "",
-                "amount": "-$1,946.08",
-                "timestamp": 1458339847355
-            },
-            {
-                "id": 5,
-                "event": "",
-                "amount": "-$223.36",
-                "timestamp": 1449969413823
-            },
-            {
-                "id": 6,
-                "event": "",
-                "amount": "-$3,615.94",
-                "timestamp": 1473006596466
-            },
-            {
-                "id": 7,
-                "event": "",
-                "amount": "$1,542.28",
-                "timestamp": 1506643585252
-            },
-            {
-                "id": 8,
-                "event": "",
-                "amount": "-$1,743.32",
-                "timestamp": 1444565906039
-            },
-            {
-                "id": 9,
-                "event": "",
-                "amount": "$4,990.45",
-                "timestamp": 1461754560744
-            },
-            {
-                "id": 10,
-                "event": "",
-                "amount": "-$3,508.44",
-                "timestamp": 1440184885183
+                "amount": "-473.35",
+                "timestamp": 1436382531492
             },
             {
                 "id": 11,
                 "event": "",
-                "amount": "$543.86",
-                "timestamp": 1466703098705
+                "amount": "1,316.68",
+                "timestamp": 1513695380331
             },
             {
                 "id": 12,
                 "event": "",
-                "amount": "$2,414.07",
-                "timestamp": 1468655736925
+                "amount": "6,719.72",
+                "timestamp": 1523331805873
             },
             {
                 "id": 13,
                 "event": "",
-                "amount": "$728.98",
-                "timestamp": 1515609390454
+                "amount": "2,772.20",
+                "timestamp": 1506296840678
             }
         ]
     },
     {
-        "_id": "5b93f706fe030206cfc09a57",
-        "model": "",
-        "type": "",
-        "isAvailable": false,
-        "isDamaged": false,
-        "totalBalance": "$1,242.62",
-        "picture": "http://placehold.it/32x32",
-        "age": 12,
-        "location": {
-            "latitude": "-18.461922",
-            "longitude": "102.64937"
-        },
-        "address": "458 Fleet Place, Onton, Nebraska, 3560",
-        "description": "Consequat esse labore non qui nulla. Cillum fugiat mollit ex voluptate reprehenderit proident tempor do quis sit officia nulla. Consectetur proident pariatur duis nostrud duis nisi ut labore nulla.",
-        "registered": "2018-01-08T12:22:34.654Z",
-        "comments": "",
-        "events": [{
-                "id": 0,
-                "event": "",
-                "amount": "$1,701.71",
-                "timestamp": 1432381565710
-            },
-            {
-                "id": 1,
-                "event": "",
-                "amount": "-$4,939.59",
-                "timestamp": 1495913322304
-            },
-            {
-                "id": 2,
-                "event": "",
-                "amount": "$332.53",
-                "timestamp": 1531284909885
-            },
-            {
-                "id": 3,
-                "event": "",
-                "amount": "-$2,156.40",
-                "timestamp": 1428954590435
-            },
-            {
-                "id": 4,
-                "event": "",
-                "amount": "$4,030.63",
-                "timestamp": 1470314464844
-            },
-            {
-                "id": 5,
-                "event": "",
-                "amount": "$6,252.11",
-                "timestamp": 1489443776381
-            },
-            {
-                "id": 6,
-                "event": "",
-                "amount": "-$686.68",
-                "timestamp": 1478652797962
-            }
-        ]
-    },
-    {
-        "_id": "5b93f706ce97920fde002d0f",
-        "model": "",
-        "type": "",
-        "isAvailable": false,
-        "isDamaged": false,
-        "totalBalance": "$24,896.74",
-        "picture": "http://placehold.it/32x32",
-        "age": 5,
-        "location": {
-            "latitude": "62.041258",
-            "longitude": "-79.90267"
-        },
-        "address": "808 Just Court, Whitewater, North Dakota, 478",
-        "description": "Aute occaecat excepteur veniam excepteur. Ad anim est fugiat et irure incididunt culpa qui ad quis enim. Nostrud quis minim veniam magna consectetur commodo veniam veniam consequat adipisicing. Duis quis reprehenderit do ad ipsum. Est voluptate incididunt est tempor. Incididunt in laborum veniam ullamco anim amet Lorem proident dolor cupidatat do.",
-        "registered": "2016-06-28T19:01:46.986Z",
-        "comments": "",
-        "events": [{
-                "id": 0,
-                "event": "",
-                "amount": "$5,531.65",
-                "timestamp": 1454964576559
-            },
-            {
-                "id": 1,
-                "event": "",
-                "amount": "$4,110.80",
-                "timestamp": 1519671850947
-            },
-            {
-                "id": 2,
-                "event": "",
-                "amount": "$2,315.19",
-                "timestamp": 1486226963546
-            },
-            {
-                "id": 3,
-                "event": "",
-                "amount": "$4,340.64",
-                "timestamp": 1476092862428
-            },
-            {
-                "id": 4,
-                "event": "",
-                "amount": "-$638.23",
-                "timestamp": 1457656907088
-            },
-            {
-                "id": 5,
-                "event": "",
-                "amount": "$1,675.49",
-                "timestamp": 1524823578489
-            }
-        ]
-    },
-    {
-        "_id": "5b93f7062c4309cb653243ec",
-        "model": "",
-        "type": "",
-        "isAvailable": false,
-        "isDamaged": true,
-        "totalBalance": "$31,418.23",
-        "picture": "http://placehold.it/32x32",
-        "age": 3,
-        "location": {
-            "latitude": "32.671414",
-            "longitude": "43.199214"
-        },
-        "address": "635 Erskine Loop, Harold, New Mexico, 1623",
-        "description": "Reprehenderit voluptate adipisicing cupidatat mollit in sit est ea ut. Adipisicing exercitation fugiat sit proident veniam reprehenderit officia duis fugiat. Mollit occaecat elit in incididunt id enim officia nisi.",
-        "registered": "2015-01-19T15:08:24.606Z",
-        "comments": "",
-        "events": [{
-                "id": 0,
-                "event": "",
-                "amount": "$381.15",
-                "timestamp": 1488981446019
-            },
-            {
-                "id": 1,
-                "event": "",
-                "amount": "$164.83",
-                "timestamp": 1505940370163
-            },
-            {
-                "id": 2,
-                "event": "",
-                "amount": "$4,820.93",
-                "timestamp": 1439817512373
-            },
-            {
-                "id": 3,
-                "event": "",
-                "amount": "$1,134.12",
-                "timestamp": 1511248890712
-            },
-            {
-                "id": 4,
-                "event": "",
-                "amount": "-$4,132.33",
-                "timestamp": 1420280365271
-            },
-            {
-                "id": 5,
-                "event": "",
-                "amount": "-$3,765.52",
-                "timestamp": 1426064198150
-            },
-            {
-                "id": 6,
-                "event": "",
-                "amount": "$2,923.48",
-                "timestamp": 1430531790061
-            }
-        ]
-    },
-    {
-        "_id": "5b93f7070c9907bb07725a45",
-        "model": "",
-        "type": "",
-        "isAvailable": true,
-        "isDamaged": false,
-        "totalBalance": "$35,215.36",
-        "picture": "http://placehold.it/32x32",
-        "age": 6,
-        "location": {
-            "latitude": "-53.939839",
-            "longitude": "-179.873645"
-        },
-        "address": "191 Boulevard Court, Beechmont, Alabama, 6739",
-        "description": "Nostrud proident cillum sit elit qui ut esse eu qui cupidatat enim adipisicing non. Sint nostrud culpa pariatur aliquip adipisicing pariatur cillum est id occaecat id veniam. Id fugiat ea laboris cillum consectetur proident incididunt tempor laboris incididunt qui enim dolor.",
-        "registered": "2015-06-13T14:28:42.755Z",
-        "comments": "",
-        "events": [{
-                "id": 0,
-                "event": "",
-                "amount": "-$3,823.90",
-                "timestamp": 1499896350290
-            },
-            {
-                "id": 1,
-                "event": "",
-                "amount": "-$3,722.29",
-                "timestamp": 1499671304390
-            },
-            {
-                "id": 2,
-                "event": "",
-                "amount": "$6,868.14",
-                "timestamp": 1496770628812
-            }
-        ]
-    },
-    {
-        "_id": "5b93f707a80e691190847548",
+        "_id": "5b93faa6d32de8be5eeee153",
         "model": "",
         "type": "",
         "isAvailable": true,
         "isDamaged": true,
-        "totalBalance": "$16,137.48",
-        "picture": "http://placehold.it/32x32",
-        "age": 8,
-        "location": {
-            "latitude": "-32.678822",
-            "longitude": "-22.348691"
-        },
-        "address": "974 Amber Street, Balm, Delaware, 6996",
-        "description": "Cupidatat ex irure cillum ex mollit laborum commodo in. Eiusmod aute velit nisi labore incididunt nostrud consectetur labore. Minim laborum ea tempor enim adipisicing. Laborum cillum qui et excepteur tempor Lorem reprehenderit ex laborum commodo ullamco cillum tempor proident.",
-        "registered": "2016-02-25T05:06:08.170Z",
-        "comments": "",
-        "events": [{
-                "id": 0,
-                "event": "",
-                "amount": "-$3,524.16",
-                "timestamp": 1456254189808
-            },
-            {
-                "id": 1,
-                "event": "",
-                "amount": "-$312.74",
-                "timestamp": 1445589552299
-            },
-            {
-                "id": 2,
-                "event": "",
-                "amount": "-$1,197.69",
-                "timestamp": 1460160221392
-            },
-            {
-                "id": 3,
-                "event": "",
-                "amount": "-$2,170.42",
-                "timestamp": 1510114986836
-            },
-            {
-                "id": 4,
-                "event": "",
-                "amount": "$6,648.10",
-                "timestamp": 1468200665653
-            },
-            {
-                "id": 5,
-                "event": "",
-                "amount": "-$2,762.90",
-                "timestamp": 1534516551445
-            },
-            {
-                "id": 6,
-                "event": "",
-                "amount": "-$4,769.03",
-                "timestamp": 1522245471699
-            },
-            {
-                "id": 7,
-                "event": "",
-                "amount": "$1,453.49",
-                "timestamp": 1513531364459
-            },
-            {
-                "id": 8,
-                "event": "",
-                "amount": "-$1,084.61",
-                "timestamp": 1451116219176
-            },
-            {
-                "id": 9,
-                "event": "",
-                "amount": "$4,111.08",
-                "timestamp": 1469387144252
-            },
-            {
-                "id": 10,
-                "event": "",
-                "amount": "-$2,822.51",
-                "timestamp": 1481748350811
-            },
-            {
-                "id": 11,
-                "event": "",
-                "amount": "-$2,582.16",
-                "timestamp": 1531892994458
-            },
-            {
-                "id": 12,
-                "event": "",
-                "amount": "$2,479.24",
-                "timestamp": 1527987304659
-            }
-        ]
-    },
-    {
-        "_id": "5b93f707d7e1ec7592c37761",
-        "model": "",
-        "type": "",
-        "isAvailable": false,
-        "isDamaged": true,
-        "totalBalance": "$3,546.66",
-        "picture": "http://placehold.it/32x32",
-        "age": 12,
-        "location": {
-            "latitude": "43.392755",
-            "longitude": "67.84925"
-        },
-        "address": "371 Hubbard Street, Bluetown, Nevada, 4994",
-        "description": "Proident excepteur aliqua ea commodo ullamco laboris officia ad. Nulla duis dolor esse veniam velit dolor tempor nulla. Commodo eu dolore fugiat eiusmod eu non sit velit et. Deserunt eiusmod nulla est et nulla eu deserunt enim eu enim esse exercitation in mollit. Lorem consectetur dolore velit adipisicing voluptate dolore minim. Et irure fugiat magna excepteur tempor ex ea officia esse et.",
-        "registered": "2017-12-08T22:02:56.942Z",
-        "comments": "",
-        "events": [{
-                "id": 0,
-                "event": "",
-                "amount": "-$3,050.20",
-                "timestamp": 1524690387035
-            },
-            {
-                "id": 1,
-                "event": "",
-                "amount": "-$2,032.04",
-                "timestamp": 1511443519961
-            },
-            {
-                "id": 2,
-                "event": "",
-                "amount": "$3,617.78",
-                "timestamp": 1454415456105
-            },
-            {
-                "id": 3,
-                "event": "",
-                "amount": "$1,441.24",
-                "timestamp": 1505954255483
-            },
-            {
-                "id": 4,
-                "event": "",
-                "amount": "$4,806.91",
-                "timestamp": 1487011113554
-            },
-            {
-                "id": 5,
-                "event": "",
-                "amount": "-$2,110.15",
-                "timestamp": 1495090180879
-            },
-            {
-                "id": 6,
-                "event": "",
-                "amount": "$3,951.57",
-                "timestamp": 1473935155974
-            },
-            {
-                "id": 7,
-                "event": "",
-                "amount": "$6,939.03",
-                "timestamp": 1462404519100
-            },
-            {
-                "id": 8,
-                "event": "",
-                "amount": "$419.86",
-                "timestamp": 1506319350931
-            },
-            {
-                "id": 9,
-                "event": "",
-                "amount": "$6,947.54",
-                "timestamp": 1502706739741
-            },
-            {
-                "id": 10,
-                "event": "",
-                "amount": "-$404.79",
-                "timestamp": 1493496917583
-            }
-        ]
-    },
-    {
-        "_id": "5b93f70711ddad63b78c36e4",
-        "model": "",
-        "type": "",
-        "isAvailable": false,
-        "isDamaged": true,
-        "totalBalance": "-$4,894.61",
-        "picture": "http://placehold.it/32x32",
-        "age": 5,
-        "location": {
-            "latitude": "5.607434",
-            "longitude": "166.699082"
-        },
-        "address": "257 Bulwer Place, Leyner, Virgin Islands, 6412",
-        "description": "Magna elit ex voluptate nulla excepteur anim quis commodo exercitation occaecat enim. Sint amet duis exercitation occaecat eiusmod occaecat dolor enim amet nostrud tempor pariatur. Nostrud voluptate sint tempor est exercitation et aliqua non dolore amet cupidatat. Labore proident minim ut ullamco id. Labore duis duis fugiat aliqua ullamco sunt ea et ipsum ut quis reprehenderit. Est aute enim commodo aliquip do adipisicing quis occaecat ipsum Lorem nostrud incididunt nostrud voluptate.",
-        "registered": "2017-10-27T01:32:20.164Z",
-        "comments": "",
-        "events": [{
-                "id": 0,
-                "event": "",
-                "amount": "$4,137.86",
-                "timestamp": 1446081322485
-            },
-            {
-                "id": 1,
-                "event": "",
-                "amount": "$765.62",
-                "timestamp": 1432128335870
-            },
-            {
-                "id": 2,
-                "event": "",
-                "amount": "-$4,012.56",
-                "timestamp": 1456752107424
-            },
-            {
-                "id": 3,
-                "event": "",
-                "amount": "-$516.37",
-                "timestamp": 1518587609512
-            },
-            {
-                "id": 4,
-                "event": "",
-                "amount": "$4,281.69",
-                "timestamp": 1493960821569
-            }
-        ]
-    },
-    {
-        "_id": "5b93f707ae80b5e6510cdaf3",
-        "model": "",
-        "type": "",
-        "isAvailable": true,
-        "isDamaged": false,
-        "totalBalance": "$7,605.06",
-        "picture": "http://placehold.it/32x32",
-        "age": 5,
-        "location": {
-            "latitude": "-50.938351",
-            "longitude": "177.07915"
-        },
-        "address": "543 Coventry Road, Elfrida, Massachusetts, 3222",
-        "description": "Voluptate sunt do reprehenderit laboris est reprehenderit. Magna officia occaecat commodo reprehenderit laborum culpa commodo exercitation elit et aliqua Lorem deserunt. Magna aliquip pariatur fugiat deserunt dolore esse duis aliquip. Qui excepteur exercitation nulla nostrud laborum velit deserunt mollit amet exercitation amet do amet. Fugiat magna eu veniam nulla laborum culpa qui laboris Lorem enim culpa labore. Esse est minim voluptate sint laborum quis ad excepteur.",
-        "registered": "2017-07-17T14:24:56.191Z",
-        "comments": "",
-        "events": [{
-                "id": 0,
-                "event": "",
-                "amount": "$5,635.38",
-                "timestamp": 1441146388042
-            },
-            {
-                "id": 1,
-                "event": "",
-                "amount": "$6,650.72",
-                "timestamp": 1504848834968
-            },
-            {
-                "id": 2,
-                "event": "",
-                "amount": "$2,035.66",
-                "timestamp": 1478969034161
-            },
-            {
-                "id": 3,
-                "event": "",
-                "amount": "$1,020.86",
-                "timestamp": 1425949698017
-            },
-            {
-                "id": 4,
-                "event": "",
-                "amount": "$6,443.22",
-                "timestamp": 1474340023562
-            }
-        ]
-    },
-    {
-        "_id": "5b93f7077768bd7c3d28fbd9",
-        "model": "",
-        "type": "",
-        "isAvailable": true,
-        "isDamaged": true,
-        "totalBalance": "$7,350.09",
-        "picture": "http://placehold.it/32x32",
-        "age": 0,
-        "location": {
-            "latitude": "-18.105334",
-            "longitude": "-91.391"
-        },
-        "address": "124 Oakland Place, Chelsea, American Samoa, 2991",
-        "description": "Eu culpa deserunt laboris do. Sit eu enim est adipisicing excepteur ut labore reprehenderit proident eu sit ipsum labore ad. Eu ipsum pariatur consectetur pariatur voluptate et officia nostrud aliqua. Reprehenderit ipsum reprehenderit ut aute irure aliquip eu minim. Officia tempor veniam et nulla excepteur est Lorem ipsum officia. Mollit esse nisi duis ut sint et eu enim nostrud ut et proident dolore.",
-        "registered": "2015-12-25T07:05:12.014Z",
-        "comments": "",
-        "events": [{
-                "id": 0,
-                "event": "",
-                "amount": "-$1,038.27",
-                "timestamp": 1429460193609
-            },
-            {
-                "id": 1,
-                "event": "",
-                "amount": "$3,923.90",
-                "timestamp": 1505381969090
-            }
-        ]
-    },
-    {
-        "_id": "5b93f70708bd024ba0d666e1",
-        "model": "",
-        "type": "",
-        "isAvailable": true,
-        "isDamaged": true,
-        "totalBalance": "$22,415.03",
-        "picture": "http://placehold.it/32x32",
-        "age": 12,
-        "location": {
-            "latitude": "36.028619",
-            "longitude": "-50.837278"
-        },
-        "address": "555 Noble Street, Cotopaxi, Montana, 663",
-        "description": "Et proident aliquip anim nostrud officia in deserunt officia est incididunt. In voluptate sit nisi aliquip velit velit Lorem esse culpa excepteur veniam. Anim laborum cupidatat exercitation nisi sit.",
-        "registered": "2017-06-04T23:59:49.413Z",
-        "comments": "",
-        "events": [{
-                "id": 0,
-                "event": "",
-                "amount": "$1,300.89",
-                "timestamp": 1513606145879
-            },
-            {
-                "id": 1,
-                "event": "",
-                "amount": "$3,319.63",
-                "timestamp": 1500089746227
-            },
-            {
-                "id": 2,
-                "event": "",
-                "amount": "$2,222.07",
-                "timestamp": 1442029690813
-            },
-            {
-                "id": 3,
-                "event": "",
-                "amount": "$3,682.61",
-                "timestamp": 1453217833211
-            },
-            {
-                "id": 4,
-                "event": "",
-                "amount": "$5,086.75",
-                "timestamp": 1481955348444
-            },
-            {
-                "id": 5,
-                "event": "",
-                "amount": "-$2,600.59",
-                "timestamp": 1477849532896
-            }
-        ]
-    },
-    {
-        "_id": "5b93f7078fc39c528ce0edec",
-        "model": "",
-        "type": "",
-        "isAvailable": true,
-        "isDamaged": true,
-        "totalBalance": "$32,119.95",
-        "picture": "http://placehold.it/32x32",
-        "age": 0,
-        "location": {
-            "latitude": "62.745032",
-            "longitude": "85.883386"
-        },
-        "address": "565 Berriman Street, Charco, Kentucky, 6069",
-        "description": "Officia irure laborum et elit incididunt duis aliqua voluptate dolor eu cupidatat Lorem qui incididunt. Nisi sit nisi dolore commodo velit. Sunt irure proident in elit enim commodo anim commodo. Veniam commodo pariatur adipisicing eu nulla quis ad commodo sint labore in. Dolore proident sint occaecat aute dolor veniam amet Lorem ullamco anim qui sunt. Sit qui enim ea laborum.",
-        "registered": "2016-04-24T19:44:49.746Z",
-        "comments": "",
-        "events": [{
-                "id": 0,
-                "event": "",
-                "amount": "-$3,288.29",
-                "timestamp": 1470341724187
-            },
-            {
-                "id": 1,
-                "event": "",
-                "amount": "$5,238.49",
-                "timestamp": 1425545302325
-            },
-            {
-                "id": 2,
-                "event": "",
-                "amount": "$3,342.62",
-                "timestamp": 1483876035727
-            },
-            {
-                "id": 3,
-                "event": "",
-                "amount": "$800.98",
-                "timestamp": 1478566084267
-            },
-            {
-                "id": 4,
-                "event": "",
-                "amount": "$5,837.56",
-                "timestamp": 1474676320200
-            },
-            {
-                "id": 5,
-                "event": "",
-                "amount": "$637.40",
-                "timestamp": 1485788964800
-            },
-            {
-                "id": 6,
-                "event": "",
-                "amount": "-$2,209.89",
-                "timestamp": 1465818925131
-            },
-            {
-                "id": 7,
-                "event": "",
-                "amount": "$4,397.42",
-                "timestamp": 1462801889365
-            },
-            {
-                "id": 8,
-                "event": "",
-                "amount": "$1,416.57",
-                "timestamp": 1518462933981
-            },
-            {
-                "id": 9,
-                "event": "",
-                "amount": "$3,461.17",
-                "timestamp": 1535535460325
-            },
-            {
-                "id": 10,
-                "event": "",
-                "amount": "$1,373.16",
-                "timestamp": 1425050710816
-            }
-        ]
-    },
-    {
-        "_id": "5b93f7072ab66e86561a0dbb",
-        "model": "",
-        "type": "",
-        "isAvailable": true,
-        "isDamaged": false,
-        "totalBalance": "$9,811.74",
+        "totalBalance": "7,864.98",
         "picture": "http://placehold.it/32x32",
         "age": 1,
         "location": {
-            "latitude": "70.381746",
-            "longitude": "66.365486"
+            "latitude": "66.160827",
+            "longitude": "-120.197452"
         },
-        "address": "508 Aviation Road, Waterview, Arkansas, 2169",
-        "description": "Anim ut non eiusmod cupidatat. Sint adipisicing consequat cillum veniam. In tempor consequat tempor culpa amet esse pariatur aute ex in labore culpa.",
-        "registered": "2016-12-01T18:59:57.059Z",
+        "address": "313 Schermerhorn Street, Reno, Louisiana, 4391",
+        "description": "Sit Lorem ipsum ullamco aliqua non incididunt deserunt culpa dolor nulla. Amet sit tempor consectetur duis dolore qui nostrud est exercitation duis sint laborum. Qui commodo amet adipisicing sit velit mollit laborum nulla nulla veniam incididunt deserunt commodo. Et adipisicing eu reprehenderit dolore officia velit officia.",
+        "registeredAt": "2017-05-08T03:13:35.180Z",
         "comments": "",
-        "events": [{
+        "history": [{
                 "id": 0,
                 "event": "",
-                "amount": "-$2,063.36",
-                "timestamp": 1486678888800
+                "amount": "338.47",
+                "timestamp": 1497782556968
             },
             {
                 "id": 1,
                 "event": "",
-                "amount": "-$3,117.20",
-                "timestamp": 1460527565677
+                "amount": "-4,655.06",
+                "timestamp": 1491583686347
             },
             {
                 "id": 2,
                 "event": "",
-                "amount": "-$2,780.06",
-                "timestamp": 1489677519706
+                "amount": "-1,158.24",
+                "timestamp": 1504320988792
             },
             {
                 "id": 3,
                 "event": "",
-                "amount": "-$2,997.95",
-                "timestamp": 1445672785723
+                "amount": "1,390.07",
+                "timestamp": 1534345576268
+            },
+            {
+                "id": 4,
+                "event": "",
+                "amount": "6,657.56",
+                "timestamp": 1448009133991
+            },
+            {
+                "id": 5,
+                "event": "",
+                "amount": "-4,519.11",
+                "timestamp": 1469512969026
+            },
+            {
+                "id": 6,
+                "event": "",
+                "amount": "-1,716.04",
+                "timestamp": 1450108991646
+            },
+            {
+                "id": 7,
+                "event": "",
+                "amount": "-3,403.91",
+                "timestamp": 1483272358824
+            },
+            {
+                "id": 8,
+                "event": "",
+                "amount": "1,807.54",
+                "timestamp": 1508996315221
+            },
+            {
+                "id": 9,
+                "event": "",
+                "amount": "4,670.32",
+                "timestamp": 1512853771088
+            },
+            {
+                "id": 10,
+                "event": "",
+                "amount": "6,263.66",
+                "timestamp": 1433035283895
+            },
+            {
+                "id": 11,
+                "event": "",
+                "amount": "6,200.39",
+                "timestamp": 1498467277100
             }
         ]
     },
     {
-        "_id": "5b93f707ef0ebeef47de90b5",
+        "_id": "5b93faa65d12b984c788fb5f",
+        "model": "",
+        "type": "",
+        "isAvailable": true,
+        "isDamaged": false,
+        "totalBalance": "7,792.44",
+        "picture": "http://placehold.it/32x32",
+        "age": 7,
+        "location": {
+            "latitude": "66.64924",
+            "longitude": "-138.152824"
+        },
+        "address": "392 Ford Street, Clarktown, Michigan, 9347",
+        "description": "Ipsum laboris culpa consequat consectetur excepteur id aliquip dolor consequat ex cillum veniam amet. Proident tempor eu in consequat reprehenderit aute nostrud dolore elit do excepteur nisi velit ad. Cillum in proident id ut magna nisi qui ut ullamco sint adipisicing laboris. Officia mollit nulla et officia. Aute pariatur laboris voluptate non tempor aliquip velit duis nulla voluptate duis adipisicing. Sunt do labore sunt mollit consequat irure.",
+        "registeredAt": "2014-03-10T01:34:26.236Z",
+        "comments": "",
+        "history": [{
+                "id": 0,
+                "event": "",
+                "amount": "3,712.13",
+                "timestamp": 1481110389821
+            },
+            {
+                "id": 1,
+                "event": "",
+                "amount": "-4,120.12",
+                "timestamp": 1464433568964
+            },
+            {
+                "id": 2,
+                "event": "",
+                "amount": "4,522.87",
+                "timestamp": 1494820688538
+            },
+            {
+                "id": 3,
+                "event": "",
+                "amount": "-1,160.40",
+                "timestamp": 1507323927123
+            },
+            {
+                "id": 4,
+                "event": "",
+                "amount": "2,701.96",
+                "timestamp": 1468705800321
+            },
+            {
+                "id": 5,
+                "event": "",
+                "amount": "-4,087.55",
+                "timestamp": 1460464418745
+            },
+            {
+                "id": 6,
+                "event": "",
+                "amount": "6,099.24",
+                "timestamp": 1437639730389
+            },
+            {
+                "id": 7,
+                "event": "",
+                "amount": "-3,250.46",
+                "timestamp": 1485156842625
+            },
+            {
+                "id": 8,
+                "event": "",
+                "amount": "-1,936.32",
+                "timestamp": 1491415512123
+            },
+            {
+                "id": 9,
+                "event": "",
+                "amount": "2,578.20",
+                "timestamp": 1472570234793
+            },
+            {
+                "id": 10,
+                "event": "",
+                "amount": "6,088.82",
+                "timestamp": 1482711684701
+            },
+            {
+                "id": 11,
+                "event": "",
+                "amount": "-4,213.77",
+                "timestamp": 1466500451211
+            },
+            {
+                "id": 12,
+                "event": "",
+                "amount": "-4,490.39",
+                "timestamp": 1437023102362
+            },
+            {
+                "id": 13,
+                "event": "",
+                "amount": "-1,912.64",
+                "timestamp": 1517569619213
+            }
+        ]
+    },
+    {
+        "_id": "5b93faa6fe3d28efda1bdf6f",
         "model": "",
         "type": "",
         "isAvailable": false,
         "isDamaged": false,
-        "totalBalance": "$33,206.05",
+        "totalBalance": "-3,534.39",
         "picture": "http://placehold.it/32x32",
-        "age": 4,
+        "age": 11,
         "location": {
-            "latitude": "10.089846",
-            "longitude": "119.756222"
+            "latitude": "-72.989285",
+            "longitude": "-31.718685"
         },
-        "address": "678 Hanson Place, Sena, Alaska, 6532",
-        "description": "Voluptate dolor minim aliquip sit occaecat sunt magna. Sunt cupidatat incididunt consequat ea irure reprehenderit occaecat. Cupidatat cillum duis aliqua ullamco occaecat dolor eu non consequat aute laboris Lorem consectetur. Aliquip exercitation ad laborum et eu anim adipisicing. Et dolore sint cupidatat eiusmod elit laborum dolore dolor culpa aliquip.",
-        "registered": "2015-04-13T12:15:32.429Z",
+        "address": "460 Granite Street, Siglerville, Texas, 4784",
+        "description": "Enim non proident ad duis quis amet consequat magna adipisicing in dolor. Cupidatat ea non velit in in pariatur velit cillum reprehenderit eu elit non. Ut proident laborum irure nisi commodo laborum.",
+        "registeredAt": "2015-12-09T06:01:52.968Z",
         "comments": "",
-        "events": [{
+        "history": [{
                 "id": 0,
                 "event": "",
-                "amount": "$696.75",
-                "timestamp": 1421520350987
+                "amount": "-427.07",
+                "timestamp": 1508054273509
             },
             {
                 "id": 1,
                 "event": "",
-                "amount": "$3,364.55",
-                "timestamp": 1426346660789
+                "amount": "688.46",
+                "timestamp": 1423678640602
             },
             {
                 "id": 2,
                 "event": "",
-                "amount": "$3,741.56",
-                "timestamp": 1492095577573
+                "amount": "-4,307.70",
+                "timestamp": 1439143353035
             },
             {
                 "id": 3,
                 "event": "",
-                "amount": "$2,464.41",
-                "timestamp": 1479583673930
+                "amount": "1,201.87",
+                "timestamp": 1471855243245
             },
             {
                 "id": 4,
                 "event": "",
-                "amount": "$6,437.11",
-                "timestamp": 1447286748477
+                "amount": "-3,158.79",
+                "timestamp": 1449005177024
             },
             {
                 "id": 5,
                 "event": "",
-                "amount": "-$4,087.17",
-                "timestamp": 1468654648591
+                "amount": "-3,301.24",
+                "timestamp": 1448226319599
             },
             {
                 "id": 6,
                 "event": "",
-                "amount": "$4,207.52",
-                "timestamp": 1511530443993
+                "amount": "-1,746.63",
+                "timestamp": 1520371713973
             },
             {
                 "id": 7,
                 "event": "",
-                "amount": "$5,923.47",
-                "timestamp": 1508393695228
+                "amount": "6,961.58",
+                "timestamp": 1529200332465
             },
             {
                 "id": 8,
                 "event": "",
-                "amount": "$5,457.73",
-                "timestamp": 1446902745518
+                "amount": "1,304.93",
+                "timestamp": 1523885469383
             },
             {
                 "id": 9,
                 "event": "",
-                "amount": "$844.94",
-                "timestamp": 1460576772604
+                "amount": "6,871.73",
+                "timestamp": 1511008564455
             },
             {
                 "id": 10,
                 "event": "",
-                "amount": "-$2,982.14",
-                "timestamp": 1436736742570
+                "amount": "5,870.14",
+                "timestamp": 1524080047705
             },
             {
                 "id": 11,
                 "event": "",
-                "amount": "$670.30",
-                "timestamp": 1510116705711
-            },
-            {
-                "id": 12,
-                "event": "",
-                "amount": "-$1,887.57",
-                "timestamp": 1495288947597
+                "amount": "-353.20",
+                "timestamp": 1465700249051
             }
         ]
     },
     {
-        "_id": "5b93f70781cb1a890e59a725",
+        "_id": "5b93faa6c5eae61f819e2af1",
         "model": "",
         "type": "",
-        "isAvailable": true,
-        "isDamaged": true,
-        "totalBalance": "$23,388.57",
+        "isAvailable": false,
+        "isDamaged": false,
+        "totalBalance": "24,547.54",
         "picture": "http://placehold.it/32x32",
-        "age": 12,
+        "age": 8,
         "location": {
-            "latitude": "-18.866121",
-            "longitude": "157.038082"
+            "latitude": "-26.368596",
+            "longitude": "2.683843"
         },
-        "address": "590 Atkins Avenue, Buxton, Maine, 4767",
-        "description": "Ut dolore culpa laboris nisi. Veniam ad aliqua ea mollit sint in magna in esse aute. Culpa id cupidatat reprehenderit nostrud elit culpa tempor id consectetur qui ullamco ea.",
-        "registered": "2017-07-08T09:00:33.384Z",
+        "address": "890 Fayette Street, Rivera, New Mexico, 3370",
+        "description": "Cupidatat laborum amet dolore et incididunt duis. Et nisi do et culpa irure aliqua eiusmod quis ex tempor in anim. Cupidatat labore dolore cillum et consectetur officia reprehenderit nisi consequat ad. Laborum exercitation consectetur ut commodo cupidatat ut dolor Lorem laborum in incididunt qui incididunt.",
+        "registeredAt": "2018-09-07T19:45:41.318Z",
         "comments": "",
-        "events": [{
+        "history": [{
                 "id": 0,
                 "event": "",
-                "amount": "$3,625.24",
-                "timestamp": 1488574960890
+                "amount": "-2,271.43",
+                "timestamp": 1468257538986
             },
             {
                 "id": 1,
                 "event": "",
-                "amount": "$4,638.06",
-                "timestamp": 1527543941953
+                "amount": "3,491.20",
+                "timestamp": 1442789688188
             },
             {
                 "id": 2,
                 "event": "",
-                "amount": "-$1,708.35",
-                "timestamp": 1468722842927
+                "amount": "46.78",
+                "timestamp": 1494438402663
             },
             {
                 "id": 3,
                 "event": "",
-                "amount": "-$2,361.74",
-                "timestamp": 1444221186921
+                "amount": "2,141.18",
+                "timestamp": 1450400413061
             },
             {
                 "id": 4,
                 "event": "",
-                "amount": "$609.58",
-                "timestamp": 1443191929317
+                "amount": "3,960.07",
+                "timestamp": 1515260711787
             },
             {
                 "id": 5,
                 "event": "",
-                "amount": "$2,133.04",
-                "timestamp": 1481939737804
+                "amount": "1,156.89",
+                "timestamp": 1430157108109
             },
             {
                 "id": 6,
                 "event": "",
-                "amount": "-$4,027.33",
-                "timestamp": 1425981871180
-            },
-            {
-                "id": 7,
-                "event": "",
-                "amount": "$2,938.15",
-                "timestamp": 1454929757600
-            },
-            {
-                "id": 8,
-                "event": "",
-                "amount": "-$1,468.08",
-                "timestamp": 1526450542533
-            },
-            {
-                "id": 9,
-                "event": "",
-                "amount": "$3,712.81",
-                "timestamp": 1460458438790
-            },
-            {
-                "id": 10,
-                "event": "",
-                "amount": "$4,621.16",
-                "timestamp": 1513446345025
-            },
-            {
-                "id": 11,
-                "event": "",
-                "amount": "$5,508.91",
-                "timestamp": 1467564044909
-            },
-            {
-                "id": 12,
-                "event": "",
-                "amount": "$6,552.18",
-                "timestamp": 1472732773797
+                "amount": "5,047.19",
+                "timestamp": 1527338430934
             }
         ]
     },
     {
-        "_id": "5b93f70790e675c851ce967f",
+        "_id": "5b93faa6b9919f623d0053ce",
+        "model": "",
+        "type": "",
+        "isAvailable": false,
+        "isDamaged": false,
+        "totalBalance": "-4,040.97",
+        "picture": "http://placehold.it/32x32",
+        "age": 9,
+        "location": {
+            "latitude": "-49.196501",
+            "longitude": "158.438884"
+        },
+        "address": "750 Meadow Street, Dyckesville, New Jersey, 8136",
+        "description": "Dolore esse est elit mollit consectetur tempor cupidatat enim ut nostrud dolor incididunt dolor. Adipisicing est fugiat eu incididunt. Esse qui nostrud sit sit cupidatat eu. Laborum irure laboris elit laboris nulla aute qui nostrud minim velit sunt officia. Incididunt sit non fugiat ad eu ut aute.",
+        "registeredAt": "2015-01-15T13:46:12.495Z",
+        "comments": "",
+        "history": [{
+                "id": 0,
+                "event": "",
+                "amount": "1,439.37",
+                "timestamp": 1444623310625
+            },
+            {
+                "id": 1,
+                "event": "",
+                "amount": "1,555.02",
+                "timestamp": 1420397274963
+            },
+            {
+                "id": 2,
+                "event": "",
+                "amount": "-1,327.65",
+                "timestamp": 1513372691350
+            },
+            {
+                "id": 3,
+                "event": "",
+                "amount": "4,998.37",
+                "timestamp": 1474790356301
+            },
+            {
+                "id": 4,
+                "event": "",
+                "amount": "3,704.84",
+                "timestamp": 1431398625288
+            },
+            {
+                "id": 5,
+                "event": "",
+                "amount": "-1,864.24",
+                "timestamp": 1466716649853
+            }
+        ]
+    },
+    {
+        "_id": "5b93faa6fd39901722575795",
         "model": "",
         "type": "",
         "isAvailable": false,
         "isDamaged": true,
-        "totalBalance": "$31,078.48",
+        "totalBalance": "7,322.51",
         "picture": "http://placehold.it/32x32",
         "age": 7,
         "location": {
-            "latitude": "-77.424605",
-            "longitude": "61.666696"
+            "latitude": "-68.004876",
+            "longitude": "152.122252"
         },
-        "address": "579 Hausman Street, Juntura, Kansas, 2597",
-        "description": "Eiusmod pariatur eiusmod magna officia ex. Magna labore do enim tempor culpa officia qui commodo. Aliquip voluptate proident ex aliqua nulla officia dolor mollit. Dolore mollit velit in est minim magna qui. Magna sit consectetur quis eiusmod velit in sint ea elit dolore fugiat qui. Ex aute incididunt ex id officia fugiat ex.",
-        "registered": "2017-10-30T06:15:44.774Z",
+        "address": "962 Tehama Street, Shasta, Northern Mariana Islands, 5558",
+        "description": "Ea eu eiusmod eiusmod est proident commodo dolor tempor nostrud dolore consectetur excepteur et. Ad labore nostrud eu adipisicing incididunt reprehenderit esse ullamco. Consequat dolor irure elit qui elit id Lorem mollit reprehenderit pariatur nostrud. Fugiat consequat quis proident ad sit aute nulla occaecat consectetur id occaecat. Veniam nulla ut qui ad. Duis consequat occaecat id aute nostrud velit proident ex qui magna labore exercitation velit.",
+        "registeredAt": "2014-08-22T09:36:40.692Z",
         "comments": "",
-        "events": [{
+        "history": [{
                 "id": 0,
                 "event": "",
-                "amount": "-$1,357.73",
-                "timestamp": 1465060974487
+                "amount": "-2,926.88",
+                "timestamp": 1466349159126
             },
             {
                 "id": 1,
                 "event": "",
-                "amount": "-$4,857.57",
-                "timestamp": 1514382345853
+                "amount": "3,155.75",
+                "timestamp": 1427022742746
             },
             {
                 "id": 2,
                 "event": "",
-                "amount": "$1,038.27",
-                "timestamp": 1423808410476
+                "amount": "-2,710.70",
+                "timestamp": 1450475598988
             },
             {
                 "id": 3,
                 "event": "",
-                "amount": "$2,179.53",
-                "timestamp": 1526562647210
+                "amount": "2,150.47",
+                "timestamp": 1510194015050
             },
             {
                 "id": 4,
                 "event": "",
-                "amount": "$1,072.18",
-                "timestamp": 1443042161971
+                "amount": "-1,728.79",
+                "timestamp": 1491040201406
             },
             {
                 "id": 5,
                 "event": "",
-                "amount": "$434.69",
-                "timestamp": 1513375499118
+                "amount": "4,237.70",
+                "timestamp": 1495486649335
             },
             {
                 "id": 6,
                 "event": "",
-                "amount": "-$4,112.17",
-                "timestamp": 1491495899930
-            },
-            {
-                "id": 7,
-                "event": "",
-                "amount": "$413.93",
-                "timestamp": 1508103354235
-            },
-            {
-                "id": 8,
-                "event": "",
-                "amount": "$5,711.31",
-                "timestamp": 1448704523815
-            },
-            {
-                "id": 9,
-                "event": "",
-                "amount": "$278.05",
-                "timestamp": 1434750035481
-            },
-            {
-                "id": 10,
-                "event": "",
-                "amount": "$2,287.59",
-                "timestamp": 1475279015493
-            },
-            {
-                "id": 11,
-                "event": "",
-                "amount": "-$2,140.12",
-                "timestamp": 1525189519761
-            },
-            {
-                "id": 12,
-                "event": "",
-                "amount": "$1,823.86",
-                "timestamp": 1492775737682
+                "amount": "6,253.59",
+                "timestamp": 1471588968359
             }
         ]
     },
     {
-        "_id": "5b93f7074b9dbe6479397ced",
+        "_id": "5b93faa64b1ca62825f1ef5e",
         "model": "",
         "type": "",
         "isAvailable": true,
         "isDamaged": true,
-        "totalBalance": "$2,243.67",
+        "totalBalance": "19,743.00",
         "picture": "http://placehold.it/32x32",
-        "age": 10,
+        "age": 0,
         "location": {
-            "latitude": "10.064742",
-            "longitude": "147.599426"
+            "latitude": "-3.585942",
+            "longitude": "84.651571"
         },
-        "address": "587 Frank Court, Ventress, Guam, 6630",
-        "description": "Voluptate aliqua laboris et fugiat duis laborum aliqua labore quis. Sunt minim occaecat nulla velit ad voluptate Lorem elit incididunt fugiat occaecat veniam ex. Aute et minim quis nulla consequat.",
-        "registered": "2017-10-20T05:39:31.988Z",
+        "address": "660 Sackett Street, Wintersburg, Virgin Islands, 9881",
+        "description": "Tempor cupidatat est occaecat deserunt. Magna dolor laborum proident voluptate qui fugiat quis excepteur quis. Eiusmod consequat nostrud qui anim sit ut consectetur labore veniam cupidatat elit consectetur. Ullamco est do voluptate occaecat exercitation do nisi. Est tempor do ex ad occaecat et amet excepteur enim id consectetur ipsum sint aliqua. Aliqua labore labore reprehenderit eu cupidatat tempor. Do reprehenderit incididunt eiusmod sint nostrud velit consequat incididunt esse tempor enim.",
+        "registeredAt": "2016-01-22T15:56:21.243Z",
         "comments": "",
-        "events": [{
+        "history": [{
                 "id": 0,
                 "event": "",
-                "amount": "$126.87",
-                "timestamp": 1467464214451
+                "amount": "4,435.73",
+                "timestamp": 1497205991723
             },
             {
                 "id": 1,
                 "event": "",
-                "amount": "-$1,569.74",
-                "timestamp": 1490961085843
+                "amount": "-1,179.69",
+                "timestamp": 1502570934563
+            },
+            {
+                "id": 2,
+                "event": "",
+                "amount": "1,728.94",
+                "timestamp": 1523891630591
+            },
+            {
+                "id": 3,
+                "event": "",
+                "amount": "4,678.62",
+                "timestamp": 1507441439794
+            },
+            {
+                "id": 4,
+                "event": "",
+                "amount": "-1,953.43",
+                "timestamp": 1492626106171
+            },
+            {
+                "id": 5,
+                "event": "",
+                "amount": "3,911.41",
+                "timestamp": 1440912696137
+            }
+        ]
+    },
+    {
+        "_id": "5b93faa6328f1542284ca07f",
+        "model": "",
+        "type": "",
+        "isAvailable": true,
+        "isDamaged": true,
+        "totalBalance": "-2,301.94",
+        "picture": "http://placehold.it/32x32",
+        "age": 2,
+        "location": {
+            "latitude": "13.61137",
+            "longitude": "148.261678"
+        },
+        "address": "830 Grand Street, Crown, Guam, 859",
+        "description": "Dolor duis ullamco proident id exercitation laboris do non. Velit consequat cupidatat occaecat occaecat consectetur. Ut veniam elit aliquip quis aliquip sunt officia elit magna. Ipsum quis labore reprehenderit nulla occaecat pariatur cillum officia aute occaecat qui incididunt.",
+        "registeredAt": "2017-05-11T11:56:32.225Z",
+        "comments": "",
+        "history": [{
+                "id": 0,
+                "event": "",
+                "amount": "-828.72",
+                "timestamp": 1535393928754
+            },
+            {
+                "id": 1,
+                "event": "",
+                "amount": "5,973.45",
+                "timestamp": 1497431790118
+            },
+            {
+                "id": 2,
+                "event": "",
+                "amount": "-4,554.41",
+                "timestamp": 1425414280947
+            },
+            {
+                "id": 3,
+                "event": "",
+                "amount": "2,503.90",
+                "timestamp": 1498075252239
+            },
+            {
+                "id": 4,
+                "event": "",
+                "amount": "-190.20",
+                "timestamp": 1487447741577
+            },
+            {
+                "id": 5,
+                "event": "",
+                "amount": "4,608.53",
+                "timestamp": 1531108671299
+            },
+            {
+                "id": 6,
+                "event": "",
+                "amount": "-1,009.25",
+                "timestamp": 1446952038099
+            },
+            {
+                "id": 7,
+                "event": "",
+                "amount": "1,061.33",
+                "timestamp": 1519652768474
+            },
+            {
+                "id": 8,
+                "event": "",
+                "amount": "3,496.12",
+                "timestamp": 1516946072582
+            }
+        ]
+    },
+    {
+        "_id": "5b93faa62d9588236c33d0ea",
+        "model": "",
+        "type": "",
+        "isAvailable": true,
+        "isDamaged": false,
+        "totalBalance": "17,052.54",
+        "picture": "http://placehold.it/32x32",
+        "age": 0,
+        "location": {
+            "latitude": "-35.335931",
+            "longitude": "-14.92995"
+        },
+        "address": "815 Bridge Street, Temperanceville, Georgia, 6597",
+        "description": "Commodo elit nostrud commodo fugiat sit sit. Magna Lorem aute velit ullamco voluptate aliqua dolor et. Ex nulla et consequat et amet aliqua cupidatat excepteur ea ullamco.",
+        "registeredAt": "2016-01-28T02:09:07.230Z",
+        "comments": "",
+        "history": [{
+                "id": 0,
+                "event": "",
+                "amount": "5,128.41",
+                "timestamp": 1485416021176
+            },
+            {
+                "id": 1,
+                "event": "",
+                "amount": "4,802.57",
+                "timestamp": 1461624411299
+            },
+            {
+                "id": 2,
+                "event": "",
+                "amount": "5,024.39",
+                "timestamp": 1441084508265
+            },
+            {
+                "id": 3,
+                "event": "",
+                "amount": "-1,653.02",
+                "timestamp": 1488942060921
+            },
+            {
+                "id": 4,
+                "event": "",
+                "amount": "5,889.93",
+                "timestamp": 1443234735372
+            },
+            {
+                "id": 5,
+                "event": "",
+                "amount": "-260.04",
+                "timestamp": 1449603611709
+            },
+            {
+                "id": 6,
+                "event": "",
+                "amount": "-1,781.43",
+                "timestamp": 1421860208050
+            },
+            {
+                "id": 7,
+                "event": "",
+                "amount": "-3,563.84",
+                "timestamp": 1444436281145
+            },
+            {
+                "id": 8,
+                "event": "",
+                "amount": "-3,564.39",
+                "timestamp": 1420771677553
+            },
+            {
+                "id": 9,
+                "event": "",
+                "amount": "4,632.02",
+                "timestamp": 1524749560406
+            },
+            {
+                "id": 10,
+                "event": "",
+                "amount": "439.98",
+                "timestamp": 1422327608727
+            },
+            {
+                "id": 11,
+                "event": "",
+                "amount": "2,510.00",
+                "timestamp": 1454584328930
+            },
+            {
+                "id": 12,
+                "event": "",
+                "amount": "1,706.99",
+                "timestamp": 1438351055390
+            }
+        ]
+    },
+    {
+        "_id": "5b93faa65d096ac04564b441",
+        "model": "",
+        "type": "",
+        "isAvailable": false,
+        "isDamaged": false,
+        "totalBalance": "18,664.74",
+        "picture": "http://placehold.it/32x32",
+        "age": 11,
+        "location": {
+            "latitude": "48.825743",
+            "longitude": "-19.231674"
+        },
+        "address": "671 Willoughby Avenue, Cascades, Federated States Of Micronesia, 8756",
+        "description": "Aliqua culpa amet do do minim. Ullamco minim consectetur amet pariatur. Quis quis aliqua ipsum ea. Tempor eu magna velit sit occaecat reprehenderit cupidatat esse nostrud est.",
+        "registeredAt": "2014-12-08T06:54:59.105Z",
+        "comments": "",
+        "history": [{
+                "id": 0,
+                "event": "",
+                "amount": "-2,201.11",
+                "timestamp": 1449458617755
+            },
+            {
+                "id": 1,
+                "event": "",
+                "amount": "3,121.47",
+                "timestamp": 1497572506022
+            },
+            {
+                "id": 2,
+                "event": "",
+                "amount": "3,844.20",
+                "timestamp": 1460843239096
+            },
+            {
+                "id": 3,
+                "event": "",
+                "amount": "1,267.50",
+                "timestamp": 1462497775257
+            },
+            {
+                "id": 4,
+                "event": "",
+                "amount": "-1,801.76",
+                "timestamp": 1534574904794
+            },
+            {
+                "id": 5,
+                "event": "",
+                "amount": "741.36",
+                "timestamp": 1452943717682
+            },
+            {
+                "id": 6,
+                "event": "",
+                "amount": "6,372.98",
+                "timestamp": 1508358608768
+            },
+            {
+                "id": 7,
+                "event": "",
+                "amount": "5,744.48",
+                "timestamp": 1534655139616
+            },
+            {
+                "id": 8,
+                "event": "",
+                "amount": "2,324.50",
+                "timestamp": 1468392620871
+            }
+        ]
+    },
+    {
+        "_id": "5b93faa653aecc3934168721",
+        "model": "",
+        "type": "",
+        "isAvailable": true,
+        "isDamaged": false,
+        "totalBalance": "23,832.76",
+        "picture": "http://placehold.it/32x32",
+        "age": 6,
+        "location": {
+            "latitude": "45.679523",
+            "longitude": "58.134381"
+        },
+        "address": "390 Noel Avenue, Weedville, South Carolina, 4539",
+        "description": "Irure fugiat sit id anim minim officia ex adipisicing. Elit reprehenderit tempor labore in aliqua quis dolor qui enim nulla incididunt duis nostrud ullamco. Do nulla ex occaecat aute duis pariatur sint amet eiusmod sint ex id pariatur.",
+        "registeredAt": "2014-05-25T15:48:48.761Z",
+        "comments": "",
+        "history": [{
+                "id": 0,
+                "event": "",
+                "amount": "6,638.12",
+                "timestamp": 1428978175093
+            },
+            {
+                "id": 1,
+                "event": "",
+                "amount": "471.71",
+                "timestamp": 1483369705226
+            },
+            {
+                "id": 2,
+                "event": "",
+                "amount": "3,306.40",
+                "timestamp": 1498776649523
+            },
+            {
+                "id": 3,
+                "event": "",
+                "amount": "-247.06",
+                "timestamp": 1516284118998
+            },
+            {
+                "id": 4,
+                "event": "",
+                "amount": "4,253.89",
+                "timestamp": 1499108734308
+            },
+            {
+                "id": 5,
+                "event": "",
+                "amount": "4,954.25",
+                "timestamp": 1467317290775
+            },
+            {
+                "id": 6,
+                "event": "",
+                "amount": "2,615.75",
+                "timestamp": 1460161939665
+            },
+            {
+                "id": 7,
+                "event": "",
+                "amount": "-4,699.28",
+                "timestamp": 1519144311844
+            },
+            {
+                "id": 8,
+                "event": "",
+                "amount": "-3,998.05",
+                "timestamp": 1520503144397
+            },
+            {
+                "id": 9,
+                "event": "",
+                "amount": "1,222.98",
+                "timestamp": 1532545890598
+            },
+            {
+                "id": 10,
+                "event": "",
+                "amount": "3,119.69",
+                "timestamp": 1496865202200
+            },
+            {
+                "id": 11,
+                "event": "",
+                "amount": "-3,369.29",
+                "timestamp": 1472925396599
+            }
+        ]
+    },
+    {
+        "_id": "5b93faa6a29cea9e0ef22bee",
+        "model": "",
+        "type": "",
+        "isAvailable": true,
+        "isDamaged": false,
+        "totalBalance": "31,944.96",
+        "picture": "http://placehold.it/32x32",
+        "age": 12,
+        "location": {
+            "latitude": "-39.028184",
+            "longitude": "-29.070836"
+        },
+        "address": "544 Williamsburg Street, Broadlands, Oregon, 2867",
+        "description": "Consequat nulla Lorem do ipsum aliqua cillum ea. Dolor quis culpa consequat eu ad sint Lorem non exercitation ad aute proident in eu. Voluptate et excepteur ullamco commodo nulla minim enim incididunt consectetur tempor.",
+        "registeredAt": "2016-11-29T15:18:14.124Z",
+        "comments": "",
+        "history": [{
+                "id": 0,
+                "event": "",
+                "amount": "-4,827.41",
+                "timestamp": 1511853206031
+            },
+            {
+                "id": 1,
+                "event": "",
+                "amount": "-660.58",
+                "timestamp": 1456084492310
+            },
+            {
+                "id": 2,
+                "event": "",
+                "amount": "3,609.65",
+                "timestamp": 1506850083116
+            },
+            {
+                "id": 3,
+                "event": "",
+                "amount": "-4,299.83",
+                "timestamp": 1511746208851
+            },
+            {
+                "id": 4,
+                "event": "",
+                "amount": "-2,227.30",
+                "timestamp": 1508155352681
+            },
+            {
+                "id": 5,
+                "event": "",
+                "amount": "-315.25",
+                "timestamp": 1525002300525
+            },
+            {
+                "id": 6,
+                "event": "",
+                "amount": "-3,862.00",
+                "timestamp": 1527693108314
+            },
+            {
+                "id": 7,
+                "event": "",
+                "amount": "-4,084.78",
+                "timestamp": 1493168458690
+            },
+            {
+                "id": 8,
+                "event": "",
+                "amount": "6,573.27",
+                "timestamp": 1421528388554
+            },
+            {
+                "id": 9,
+                "event": "",
+                "amount": "-2,756.05",
+                "timestamp": 1534697720548
+            }
+        ]
+    },
+    {
+        "_id": "5b93faa69a67fbd230822a37",
+        "model": "",
+        "type": "",
+        "isAvailable": true,
+        "isDamaged": true,
+        "totalBalance": "-3,843.86",
+        "picture": "http://placehold.it/32x32",
+        "age": 6,
+        "location": {
+            "latitude": "49.043927",
+            "longitude": "-108.163532"
+        },
+        "address": "455 Bowne Street, Juntura, Illinois, 9004",
+        "description": "Exercitation elit pariatur et dolore sit dolor esse esse enim et Lorem. Dolore esse nostrud nostrud et nisi dolore enim dolore ad aliqua eiusmod esse. Aliquip proident enim do officia amet occaecat.",
+        "registeredAt": "2018-03-31T08:32:23.279Z",
+        "comments": "",
+        "history": [{
+                "id": 0,
+                "event": "",
+                "amount": "395.56",
+                "timestamp": 1425932130843
+            },
+            {
+                "id": 1,
+                "event": "",
+                "amount": "4,701.22",
+                "timestamp": 1458727153935
+            },
+            {
+                "id": 2,
+                "event": "",
+                "amount": "-2,672.06",
+                "timestamp": 1464441092597
+            },
+            {
+                "id": 3,
+                "event": "",
+                "amount": "-2,299.11",
+                "timestamp": 1465916818202
+            },
+            {
+                "id": 4,
+                "event": "",
+                "amount": "3,049.48",
+                "timestamp": 1451389774346
+            },
+            {
+                "id": 5,
+                "event": "",
+                "amount": "-3,897.67",
+                "timestamp": 1526799589546
+            }
+        ]
+    },
+    {
+        "_id": "5b93faa6db741ee0db5515c6",
+        "model": "",
+        "type": "",
+        "isAvailable": true,
+        "isDamaged": false,
+        "totalBalance": "-4,605.88",
+        "picture": "http://placehold.it/32x32",
+        "age": 9,
+        "location": {
+            "latitude": "-86.795572",
+            "longitude": "-23.8515"
+        },
+        "address": "113 Gunther Place, Chelsea, Kansas, 8652",
+        "description": "In esse id incididunt eiusmod aliqua. Tempor ullamco ex deserunt esse cupidatat sit magna veniam minim commodo. Veniam in dolor et officia nostrud exercitation tempor ad.",
+        "registeredAt": "2015-07-17T03:42:57.701Z",
+        "comments": "",
+        "history": [{
+                "id": 0,
+                "event": "",
+                "amount": "-398.53",
+                "timestamp": 1515556086690
+            },
+            {
+                "id": 1,
+                "event": "",
+                "amount": "2,812.16",
+                "timestamp": 1511284452610
+            },
+            {
+                "id": 2,
+                "event": "",
+                "amount": "-667.05",
+                "timestamp": 1508680893885
+            },
+            {
+                "id": 3,
+                "event": "",
+                "amount": "-4,559.23",
+                "timestamp": 1451255868947
+            },
+            {
+                "id": 4,
+                "event": "",
+                "amount": "-4,825.72",
+                "timestamp": 1421554381602
+            },
+            {
+                "id": 5,
+                "event": "",
+                "amount": "169.24",
+                "timestamp": 1430278538063
+            },
+            {
+                "id": 6,
+                "event": "",
+                "amount": "-2,266.42",
+                "timestamp": 1441679407076
+            },
+            {
+                "id": 7,
+                "event": "",
+                "amount": "-3,005.13",
+                "timestamp": 1456362149643
+            }
+        ]
+    },
+    {
+        "_id": "5b93faa65be91014db92f200",
+        "model": "",
+        "type": "",
+        "isAvailable": false,
+        "isDamaged": false,
+        "totalBalance": "3,628.09",
+        "picture": "http://placehold.it/32x32",
+        "age": 7,
+        "location": {
+            "latitude": "-55.277773",
+            "longitude": "-102.96651"
+        },
+        "address": "369 Tompkins Place, Lumberton, Mississippi, 7740",
+        "description": "Laboris eu sit in eu officia officia. Quis adipisicing elit tempor ad irure esse voluptate voluptate veniam eu mollit ipsum ipsum. Voluptate proident veniam amet duis veniam dolor. Voluptate culpa culpa aliquip ut eiusmod. Pariatur nostrud ipsum consequat ad irure veniam. Incididunt non aute dolore velit mollit irure dolor minim incididunt anim dolor pariatur. Incididunt irure do qui incididunt minim aliqua.",
+        "registeredAt": "2018-02-02T08:34:11.783Z",
+        "comments": "",
+        "history": [{
+                "id": 0,
+                "event": "",
+                "amount": "-10.17",
+                "timestamp": 1422396125772
+            },
+            {
+                "id": 1,
+                "event": "",
+                "amount": "2,118.93",
+                "timestamp": 1445361031782
+            },
+            {
+                "id": 2,
+                "event": "",
+                "amount": "-3,124.84",
+                "timestamp": 1534901370502
+            },
+            {
+                "id": 3,
+                "event": "",
+                "amount": "968.68",
+                "timestamp": 1498587902384
+            }
+        ]
+    },
+    {
+        "_id": "5b93faa6fdff814e7e934d11",
+        "model": "",
+        "type": "",
+        "isAvailable": false,
+        "isDamaged": false,
+        "totalBalance": "33,250.98",
+        "picture": "http://placehold.it/32x32",
+        "age": 10,
+        "location": {
+            "latitude": "22.190669",
+            "longitude": "18.817983"
+        },
+        "address": "963 Prospect Street, Oneida, Florida, 8555",
+        "description": "Sit sunt incididunt ipsum velit. Ut et dolor culpa excepteur eiusmod. Deserunt nostrud occaecat ad voluptate tempor aliqua. Nisi sunt anim dolore sit dolore magna enim excepteur nostrud consectetur eu ipsum ut. Laboris laborum elit adipisicing dolore nulla excepteur occaecat aute amet. Consequat est labore do proident exercitation excepteur pariatur elit esse incididunt proident.",
+        "registeredAt": "2018-06-09T14:27:49.488Z",
+        "comments": "",
+        "history": [{
+                "id": 0,
+                "event": "",
+                "amount": "5,417.53",
+                "timestamp": 1497267556753
+            },
+            {
+                "id": 1,
+                "event": "",
+                "amount": "2,183.70",
+                "timestamp": 1473914993764
+            },
+            {
+                "id": 2,
+                "event": "",
+                "amount": "-2,008.15",
+                "timestamp": 1463038788095
+            },
+            {
+                "id": 3,
+                "event": "",
+                "amount": "-1,799.68",
+                "timestamp": 1533052888778
+            },
+            {
+                "id": 4,
+                "event": "",
+                "amount": "-1,320.86",
+                "timestamp": 1515202878948
+            },
+            {
+                "id": 5,
+                "event": "",
+                "amount": "2,796.48",
+                "timestamp": 1507279702690
+            },
+            {
+                "id": 6,
+                "event": "",
+                "amount": "-1,702.66",
+                "timestamp": 1439886769995
+            },
+            {
+                "id": 7,
+                "event": "",
+                "amount": "1,142.26",
+                "timestamp": 1465591865383
+            },
+            {
+                "id": 8,
+                "event": "",
+                "amount": "4,612.04",
+                "timestamp": 1531828878908
+            },
+            {
+                "id": 9,
+                "event": "",
+                "amount": "-3,532.72",
+                "timestamp": 1455273093929
+            },
+            {
+                "id": 10,
+                "event": "",
+                "amount": "1,877.03",
+                "timestamp": 1423146659127
+            },
+            {
+                "id": 11,
+                "event": "",
+                "amount": "-1,987.49",
+                "timestamp": 1515430295985
+            },
+            {
+                "id": 12,
+                "event": "",
+                "amount": "4,969.48",
+                "timestamp": 1496837552156
+            }
+        ]
+    },
+    {
+        "_id": "5b93faa601a22bab9039f071",
+        "model": "",
+        "type": "",
+        "isAvailable": true,
+        "isDamaged": false,
+        "totalBalance": "37,112.83",
+        "picture": "http://placehold.it/32x32",
+        "age": 9,
+        "location": {
+            "latitude": "22.929038",
+            "longitude": "-110.453895"
+        },
+        "address": "994 Harrison Avenue, Wheatfields, Maryland, 1855",
+        "description": "Officia magna veniam aliqua tempor do nisi quis incididunt et ut id veniam laborum commodo. Sit nulla quis consectetur eiusmod aute magna tempor ipsum aute amet deserunt laboris. Eu consequat nulla Lorem minim cillum. Proident nisi ipsum do fugiat excepteur. Anim adipisicing mollit tempor minim qui consequat reprehenderit et proident consectetur elit nisi qui nostrud.",
+        "registeredAt": "2016-05-18T09:44:39.737Z",
+        "comments": "",
+        "history": [{
+                "id": 0,
+                "event": "",
+                "amount": "2,757.65",
+                "timestamp": 1528208793447
+            },
+            {
+                "id": 1,
+                "event": "",
+                "amount": "6,544.03",
+                "timestamp": 1501634111080
+            },
+            {
+                "id": 2,
+                "event": "",
+                "amount": "6,809.29",
+                "timestamp": 1473496411857
+            },
+            {
+                "id": 3,
+                "event": "",
+                "amount": "-1,087.58",
+                "timestamp": 1454462318961
+            },
+            {
+                "id": 4,
+                "event": "",
+                "amount": "6,226.50",
+                "timestamp": 1462014845730
+            },
+            {
+                "id": 5,
+                "event": "",
+                "amount": "1,565.34",
+                "timestamp": 1510064645361
+            },
+            {
+                "id": 6,
+                "event": "",
+                "amount": "2,731.76",
+                "timestamp": 1469787380290
+            },
+            {
+                "id": 7,
+                "event": "",
+                "amount": "-4,277.68",
+                "timestamp": 1444142818813
+            },
+            {
+                "id": 8,
+                "event": "",
+                "amount": "2,534.55",
+                "timestamp": 1493305984503
+            },
+            {
+                "id": 9,
+                "event": "",
+                "amount": "-37.66",
+                "timestamp": 1450336971424
+            },
+            {
+                "id": 10,
+                "event": "",
+                "amount": "6,075.20",
+                "timestamp": 1518480570859
+            },
+            {
+                "id": 11,
+                "event": "",
+                "amount": "-4,999.83",
+                "timestamp": 1469121947227
+            },
+            {
+                "id": 12,
+                "event": "",
+                "amount": "3,951.44",
+                "timestamp": 1440690125836
+            },
+            {
+                "id": 13,
+                "event": "",
+                "amount": "3,281.49",
+                "timestamp": 1531939426830
+            }
+        ]
+    },
+    {
+        "_id": "5b93faa604ae098209324fdc",
+        "model": "",
+        "type": "",
+        "isAvailable": false,
+        "isDamaged": true,
+        "totalBalance": "28,427.70",
+        "picture": "http://placehold.it/32x32",
+        "age": 11,
+        "location": {
+            "latitude": "-73.36964",
+            "longitude": "-132.565139"
+        },
+        "address": "951 Monaco Place, Richford, Massachusetts, 8640",
+        "description": "Est dolor et proident ipsum aliqua veniam culpa Lorem deserunt cillum reprehenderit pariatur cillum. Ullamco laborum ipsum id duis sit dolore nulla consequat id aliquip veniam. Lorem sit exercitation ullamco enim est. Mollit nostrud ut nulla ex ea tempor tempor culpa qui proident fugiat. Ad aliqua nulla tempor irure nulla eu laborum non pariatur aute officia. Aliqua elit commodo anim est voluptate exercitation quis. Do ut veniam quis aliqua aliquip dolor fugiat voluptate fugiat esse.",
+        "registeredAt": "2015-07-06T11:23:27.620Z",
+        "comments": "",
+        "history": [{
+                "id": 0,
+                "event": "",
+                "amount": "6,983.37",
+                "timestamp": 1432353949133
+            },
+            {
+                "id": 1,
+                "event": "",
+                "amount": "995.78",
+                "timestamp": 1493754151229
+            }
+        ]
+    },
+    {
+        "_id": "5b93faa60ede99f03a4b88bc",
+        "model": "",
+        "type": "",
+        "isAvailable": true,
+        "isDamaged": true,
+        "totalBalance": "-883.79",
+        "picture": "http://placehold.it/32x32",
+        "age": 8,
+        "location": {
+            "latitude": "-0.171426",
+            "longitude": "149.59555"
+        },
+        "address": "407 Glen Street, Leroy, Wyoming, 3434",
+        "description": "Occaecat ipsum anim dolor sit nulla et est. Amet ex esse cupidatat occaecat aliquip et cillum dolore fugiat excepteur ex eu. Sit eu culpa est et deserunt et culpa. In proident laboris nulla dolor velit aliqua aliqua dolor.",
+        "registeredAt": "2015-12-12T09:20:29.859Z",
+        "comments": "",
+        "history": [{
+                "id": 0,
+                "event": "",
+                "amount": "-2,591.45",
+                "timestamp": 1447601208099
+            },
+            {
+                "id": 1,
+                "event": "",
+                "amount": "6,251.07",
+                "timestamp": 1475442479046
+            },
+            {
+                "id": 2,
+                "event": "",
+                "amount": "2,273.26",
+                "timestamp": 1466114448306
+            },
+            {
+                "id": 3,
+                "event": "",
+                "amount": "-1,898.37",
+                "timestamp": 1476824607398
+            },
+            {
+                "id": 4,
+                "event": "",
+                "amount": "2,153.55",
+                "timestamp": 1460883825475
+            }
+        ]
+    },
+    {
+        "_id": "5b93faa69fe003b32edee635",
+        "model": "",
+        "type": "",
+        "isAvailable": false,
+        "isDamaged": false,
+        "totalBalance": "26,805.07",
+        "picture": "http://placehold.it/32x32",
+        "age": 12,
+        "location": {
+            "latitude": "-77.480497",
+            "longitude": "87.155879"
+        },
+        "address": "521 Vermont Street, Greensburg, Ohio, 6661",
+        "description": "Quis sunt aute commodo do ea dolore dolore non laborum consequat irure mollit dolor pariatur. Et officia magna minim occaecat anim velit fugiat et mollit excepteur occaecat. Adipisicing reprehenderit veniam ad veniam ex.",
+        "registeredAt": "2015-07-17T07:12:33.810Z",
+        "comments": "",
+        "history": [{
+                "id": 0,
+                "event": "",
+                "amount": "-2,796.31",
+                "timestamp": 1515058804196
+            },
+            {
+                "id": 1,
+                "event": "",
+                "amount": "-2,522.57",
+                "timestamp": 1484044925098
+            },
+            {
+                "id": 2,
+                "event": "",
+                "amount": "6,139.96",
+                "timestamp": 1460007394600
+            },
+            {
+                "id": 3,
+                "event": "",
+                "amount": "4,813.44",
+                "timestamp": 1457853912294
+            },
+            {
+                "id": 4,
+                "event": "",
+                "amount": "5,004.08",
+                "timestamp": 1516866669143
+            },
+            {
+                "id": 5,
+                "event": "",
+                "amount": "674.93",
+                "timestamp": 1448339211783
+            },
+            {
+                "id": 6,
+                "event": "",
+                "amount": "4,051.12",
+                "timestamp": 1446788703977
+            },
+            {
+                "id": 7,
+                "event": "",
+                "amount": "4,599.14",
+                "timestamp": 1451582800267
+            },
+            {
+                "id": 8,
+                "event": "",
+                "amount": "-640.08",
+                "timestamp": 1497266868801
+            },
+            {
+                "id": 9,
+                "event": "",
+                "amount": "851.03",
+                "timestamp": 1525560197963
+            }
+        ]
+    },
+    {
+        "_id": "5b93faa68eaa9562f784fb82",
+        "model": "",
+        "type": "",
+        "isAvailable": false,
+        "isDamaged": false,
+        "totalBalance": "3,231.26",
+        "picture": "http://placehold.it/32x32",
+        "age": 9,
+        "location": {
+            "latitude": "17.548821",
+            "longitude": "167.191877"
+        },
+        "address": "536 Nautilus Avenue, Warsaw, Missouri, 1890",
+        "description": "Velit incididunt elit minim deserunt excepteur enim. Nulla ipsum sit minim mollit est tempor aliqua do sint aliqua magna esse. Voluptate consequat et elit pariatur sint. Pariatur voluptate exercitation occaecat minim veniam aliquip exercitation proident adipisicing culpa.",
+        "registeredAt": "2015-02-02T04:52:02.607Z",
+        "comments": "",
+        "history": [{
+                "id": 0,
+                "event": "",
+                "amount": "107.41",
+                "timestamp": 1501389445165
+            },
+            {
+                "id": 1,
+                "event": "",
+                "amount": "-1,886.42",
+                "timestamp": 1525225732123
+            },
+            {
+                "id": 2,
+                "event": "",
+                "amount": "5,315.95",
+                "timestamp": 1497008848113
+            },
+            {
+                "id": 3,
+                "event": "",
+                "amount": "-807.33",
+                "timestamp": 1499265481246
+            },
+            {
+                "id": 4,
+                "event": "",
+                "amount": "3,910.54",
+                "timestamp": 1499976911605
+            },
+            {
+                "id": 5,
+                "event": "",
+                "amount": "1,633.05",
+                "timestamp": 1485268817497
+            },
+            {
+                "id": 6,
+                "event": "",
+                "amount": "2,979.91",
+                "timestamp": 1507103362992
+            },
+            {
+                "id": 7,
+                "event": "",
+                "amount": "-771.71",
+                "timestamp": 1433386519937
+            },
+            {
+                "id": 8,
+                "event": "",
+                "amount": "-2,872.69",
+                "timestamp": 1444868648380
+            },
+            {
+                "id": 9,
+                "event": "",
+                "amount": "-1,168.91",
+                "timestamp": 1501455319977
+            },
+            {
+                "id": 10,
+                "event": "",
+                "amount": "6,098.28",
+                "timestamp": 1504727525964
+            },
+            {
+                "id": 11,
+                "event": "",
+                "amount": "1,999.32",
+                "timestamp": 1479670184649
+            },
+            {
+                "id": 12,
+                "event": "",
+                "amount": "-2,163.44",
+                "timestamp": 1515326738914
+            }
+        ]
+    },
+    {
+        "_id": "5b93faa61647369d0c0058f7",
+        "model": "",
+        "type": "",
+        "isAvailable": false,
+        "isDamaged": false,
+        "totalBalance": "31,803.73",
+        "picture": "http://placehold.it/32x32",
+        "age": 3,
+        "location": {
+            "latitude": "-17.29405",
+            "longitude": "65.708095"
+        },
+        "address": "537 Conway Street, Floriston, Virginia, 594",
+        "description": "Adipisicing consequat voluptate nulla nisi dolor cillum. Exercitation officia cupidatat commodo adipisicing. Esse deserunt laboris ea ullamco est magna Lorem nulla est laborum dolor amet. Quis pariatur laborum eiusmod dolor culpa consectetur anim cillum labore est duis. Officia exercitation culpa quis mollit ea cupidatat aliqua qui nisi. Esse in ut et quis.",
+        "registeredAt": "2018-01-27T21:01:28.318Z",
+        "comments": "",
+        "history": [{
+                "id": 0,
+                "event": "",
+                "amount": "1,281.99",
+                "timestamp": 1495329412860
+            },
+            {
+                "id": 1,
+                "event": "",
+                "amount": "744.02",
+                "timestamp": 1513781572574
+            },
+            {
+                "id": 2,
+                "event": "",
+                "amount": "5,814.79",
+                "timestamp": 1504983937806
+            },
+            {
+                "id": 3,
+                "event": "",
+                "amount": "3,477.15",
+                "timestamp": 1459608909115
+            },
+            {
+                "id": 4,
+                "event": "",
+                "amount": "-3,275.89",
+                "timestamp": 1462258306445
+            },
+            {
+                "id": 5,
+                "event": "",
+                "amount": "-1,040.23",
+                "timestamp": 1425155984084
+            },
+            {
+                "id": 6,
+                "event": "",
+                "amount": "-782.43",
+                "timestamp": 1452084552285
+            },
+            {
+                "id": 7,
+                "event": "",
+                "amount": "3,226.67",
+                "timestamp": 1485340461423
+            }
+        ]
+    },
+    {
+        "_id": "5b93faa6b219cf1f49eeb63a",
+        "model": "",
+        "type": "",
+        "isAvailable": true,
+        "isDamaged": false,
+        "totalBalance": "36,818.13",
+        "picture": "http://placehold.it/32x32",
+        "age": 12,
+        "location": {
+            "latitude": "21.791498",
+            "longitude": "-103.1876"
+        },
+        "address": "734 Boynton Place, Cleary, Marshall Islands, 1115",
+        "description": "Aute nulla irure anim laboris ullamco minim consequat minim officia nulla ut magna laborum. Eiusmod reprehenderit occaecat cupidatat occaecat amet. Quis commodo aliquip est aliqua magna nisi quis eu exercitation consequat Lorem.",
+        "registeredAt": "2017-11-21T20:15:14.528Z",
+        "comments": "",
+        "history": [{
+                "id": 0,
+                "event": "",
+                "amount": "3,364.21",
+                "timestamp": 1484593878252
+            },
+            {
+                "id": 1,
+                "event": "",
+                "amount": "-1,950.23",
+                "timestamp": 1429948037953
+            },
+            {
+                "id": 2,
+                "event": "",
+                "amount": "-3,599.98",
+                "timestamp": 1436087014652
+            },
+            {
+                "id": 3,
+                "event": "",
+                "amount": "5,037.48",
+                "timestamp": 1452076523123
+            },
+            {
+                "id": 4,
+                "event": "",
+                "amount": "-1,117.73",
+                "timestamp": 1436291868879
+            }
+        ]
+    },
+    {
+        "_id": "5b93faa6cde433c87bb9173a",
+        "model": "",
+        "type": "",
+        "isAvailable": true,
+        "isDamaged": true,
+        "totalBalance": "34,665.39",
+        "picture": "http://placehold.it/32x32",
+        "age": 7,
+        "location": {
+            "latitude": "18.835848",
+            "longitude": "-169.304639"
+        },
+        "address": "293 Crosby Avenue, Highland, Pennsylvania, 9703",
+        "description": "Consequat amet sint adipisicing deserunt laborum esse laboris ullamco velit anim. Irure incididunt reprehenderit elit nisi eiusmod. Et adipisicing labore cupidatat cillum laboris Lorem irure ipsum aliqua. Consectetur occaecat laborum dolor velit nostrud id non aute enim magna et. Labore nulla proident minim occaecat.",
+        "registeredAt": "2017-07-15T15:44:31.048Z",
+        "comments": "",
+        "history": [{
+                "id": 0,
+                "event": "",
+                "amount": "4,060.89",
+                "timestamp": 1474724652050
+            },
+            {
+                "id": 1,
+                "event": "",
+                "amount": "6,576.23",
+                "timestamp": 1459066142459
+            },
+            {
+                "id": 2,
+                "event": "",
+                "amount": "2,543.37",
+                "timestamp": 1483348471708
+            },
+            {
+                "id": 3,
+                "event": "",
+                "amount": "6,794.87",
+                "timestamp": 1462790524712
+            },
+            {
+                "id": 4,
+                "event": "",
+                "amount": "3,244.99",
+                "timestamp": 1526643656680
+            },
+            {
+                "id": 5,
+                "event": "",
+                "amount": "-1,157.42",
+                "timestamp": 1523113348237
+            },
+            {
+                "id": 6,
+                "event": "",
+                "amount": "-4,784.81",
+                "timestamp": 1530609020677
+            },
+            {
+                "id": 7,
+                "event": "",
+                "amount": "1,744.04",
+                "timestamp": 1468628393969
+            }
+        ]
+    },
+    {
+        "_id": "5b93faa686bbc6d46404bdce",
+        "model": "",
+        "type": "",
+        "isAvailable": true,
+        "isDamaged": false,
+        "totalBalance": "27,565.81",
+        "picture": "http://placehold.it/32x32",
+        "age": 8,
+        "location": {
+            "latitude": "6.326811",
+            "longitude": "177.153942"
+        },
+        "address": "621 Tampa Court, Sisquoc, South Dakota, 1831",
+        "description": "Tempor ipsum tempor exercitation exercitation ut exercitation magna sunt nisi ad. Nostrud ullamco irure ex velit ullamco. Proident consequat commodo pariatur elit do enim sit. Cillum aliqua voluptate ipsum cillum fugiat velit labore laboris. Anim eu ea adipisicing exercitation et amet eu minim non aute ea cupidatat magna. Tempor consectetur mollit officia et do anim dolor consectetur esse non officia eu laborum. Esse do aliqua nisi do culpa irure exercitation exercitation magna.",
+        "registeredAt": "2014-06-08T12:02:24.881Z",
+        "comments": "",
+        "history": [{
+                "id": 0,
+                "event": "",
+                "amount": "393.69",
+                "timestamp": 1504075156001
+            },
+            {
+                "id": 1,
+                "event": "",
+                "amount": "-3,376.44",
+                "timestamp": 1475283435103
+            },
+            {
+                "id": 2,
+                "event": "",
+                "amount": "2,049.06",
+                "timestamp": 1505732650343
+            },
+            {
+                "id": 3,
+                "event": "",
+                "amount": "2,679.13",
+                "timestamp": 1518571575369
+            },
+            {
+                "id": 4,
+                "event": "",
+                "amount": "-4,484.05",
+                "timestamp": 1522765043142
+            },
+            {
+                "id": 5,
+                "event": "",
+                "amount": "1,437.23",
+                "timestamp": 1430875056730
+            }
+        ]
+    },
+    {
+        "_id": "5b93faa6b08dec5df9bf4f8d",
+        "model": "",
+        "type": "",
+        "isAvailable": false,
+        "isDamaged": true,
+        "totalBalance": "1,407.30",
+        "picture": "http://placehold.it/32x32",
+        "age": 10,
+        "location": {
+            "latitude": "-83.634312",
+            "longitude": "36.800965"
+        },
+        "address": "671 Rockwell Place, Carbonville, Indiana, 3008",
+        "description": "Eiusmod duis nisi do et eu non dolor nisi anim commodo cillum ullamco dolore. Pariatur consequat ex deserunt incididunt deserunt ea enim tempor et sunt laboris tempor. Aliqua labore minim et ad consequat labore exercitation ipsum nisi et do anim anim dolore. Et irure reprehenderit ex excepteur adipisicing consequat quis dolor irure aliquip culpa.",
+        "registeredAt": "2017-08-07T13:16:18.032Z",
+        "comments": "",
+        "history": [{
+                "id": 0,
+                "event": "",
+                "amount": "6,989.09",
+                "timestamp": 1422160262946
+            },
+            {
+                "id": 1,
+                "event": "",
+                "amount": "1,036.79",
+                "timestamp": 1502697789623
+            },
+            {
+                "id": 2,
+                "event": "",
+                "amount": "-3,331.03",
+                "timestamp": 1437943455013
+            },
+            {
+                "id": 3,
+                "event": "",
+                "amount": "-2,815.76",
+                "timestamp": 1442400054195
+            },
+            {
+                "id": 4,
+                "event": "",
+                "amount": "-1,558.44",
+                "timestamp": 1486131868842
+            },
+            {
+                "id": 5,
+                "event": "",
+                "amount": "3,043.96",
+                "timestamp": 1518325380381
+            },
+            {
+                "id": 6,
+                "event": "",
+                "amount": "6,695.49",
+                "timestamp": 1518156832214
             }
         ]
     }

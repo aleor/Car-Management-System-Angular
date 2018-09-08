@@ -5,6 +5,7 @@ const fs = require('fs');
 const app = express();
 let customers = JSON.parse(fs.readFileSync('data/properties.json', 'utf-8'));
 let states = JSON.parse(fs.readFileSync('data/states.json', 'utf-8'));
+let cars = JSON.parse(fs.readFileSync('data/cars.json', 'utf-8'));
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
@@ -30,6 +31,10 @@ app.get('/api/properties/page/:skip/:top', (req, res) => {
 
 app.get('/api/properties', (req, res) => {
     res.json(customers);
+});
+
+app.get('/api/cars', (req, res) => {
+    res.json(cars);
 });
 
 app.get('/api/customers/:id', (req, res) => {
