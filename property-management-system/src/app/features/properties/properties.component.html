@@ -1,15 +1,14 @@
 <div class="customers view indent">
     <div class="container">
         <div class="header">
-            <mat-icon>domain</mat-icon>
-            <span>Properties</span>
+            <span>Cars</span>
         </div>
 
         <div class="properties-panel">
             <div>
                 <button mat-button color="primary">
                     <mat-icon>add</mat-icon>
-                    <span>Add new property</span>
+                    <span>Add new car</span>
                 </button>
                 <pms-properties-view-selector></pms-properties-view-selector>
             </div>
@@ -23,13 +22,6 @@
         <pms-properties-card-view [properties]="properties"></pms-properties-card-view>
     </div>
 </div>
-<!-- <div class="col-md-10">
-                <div class="navbar">
-                    
-                    <cm-filter-textbox class="navbar-right" (changed)="filterChanged($event)"></cm-filter-textbox>
-        </div> 
-        </div>-->
-
 
 <!-- <cm-customers-card 
           [customers]="filteredCustomers" 
@@ -54,6 +46,3 @@
             [totalItems]="totalRecords" 
             [pageSize]="pageSize" 
             (pageChanged)="pageChanged($event)"></cm-pagination> -->
-
-<!-- </div>
-</div> -->
