@@ -1,10 +1,11 @@
 <div class="pms-card">
     <mat-card>
         <mat-card-header>
-            <mat-card-title>{{property.firstName}}</mat-card-title>
-            <mat-card-subtitle>{{property.lastName}}</mat-card-subtitle>
+            <mat-card-title>{{property.model}}</mat-card-title>
+            <mat-card-subtitle>{{property.type}}</mat-card-subtitle>
         </mat-card-header>
-        <mat-card-content>{{property.address}}</mat-card-content>
+        <mat-divider></mat-divider>
+        <mat-card-content>{{property.description}}</mat-card-content>
         <mat-divider></mat-divider>
         <mat-card-actions>
             <button mat-button color="primary">

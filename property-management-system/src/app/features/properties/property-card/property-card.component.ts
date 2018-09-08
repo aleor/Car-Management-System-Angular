@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Property } from '../../../shared/models/property.model';
+import { Car } from '../../../shared/models/car.model';
 
 @Component({
   selector: 'pms-property-card',
@@ -8,7 +9,7 @@ import { Property } from '../../../shared/models/property.model';
 })
 export class PropertyCardComponent implements OnInit {
 
-  @Input() property: Property;
+  @Input() property: Car;
   
   constructor() { }
 
