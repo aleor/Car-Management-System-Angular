@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { AngularMaterialModule } from '../../angular-material.module';
 import { PropertiesRoutingModule } from './properties-routing.module';
 import { DataService } from '../../core/services/data.service';
+import { FilterService } from '../../core/services/filter.service';
 
 @NgModule({
   imports: [
@@ -11,6 +12,9 @@ import { DataService } from '../../core/services/data.service';
     PropertiesRoutingModule
   ],
   declarations: [PropertiesRoutingModule.components],
-  providers: [ DataService ]
+  providers: [
+    DataService,
+    FilterService 
+  ]
 })
 export class PropertiesModule { }

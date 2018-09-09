@@ -14,11 +14,11 @@
                 <pms-properties-view-selector (viewModeChanged)="changeViewMode($event)"></pms-properties-view-selector>
             </div>
             <mat-form-field>
-                <input matInput (keyup)="applyFilter($event.target.value)" placeholder="Filter">
+                <input matInput (keyup)="applyFilter($event.target.value)" matTooltip="Filter by model, type or city" placeholder="Filter" />
             </mat-form-field>
         </div>
         <div [ngSwitch]="selectedViewMode">
-            <pms-properties-card-view *ngSwitchCase="viewMode.Card" [properties]="cars"></pms-properties-card-view>
+            <pms-properties-card-view *ngSwitchCase="viewMode.Card" [properties]="filteredCars"></pms-properties-card-view>
             <div *ngSwitchCase="!viewMode.Card">{{selectedViewMode}}</div>
         </div>
     </div>

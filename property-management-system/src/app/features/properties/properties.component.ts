@@ -3,6 +3,7 @@ import { DataService } from '../../core/services/data.service';
 import { Property } from '../../shared/models/property.model';
 import { Car } from '../../shared/models/car.model';
 import { PropertiesViewMode } from './properties-view-mode.enum';
+import { FilterService } from '../../core/services/filter.service';
 
 @Component({
   selector: 'pms-properties',
@@ -15,7 +16,10 @@ export class PropertiesComponent implements OnInit {
   selectedViewMode: PropertiesViewMode = PropertiesViewMode.Card;
   viewMode = PropertiesViewMode;
   cars: Car[] = [];
-  constructor(private dataService: DataService) { }
+  filteredCars: Car[] = [];
+  constructor(
+    private dataService: DataService,
+    private filterService: FilterService) { }
 
   ngOnInit() {
     this.getProperties();
@@ -27,11 +31,19 @@ export class PropertiesComponent implements OnInit {
   }
 
   getCars() {
-    this.dataService.getCars().subscribe(res => this.cars = res);
+    this.dataService.getCars().subscribe(res => {
+      this.cars = res;
+      this.filteredCars = res; 
+    });
   }
 
-  applyFilter(filterBy: string) {
-    console.log(filterBy);
+  applyFilter(searchString: string) {
+    if (!searchString) {
+      this.filteredCars = this.cars;
+    }
+    searchString = searchString.toUpperCase();
+    const propsToFilterBy = ['model', 'type', 'address.city'];
+    this.filteredCars = this.filterService.filter<Car>(this.cars, searchString, propsToFilterBy);
   }
 
   changeViewMode(newMode: any) {

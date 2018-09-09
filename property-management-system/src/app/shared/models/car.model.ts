@@ -13,7 +13,14 @@ export class Car {
       latitude: number;
       longitude: number;
     };
-    address: string;
+    address: {
+      city: string;
+      state: string;
+      country: string;
+      street: string;
+      zip: number;
+      building: number;
+    };
     country: string = 'US';
     description: string;
     registeredAt: Date;
