@@ -4,6 +4,7 @@ import { Car } from '../../shared/models/car.model';
 import { ViewMode } from './view-mode.enum';
 import { FilterService } from '../../core/services/filter.service';
 import { PagedResults } from '../../shared/models/paged-results.model';
+import { PageEvent } from '@angular/material';
 
 @Component({
   selector: 'pms-cars',
@@ -17,19 +18,23 @@ export class CarsComponent implements OnInit {
   cars: Car[] = [];
   filteredCars: Car[] = [];
 
-  private totalRecords: number;
-  private defaultPageSize = 10;
+  totalRecords: number;
+  pageSize = 10;
+
+  searchString = '';
+
+  private currentPage = 0;
 
   constructor(
     private dataService: DataService,
     private filterService: FilterService) { }
 
   ngOnInit() {
-    this.getCarsPage(1);
+    this.getCarsPage(this.currentPage);
   }
 
   getCarsPage(page: number) {
-    this.dataService.takeCars((page - 1) * this.defaultPageSize, this.defaultPageSize)
+    this.dataService.takeCars(page * this.pageSize, this.pageSize)
         .subscribe((response: PagedResults<Car[]>) => {
           this.cars = response.results;
           this.filteredCars = response.results;
@@ -38,16 +43,30 @@ export class CarsComponent implements OnInit {
         (err: any) => {console.log(err)});
   }
 
-  applyFilter(searchString: string) {
-    if (!searchString) {
+  applyFilter() {
+    console.log('apply');
+    if (!this.searchString) {
       this.filteredCars = this.cars;
     }
-    searchString = searchString.toUpperCase();
+    const filterBy = this.searchString.toUpperCase();
     const propsToFilterBy = ['model', 'type', 'address.city'];
-    this.filteredCars = this.filterService.filter<Car>(this.cars, searchString, propsToFilterBy);
+    this.filteredCars = this.filterService.filter<Car>(this.cars, filterBy, propsToFilterBy);
   }
 
   changeViewMode(newMode: any) {
     this.selectedViewMode = newMode;
+  }
+
+  onPageParamsChanged(params: PageEvent) {
+    if (this.pageSize !== params.pageSize || this.currentPage !== params.pageIndex) {
+      this.pageSize = params.pageSize;
+      this.getCarsPage(params.pageIndex);
+      this.clearFilter();
+    }
+  }
+
+  clearFilter(): any {
+    this.searchString = '';
+    this.applyFilter();
   }
 }

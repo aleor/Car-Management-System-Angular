@@ -14,7 +14,14 @@
                 <pms-view-selector (viewModeChanged)="changeViewMode($event)"></pms-view-selector>
             </div>
             <mat-form-field>
-                <input matInput (keyup)="applyFilter($event.target.value)" matTooltip="Filter by model, type or city" placeholder="Filter" />
+                <input matInput 
+                    (ngModelChange)="applyFilter()"
+                    [(ngModel)]="searchString"
+                    matTooltip="Filter by model, type or city"
+                    placeholder="Filter" />
+                <button mat-button *ngIf="searchString" matSuffix mat-icon-button aria-label="Clear" (click)="clearFilter()">
+                    <mat-icon>close</mat-icon>
+                  </button>
             </mat-form-field>
         </div>
     </div>
@@ -24,7 +31,10 @@
         <pms-cars-table-view *ngSwitchCase="viewMode.Table" [cars]="filteredCars"></pms-cars-table-view>
     </div>
 
-    <pms-pagination></pms-pagination>
+    <pms-pagination [totalItems]="totalRecords"
+        [itemsPerPage]="pageSize"
+        (pageChanges)="onPageParamsChanged($event)">
+    </pms-pagination>
 </div>
 
 <!-- 
@@ -43,8 +53,4 @@
             [longitude]="customer.longitude"
             [markerText]="'<h3>' + customer.firstName + ' ' + customer.lastName + '</a></h3>' + customer.city + ', ' + customer.state.name"></cm-map-point>
         </cm-map>
-
-        <cm-pagination
-            [totalItems]="totalRecords" 
-            [pageSize]="pageSize" 
-            (pageChanged)="pageChanged($event)"></cm-pagination> -->
+-->
