@@ -4,39 +4,16 @@
   </button>
 
 <mat-menu #viewMenu="matMenu">
-    <button mat-menu-item>
+    <button mat-menu-item (click)="changeViewMode(viewMode.Card)">
       <mat-icon>view_module</mat-icon>
       <span>Card View</span>
     </button>
-    <button mat-menu-item>
+    <button mat-menu-item (click)="changeViewMode(viewMode.Table)">
       <mat-icon>view_headline</mat-icon>
       <span>Table View</span>
     </button>
-    <button mat-menu-item>
+    <button mat-menu-item (click)="changeViewMode(viewMode.Map)">
       <mat-icon>place</mat-icon>
       <span>Map View</span>
     </button>
 </mat-menu>
-
-<!-- <ul class="nav navbar-nav">
-    <li class="toolbar-item">
-        <a (click)="changeViewMode(propertiesViewMode.Card)" [class.active]="viewMode === propertiesViewMode.Card">
-            <span class="glyphicon glyphicon-th-large"></span> Card View
-        </a>
-    </li>
-    <li class="toolbar-item">
-        <a (click)="changeViewMode(propertiesViewMode.Table)" [class.active]="viewMode === propertiesViewMode.Table">
-            <span class="glyphicon glyphicon-align-justify"></span> List View
-        </a>
-    </li>
-    <li class="toolbar-item">
-        <a (click)="changeViewMode(propertiesViewMode.Map)" [class.active]="viewMode === propertiesViewMode.Map">
-            <span class="glyphicon glyphicon-map-marker"></span> Map View
-        </a>
-    </li>
-    <li class="toolbar-item">
-        <a routerLink="/customers/0/edit">
-            <span class="glyphicon glyphicon-plus"></span> Add new property
-        </a>
-    </li>
-</ul> -->

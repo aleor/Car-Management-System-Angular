@@ -7,17 +7,20 @@
         <div class="properties-panel">
             <div>
                 <button mat-button color="primary">
+                        <!--<a routerLink="/customers/0/edit">-->
                     <mat-icon>add</mat-icon>
                     <span>Add new car</span>
                 </button>
-                <pms-properties-view-selector></pms-properties-view-selector>
+                <pms-properties-view-selector (viewModeChanged)="changeViewMode($event)"></pms-properties-view-selector>
             </div>
             <mat-form-field>
                 <input matInput (keyup)="applyFilter($event.target.value)" placeholder="Filter">
             </mat-form-field>
         </div>
-
-        <pms-properties-card-view [properties]="cars"></pms-properties-card-view>
+        <div [ngSwitch]="selectedViewMode">
+            <pms-properties-card-view *ngSwitchCase="viewMode.Card" [properties]="cars"></pms-properties-card-view>
+            <div *ngSwitchCase="!viewMode.Card">{{selectedViewMode}}</div>
+        </div>
     </div>
 </div>
 

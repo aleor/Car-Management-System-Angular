@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { DataService } from '../../core/services/data.service';
 import { Property } from '../../shared/models/property.model';
 import { Car } from '../../shared/models/car.model';
+import { PropertiesViewMode } from './properties-view-mode.enum';
 
 @Component({
   selector: 'pms-properties',
@@ -11,6 +12,8 @@ import { Car } from '../../shared/models/car.model';
 export class PropertiesComponent implements OnInit {
 
   properties: Property[] = [];
+  selectedViewMode: PropertiesViewMode = PropertiesViewMode.Card;
+  viewMode = PropertiesViewMode;
   cars: Car[] = [];
   constructor(private dataService: DataService) { }
 
@@ -29,6 +32,10 @@ export class PropertiesComponent implements OnInit {
 
   applyFilter(filterBy: string) {
     console.log(filterBy);
+  }
+
+  changeViewMode(newMode: any) {
+    this.selectedViewMode = newMode;
   }
 
 }

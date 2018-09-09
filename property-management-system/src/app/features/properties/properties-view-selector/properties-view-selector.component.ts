@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
 import { PropertiesViewMode } from '../properties-view-mode.enum';
 
 @Component({
@@ -6,18 +6,16 @@ import { PropertiesViewMode } from '../properties-view-mode.enum';
   templateUrl: './properties-view-selector.component.html',
   styleUrls: ['./properties-view-selector.component.scss']
 })
-export class PropertiesViewSelectorComponent implements OnInit {
+export class PropertiesViewSelectorComponent {
 
-  viewMode: PropertiesViewMode;
-  propertiesViewMode: PropertiesViewMode = PropertiesViewMode.Card;
+  @Output() viewModeChanged: EventEmitter<PropertiesViewMode> = new EventEmitter<PropertiesViewMode>();
+
+  viewMode = PropertiesViewMode;
 
   constructor() { }
 
-  ngOnInit() {
-  }
-
-  changeViewMode(setMode: PropertiesViewMode) {
-    console.log(setMode);
+  changeViewMode(newMode: any) {
+    this.viewModeChanged.emit(newMode);
   }
 
 }
