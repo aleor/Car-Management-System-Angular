@@ -3,6 +3,7 @@ import { DataService } from '../../core/services/data.service';
 import { Car } from '../../shared/models/car.model';
 import { ViewMode } from './view-mode.enum';
 import { FilterService } from '../../core/services/filter.service';
+import { PagedResults } from '../../shared/models/paged-results.model';
 
 @Component({
   selector: 'pms-cars',
@@ -15,19 +16,26 @@ export class CarsComponent implements OnInit {
   viewMode = ViewMode;
   cars: Car[] = [];
   filteredCars: Car[] = [];
+
+  private totalRecords: number;
+  private defaultPageSize = 10;
+
   constructor(
     private dataService: DataService,
     private filterService: FilterService) { }
 
   ngOnInit() {
-    this.getCars();
+    this.getCarsPage(1);
   }
 
-  getCars() {
-    this.dataService.getCars().subscribe(res => {
-      this.cars = res;
-      this.filteredCars = res; 
-    });
+  getCarsPage(page: number) {
+    this.dataService.takeCars((page - 1) * this.defaultPageSize, this.defaultPageSize)
+        .subscribe((response: PagedResults<Car[]>) => {
+          this.cars = response.results;
+          this.filteredCars = response.results;
+          this.totalRecords = response.totalRecords;
+        },
+        (err: any) => {console.log(err)});
   }
 
   applyFilter(searchString: string) {

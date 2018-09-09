@@ -12,29 +12,23 @@ app.use(bodyParser.json());
 
 app.use(express.static(__dirname + '/dist'));
 
-app.get('/api/properties/page/:skip/:top', (req, res) => {
+app.get('/api/cars', (req, res) => {
+    res.json(cars);
+});
+
+app.get('/api/cars/page/:skip/:top', (req, res) => {
     const topVal = req.params.top,
         skipVal = req.params.skip,
         skip = (isNaN(skipVal)) ? 0 : +skipVal;
     let top = (isNaN(topVal)) ? 10 : skip + (+topVal);
 
-    if (top > customers.length) {
-        top = skip + (customers.length - skip);
+    if (top > cars.length) {
+        top = skip + (cars.length - skip);
     }
 
-    console.log(`Skip: ${skip} Top: ${top}`);
-
-    var pagedCustomers = customers.slice(skip, top);
-    res.setHeader('X-InlineCount', customers.length);
-    res.json(pagedCustomers);
-});
-
-app.get('/api/properties', (req, res) => {
-    res.json(customers);
-});
-
-app.get('/api/cars', (req, res) => {
-    res.json(cars);
+    var pagedCars = cars.slice(skip, top);
+    res.setHeader('X-InlineCount', cars.length);
+    res.json(pagedCars);
 });
 
 app.get('/api/customers/:id', (req, res) => {

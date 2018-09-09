@@ -22,12 +22,30 @@ export class DataService {
 
     constructor(private http: HttpClient) { }
 
-    getCars(): Observable<Car[]> {
+    takeAllCars(): Observable<Car[]> {
         return this.http.get<Car[]>(this.carsBaseUrl)
             .pipe(
                 map(car => {
                     // this.calculateCustomersOrderTotal(properties);
                     return car;
+                }),
+                catchError(this.handleError)
+            );
+    }
+
+    takeCars(page: number, pageSize: number): Observable<PagedResults<Car[]>> {
+        return this.http.get<Car[]>(
+            `${this.carsBaseUrl}/page/${page}/${pageSize}`,
+            { observe: 'response' })
+            .pipe(
+                map(res => {
+                    const totalRecords = +res.headers.get('X-InlineCount');
+                    const cars = res.body as Car[];
+                    // this.calculateCustomersOrderTotal(properties);
+                    return {
+                        results: cars,
+                        totalRecords: totalRecords
+                    };
                 }),
                 catchError(this.handleError)
             );
