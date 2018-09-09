@@ -1,20 +1,18 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from '../../core/services/data.service';
-import { Property } from '../../shared/models/property.model';
 import { Car } from '../../shared/models/car.model';
-import { PropertiesViewMode } from './properties-view-mode.enum';
+import { ViewMode } from './view-mode.enum';
 import { FilterService } from '../../core/services/filter.service';
 
 @Component({
-  selector: 'pms-properties',
-  templateUrl: './properties.component.html',
-  styleUrls: ['./properties.component.scss']
+  selector: 'pms-cars',
+  templateUrl: './cars.component.html',
+  styleUrls: ['./cars.component.scss']
 })
-export class PropertiesComponent implements OnInit {
+export class CarsComponent implements OnInit {
 
-  properties: Property[] = [];
-  selectedViewMode: PropertiesViewMode = PropertiesViewMode.Card;
-  viewMode = PropertiesViewMode;
+  selectedViewMode: ViewMode = ViewMode.Tile;
+  viewMode = ViewMode;
   cars: Car[] = [];
   filteredCars: Car[] = [];
   constructor(
@@ -22,12 +20,7 @@ export class PropertiesComponent implements OnInit {
     private filterService: FilterService) { }
 
   ngOnInit() {
-    this.getProperties();
     this.getCars();
-  }
-
-  getProperties() {
-    this.dataService.getProperties().subscribe(res => this.properties = res);
   }
 
   getCars() {
@@ -49,5 +42,4 @@ export class PropertiesComponent implements OnInit {
   changeViewMode(newMode: any) {
     this.selectedViewMode = newMode;
   }
-
 }

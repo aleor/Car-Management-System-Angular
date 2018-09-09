@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AngularMaterialModule } from '../../angular-material.module';
-import { PropertiesRoutingModule } from './properties-routing.module';
+import { CarsRoutingModule } from './cars-routing.module';
 import { DataService } from '../../core/services/data.service';
 import { FilterService } from '../../core/services/filter.service';
 
@@ -9,12 +9,12 @@ import { FilterService } from '../../core/services/filter.service';
   imports: [
     CommonModule,
     AngularMaterialModule,
-    PropertiesRoutingModule
+    CarsRoutingModule
   ],
-  declarations: [PropertiesRoutingModule.components],
+  declarations: [CarsRoutingModule.components],
   providers: [
     DataService,
     FilterService 
   ]
 })
-export class PropertiesModule { }
+export class CarsModule { }

@@ -4,29 +4,27 @@
             <span>Cars</span>
         </div>
 
-        <div class="properties-panel">
+        <div class="actions-panel">
             <div>
                 <button mat-button color="primary">
                         <!--<a routerLink="/customers/0/edit">-->
                     <mat-icon>add</mat-icon>
                     <span>Add new car</span>
                 </button>
-                <pms-properties-view-selector (viewModeChanged)="changeViewMode($event)"></pms-properties-view-selector>
+                <pms-view-selector (viewModeChanged)="changeViewMode($event)"></pms-view-selector>
             </div>
             <mat-form-field>
                 <input matInput (keyup)="applyFilter($event.target.value)" matTooltip="Filter by model, type or city" placeholder="Filter" />
             </mat-form-field>
         </div>
         <div [ngSwitch]="selectedViewMode">
-            <pms-properties-card-view *ngSwitchCase="viewMode.Card" [properties]="filteredCars"></pms-properties-card-view>
-            <div *ngSwitchCase="!viewMode.Card">{{selectedViewMode}}</div>
+            <pms-cars-tile-view *ngSwitchCase="viewMode.Tile" [cars]="filteredCars"></pms-cars-tile-view>
+            <div *ngSwitchCase="!viewMode.Tile">{{selectedViewMode}}</div>
         </div>
     </div>
 </div>
 
-<!-- <cm-customers-card 
-          [customers]="filteredCustomers" 
-          [hidden]="displayMode !== displayModeEnum.Card"></cm-customers-card>
+<!-- 
     
         <cm-customers-grid 
           [customers]="filteredCustomers" 
