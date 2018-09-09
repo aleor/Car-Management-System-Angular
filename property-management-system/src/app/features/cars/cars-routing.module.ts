@@ -5,8 +5,7 @@ import { CarsComponent } from './cars.component';
 import { CarTileComponent } from './car-tile/car-tile.component';
 import { CarsTileViewComponent } from './cars-tile-view/cars-tile-view.component';
 import { ViewSelectorComponent } from './view-selector/view-selector.component';
-// import { CustomersCardComponent } from './customers-card.component';
-// import { CustomersGridComponent } from './customers-grid.component';
+import { CarsTableViewComponent } from './cars-table-view/cars-table-view.component';
 
 const routes: Routes = [
   { path: '', component: CarsComponent }
@@ -21,6 +20,7 @@ export class CarsRoutingModule {
       CarsComponent, 
       CarTileComponent,
       CarsTileViewComponent,
-      ViewSelectorComponent //, CustomersGridComponent 
+      ViewSelectorComponent,
+      CarsTableViewComponent 
     ];
 }

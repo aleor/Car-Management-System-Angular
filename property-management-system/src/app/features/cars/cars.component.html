@@ -17,11 +17,14 @@
                 <input matInput (keyup)="applyFilter($event.target.value)" matTooltip="Filter by model, type or city" placeholder="Filter" />
             </mat-form-field>
         </div>
-        <div [ngSwitch]="selectedViewMode">
-            <pms-cars-tile-view *ngSwitchCase="viewMode.Tile" [cars]="filteredCars"></pms-cars-tile-view>
-            <div *ngSwitchCase="!viewMode.Tile">{{selectedViewMode}}</div>
-        </div>
     </div>
+
+    <div [ngSwitch]="selectedViewMode">
+        <pms-cars-tile-view *ngSwitchCase="viewMode.Tile" [cars]="filteredCars"></pms-cars-tile-view>
+        <pms-cars-table-view *ngSwitchCase="viewMode.Table" [cars]="filteredCars"></pms-cars-table-view>
+    </div>
+
+    <pms-pagination></pms-pagination>
 </div>
 
 <!-- 
