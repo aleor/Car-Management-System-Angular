@@ -1,0 +1,39 @@
+[
+    {
+      'repeat(31, 31)': {
+        _id: '{{objectId()}}',
+        model: '{{random("Toyota Corolla", "Toyota Camry", "Toyota RAV 4", "Nissan Rogue", "Ford Explorer", "Ford Fusion", "Mercedez-Benz C-Class", "Volkswagen Jetta", "Jeep Grand Cherokee")}}',
+        type: '',
+        isAvailable: '{{bool()}}',
+        isDamaged: '{{bool()}}',
+        totalBalance: '{{floating(-7000, 48454, 2, "0,0.00")}}',
+        picture: 'http://placehold.it/32x32',
+        age: '{{integer(0, 5)}}',
+        location: {
+          latitude: '{{floating(-90.000001, 90)}}',
+          longitude: '{{floating(-180.000001, 180)}}'
+        },
+        address: {
+            city: '{{city()}}',
+            state: '{{state()}}',
+            country: 'US',
+            street: '{{street()}}',
+            zip: '{{integer(100, 10000)}}',
+            building: '{{integer(100, 999)}}'
+        },
+        description: '{{lorem(1, "paragraphs")}}',
+        registeredAt: '{{moment(this.date(new Date(2017, 0, 1), new Date())).toJSON()}}',
+        comments: '',
+        history: [
+          {
+            'repeat(2, 12)': {
+              id: '{{index()}}',
+              event: '',
+              amount: '{{floating(-5000, 7000, 2, "0,0.00")}}',
+              timestamp: '{{date(new Date(2017, 0, 1), new Date()).getTime()}}'
+            }
+          }
+        ]
+      }
+    }
+  ]
