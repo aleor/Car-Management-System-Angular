@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormBuilder, Validators } from '@angular/forms';
+import { FormGroup, FormBuilder, Validators, FormControl } from '@angular/forms';
 import { Router } from '@angular/router';
 import { AuthService } from '../../core/services/auth.service';
 import { LoginData } from '../../shared/models/login-data.model';
@@ -11,7 +11,8 @@ import { ValidationService } from '../../core/services/validation.service';
   styleUrls: ['./login-form.component.scss']
 })
 export class LoginFormComponent implements OnInit {
-
+  email = new FormControl('', [Validators.required, ValidationService.emailValidator]);
+  password = new FormControl('', [ Validators.required, ValidationService.passwordValidator]);
   loginForm: FormGroup;
   errorMessage: string;
 
@@ -28,8 +29,8 @@ export class LoginFormComponent implements OnInit {
 
     buildForm() {
         this.loginForm = this.formBuilder.group({
-            email:      ['', [ Validators.required, ValidationService.emailValidator ]],
-            password:   ['', [ Validators.required, ValidationService.passwordValidator ]]
+            email:  this.email,
+            password: this.password
         });
     }
 
@@ -57,4 +58,9 @@ export class LoginFormComponent implements OnInit {
             });
     }
 
+    getErrors() {
+      return this.email.hasError('required') ? 'You must enter a value' :
+        this.email.hasError('email') ? 'Not a valid email' :
+            '';
+  }
 }

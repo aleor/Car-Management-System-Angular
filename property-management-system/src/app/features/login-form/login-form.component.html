@@ -1,39 +1,38 @@
-<!-- <div class="view">
   <div class="container">
-      <header>
-          <h3><span class="glyphicon glyphicon-lock"></span> Login</h3>
-      </header>
-      <br />
+      <div class="header">
+          <mat-icon>how_to_reg</mat-icon>
+          <span>Login</span>
+      </div>
+      <div class="login-form">
       <form [formGroup]="loginForm" (ngSubmit)="submit(loginForm)" class="login-form" novalidate>
           <div class="login">
               <div class="row">
-                  <div class="col-md-2">
-                      Email:
-                  </div>
-                  <div class="col-md-10">
-                      <input type="email" name="email" class="form-control" formControlName="email" />
-                      <div class="alert alert-danger" [hidden]="loginForm.controls.email.untouched || loginForm.controls.email.valid">
-                          A valid email address is required
-                      </div>
-                  </div>
+                  <mat-form-field>
+                      <input matInput placeholder="Enter your email" formControlName="email" required>
+                      <mat-error *ngIf="email.invalid">Invalid e-mail</mat-error>
+                    </mat-form-field>
               </div>
               <br />
               <div class="row">
-                  <div class="col-md-2">
-                      Password:
-                  </div>
-                  <div class="col-md-10">
-                      <input type="password" name="password" class="form-control" formControlName="password" />
-                      <div class="alert alert-danger" [hidden]="loginForm.controls.password.untouched || loginForm.controls.password.valid">
-                          Password is required (6 or more characters with at least one number)
-                      </div>
-                  </div>
+                  <mat-form-field>
+                      <input matInput placeholder="Enter your password" formControlName="password" required>
+                      <mat-error *ngIf="password.invalid">
+                        Invalid password, it should have 6 to 30 symbols, at least 1 digit and no spaces
+                      </mat-error>
+                    </mat-form-field>
               </div>
               <br />
-              <div class="row">
-                  <div class="col-md-12">
-                      <button type="submit" class="btn btn-success" [disabled]="!loginForm.valid">Login</button>
-                  </div>
+              <div class="row centered">
+                <span matTooltip="Please provide an e-mail and password"
+                  [matTooltipDisabled]="loginForm.valid">
+                    <button 
+                      mat-stroked-button 
+                      color="primary" 
+                      type="submit" 
+                      [disabled]="!loginForm.valid">
+                      Login
+                    </button>
+                  </span>
               </div>
               <br />
               <div class="statusRow">
@@ -44,7 +43,6 @@
               </div>
           </div>
       </form>
+    </div>
       
   </div>
-</div> -->
-Login form goes here
