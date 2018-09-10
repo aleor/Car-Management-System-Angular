@@ -1,7 +1,7 @@
-import { HistoryRecord } from "./history-record.model";
+import { HistoryRecord } from './history-record.model';
 
 export class Car {
-    _id: string;
+    id: number;
     model: string;
     type: string;
     isAvailable: boolean;

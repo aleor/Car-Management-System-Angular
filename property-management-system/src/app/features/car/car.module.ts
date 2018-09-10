@@ -4,6 +4,7 @@ import { CarRoutingModule } from './car-routing.module';
 import { SharedModule } from '../../shared/shared.module';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { DataService } from '../../core/services/data.service';
 
 @NgModule({
   imports: [
@@ -13,6 +14,7 @@ import { FormsModule } from '@angular/forms';
     CommonModule,
     FormsModule
   ],
-  declarations: [CarRoutingModule.components]
+  declarations: [CarRoutingModule.components],
+  providers: [DataService]
 })
 export class CarModule { }

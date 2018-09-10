@@ -30,42 +30,41 @@ app.get('/api/cars/page/:skip/:top', (req, res) => {
     res.json(pagedCars);
 });
 
-app.get('/api/customers/:id', (req, res) => {
-    let customerId = +req.params.id;
-    let selectedCustomer = {};
-    for (let customer of customers) {
-        if (customer.id === customerId) {
-            selectedCustomer = customer;
+app.get('/api/cars/:id', (req, res) => {
+    let carId = +req.params.id;
+    let selectedCar = {};
+    for (let car of cars) {
+        if (car.id === carId) {
+            selectedCar = car;
             break;
         }
     }
-    res.json(selectedCustomer);
+    res.json(selectedCar);
 });
 
-app.post('/api/customers', (req, res) => {
-    let postedCustomer = req.body;
-    let maxId = Math.max.apply(Math, customers.map((cust) => cust.id));
-    postedCustomer.id = ++maxId;
-    postedCustomer.gender = (postedCustomer.id % 2 === 0) ? 'female' : 'male';
-    customers.push(postedCustomer);
-    res.json(postedCustomer);
+app.post('/api/cars', (req, res) => {
+    let postedCar = req.body;
+    let currentMaxId = Math.max.apply(Math, cars.map((car) => car.id));
+    postedCar.id = currentMaxId++;
+    cars.push(postedCar);
+    res.json(postedCar);
 });
 
-app.put('/api/customers/:id', (req, res) => {
-    let putCustomer = req.body;
+app.put('/api/carss/:id', (req, res) => {
+    let putCar = req.body;
     let id = +req.params.id;
     let status = false;
 
     //Ensure state name is in sync with state abbreviation 
-    const filteredStates = states.filter((state) => state.abbreviation === putCustomer.state.abbreviation);
-    if (filteredStates && filteredStates.length) {
-        putCustomer.state.name = filteredStates[0].name;
-        console.log('Updated putCustomer state to ' + putCustomer.state.name);
-    }
+    // const filteredStates = states.filter((state) => state.abbreviation === putCustomer.state.abbreviation);
+    // if (filteredStates && filteredStates.length) {
+    //     putCustomer.state.name = filteredStates[0].name;
+    //     console.log('Updated putCustomer state to ' + putCustomer.state.name);
+    // }
 
-    for (let i = 0, len = customers.length; i < len; i++) {
-        if (customers[i].id === id) {
-            customers[i] = putCustomer;
+    for (let i = 0, len = cars.length; i < len; i++) {
+        if (cars[i].id === id) {
+            cars[i] = putCar;
             status = true;
             break;
         }
@@ -73,26 +72,26 @@ app.put('/api/customers/:id', (req, res) => {
     res.json({ status: status });
 });
 
-app.delete('/api/customers/:id', function(req, res) {
-    let customerId = +req.params.id;
-    for (let i = 0, len = customers.length; i < len; i++) {
-        if (customers[i].id === customerId) {
-            customers.splice(i, 1);
+app.delete('/api/cars/:id', function(req, res) {
+    let carId = +req.params.id;
+    for (let i = 0, len = cars.length; i < len; i++) {
+        if (cars[i].id === carId) {
+            cars.splice(i, 1);
             break;
         }
     }
     res.json({ status: true });
 });
 
-app.get('/api/orders/:id', function(req, res) {
-    let customerId = +req.params.id;
-    for (let cust of customers) {
-        if (cust.customerId === customerId) {
-            return res.json(cust);
-        }
-    }
-    res.json([]);
-});
+// app.get('/api/orders/:id', function(req, res) {
+//     let carId = +req.params.id;
+//     for (let cust of customers) {
+//         if (cust.customerId === customerId) {
+//             return res.json(cust);
+//         }
+//     }
+//     res.json([]);
+// });
 
 app.get('/api/states', (req, res) => {
     res.json(states);
@@ -100,7 +99,6 @@ app.get('/api/states', (req, res) => {
 
 app.post('/api/auth/login', (req, res) => {
     var userLogin = req.body;
-    console.log(req);
     //Add "real" auth here. Simulating it by returning a simple boolean.
     res.json(true);
 });

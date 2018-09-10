@@ -4,10 +4,10 @@ import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { map, catchError } from 'rxjs/operators';
 import { Booking } from '../../shared/models/booking.model';
-import { State } from '../../shared/models/state.model';
 import { Property } from '../../shared/models/property.model';
 import { PagedResults } from '../../shared/models/paged-results.model';
 import { Car } from '../../shared/models/car.model';
+import { ApiResponse } from '../../shared/models/api-response.model';
 
 // import { ICustomer, IOrder, IState, IPagedResults, IApiResponse } from '../../shared/interfaces';
 
@@ -16,10 +16,8 @@ export class DataService {
 
     private readonly carsBaseUrl = '/api/cars';
     private readonly propertiesBaseUrl = '/api/properties';
-    private readonly bookingsBaseUrl = '/api/bookings';
     orders: Booking[];
-    states: State[];
-
+    
     constructor(private http: HttpClient) { }
 
     takeAllCars(): Observable<Car[]> {
@@ -51,66 +49,37 @@ export class DataService {
             );
     }
 
-    takeProperties(page: number, pageSize: number): Observable<PagedResults<Property[]>> {
-        return this.http.get<Property[]>(
-            `${this.propertiesBaseUrl}/page/${page}/${pageSize}`,
-            { observe: 'response' })
+    getCar(id: number): Observable<Car> {
+        return this.http.get<Car>(this.carsBaseUrl + '/' + id)
             .pipe(
-                map(res => {
-                    const totalRecords = +res.headers.get('X-InlineCount');
-                    const properties = res.body as Property[];
-                    this.calculateCustomersOrderTotal(properties);
-                    return {
-                        results: properties,
-                        totalRecords: totalRecords
-                    };
+                map(car => {
+                    //this.calculateCustomersOrderTotal([customer]);
+                    return car;
                 }),
                 catchError(this.handleError)
             );
     }
 
-    getProperties(): Observable<Property[]> {
-        return this.http.get<Property[]>(this.propertiesBaseUrl)
+    addCar(car: Car): Observable<Car> {
+        return this.http.post<Car>(this.carsBaseUrl, car)
+            .pipe(catchError(this.handleError));
+    }
+
+    updateCar(car: Car): Observable<boolean> {
+        return this.http.put<ApiResponse>(this.carsBaseUrl + '/' + car.id, car)
             .pipe(
-                map(properties => {
-                    this.calculateCustomersOrderTotal(properties);
-                    return properties;
-                }),
+                map(res => res.status),
                 catchError(this.handleError)
             );
     }
 
-    // getCustomer(id: number): Observable<ICustomer> {
-    //     return this.http.get<ICustomer>(this.customersBaseUrl + '/' + id)
-    //         .pipe(
-    //             map(customer => {
-    //                 this.calculateCustomersOrderTotal([customer]);
-    //                 return customer;
-    //             }),
-    //             catchError(this.handleError)
-    //         );
-    // }
-
-    // insertCustomer(customer: ICustomer): Observable<ICustomer> {
-    //     return this.http.post<ICustomer>(this.customersBaseUrl, customer)
-    //         .pipe(catchError(this.handleError));
-    // }
-
-    // updateCustomer(customer: ICustomer): Observable<boolean> {
-    //     return this.http.put<IApiResponse>(this.customersBaseUrl + '/' + customer.id, customer)
-    //         .pipe(
-    //             map(res => res.status),
-    //             catchError(this.handleError)
-    //         );
-    // }
-
-    // deleteCustomer(id: number): Observable<boolean> {
-    //     return this.http.delete<IApiResponse>(this.customersBaseUrl + '/' + id)
-    //         .pipe(
-    //             map(res => res.status),
-    //             catchError(this.handleError)
-    //         );
-    // }
+    deleteCar(id: number): Observable<boolean> {
+        return this.http.delete<ApiResponse>(this.carsBaseUrl + '/' + id)
+            .pipe(
+                map(res => res.status),
+                catchError(this.handleError)
+            );
+    }
 
     // getStates(): Observable<IState[]> {
     //     return this.http.get<IState[]>('/api/states')

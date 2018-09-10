@@ -1,7 +1,7 @@
 [{
-        "_id": "5b9521bd1aba0d0ba150c20e",
+        "id": 1,
         "model": "Ford Fusion",
-        "type": "",
+        "type": "Small Family / Compact size",
         "isAvailable": false,
         "isDamaged": false,
         "totalBalance": "25,465.56",
@@ -19,7 +19,7 @@
             "zip": 4177,
             "building": 841
         },
-        "description": "Minim laborum amet mollit minim voluptate et anim deserunt veniam veniam voluptate aute quis veniam. Minim ut ullamco proident nisi do reprehenderit sunt anim in eu officia proident cupidatat. Magna ipsum irure ea deserunt et.",
+        "description": "Four-door, five passenger mid-size sedan. Has several driver assistance technologies based on sensors, cameras and radar. Safety features include Lane Keeping System; adjust vehicle speed to changing traffic conditions through adaptive cruise control with Forward Collision Warning.",
         "registeredAt": "2017-01-07T10:16:41.147Z",
         "comments": "",
         "history": [{
@@ -67,9 +67,9 @@
         ]
     },
     {
-        "_id": "5b9521bd17ca0831321fff5a",
+        "id": 2,
         "model": "Ford Explorer",
-        "type": "",
+        "type": "Crossover SUV",
         "isAvailable": true,
         "isDamaged": false,
         "totalBalance": "-4,076.94",
@@ -87,7 +87,7 @@
             "zip": 7591,
             "building": 120
         },
-        "description": "Non eu enim cupidatat commodo duis reprehenderit exercitation tempor veniam minim ullamco aliquip. Commodo qui id consectetur amet deserunt officia quis ex nulla. Ullamco enim minim eu magna nulla.",
+        "description": "Upscale cabin; abundant high-tech features; excellent ride and handling balance; available fuel-efficient turbocharged four-cylinder.",
         "registeredAt": "2018-03-29T10:09:44.529Z",
         "comments": "",
         "history": [{
@@ -135,9 +135,9 @@
         ]
     },
     {
-        "_id": "5b9521bd49f07e271936bd7f",
+        "id": 3,
         "model": "Toyota Camry",
-        "type": "",
+        "type": "Large family / Mid-size",
         "isAvailable": false,
         "isDamaged": true,
         "totalBalance": "20,785.95",
@@ -155,7 +155,7 @@
             "zip": 6187,
             "building": 828
         },
-        "description": "Irure sunt irure do tempor labore ex eu veniam adipisicing dolore qui veniam enim. Adipisicing voluptate ullamco non in sint nostrud anim. Do id aliqua excepteur deserunt labore nulla aute ut excepteur aliquip dolor pariatur sunt. Ex laboris mollit irure fugiat est aliquip voluptate qui reprehenderit minim quis. Laboris elit officia aute cupidatat in cupidatat ex. Dolore sint duis occaecat ut ex eiusmod enim adipisicing duis. Veniam incididunt magna reprehenderit anim esse et quis reprehenderit culpa culpa.",
+        "description": "2.5 liter 4 Cylinder engine; with top features including the braking assist,​ stability control,​ traction control,​ anti-lock brakes,​ dual airbags,​ side air bag system,​ digital display,​ and airbag deactivation.",
         "registeredAt": "2018-04-13T01:47:19.206Z",
         "comments": "",
         "history": [{
@@ -215,9 +215,9 @@
         ]
     },
     {
-        "_id": "5b9521bd1d4f2e6427e89723",
+        "id": 4,
         "model": "Toyota RAV 4",
-        "type": "",
+        "type": "Crossover SUV",
         "isAvailable": false,
         "isDamaged": false,
         "totalBalance": "40,925.44",
@@ -235,7 +235,7 @@
             "zip": 8078,
             "building": 298
         },
-        "description": "Aliqua nisi sint magna dolor reprehenderit cupidatat officia aute culpa proident aliqua aliquip nisi. Exercitation sit dolor culpa reprehenderit et est duis magna reprehenderit. Fugiat cillum eu deserunt ipsum.",
+        "description": "The vehicle was designed for consumers wanting a vehicle that had most of the benefits of SUVs, such as increased cargo room, higher visibility, and the option of full-time four-wheel drive, along with the maneuverability and fuel economy of a compact car.",
         "registeredAt": "2017-08-01T04:33:59.901Z",
         "comments": "",
         "history": [{
@@ -295,9 +295,9 @@
         ]
     },
     {
-        "_id": "5b9521bdbbceda40a9983ed1",
+        "id": 5,
         "model": "Jeep Grand Cherokee",
-        "type": "",
+        "type": "Crossover SUV",
         "isAvailable": true,
         "isDamaged": true,
         "totalBalance": "-3,641.05",
@@ -315,7 +315,7 @@
             "zip": 4681,
             "building": 500
         },
-        "description": "Laboris enim proident proident et non exercitation quis et eu aute officia occaecat. Tempor non deserunt eu magna do ea anim nisi Lorem. Ea culpa adipisicing consectetur quis ipsum incididunt veniam exercitation sunt minim eu labore. Laborum occaecat enim tempor duis enim cillum in reprehenderit non mollit.",
+        "description": "The fourth-generation Grand Cherokee retains its classic Jeep styling combined with a modern and sleek body style. The interior features leather trim and real wood accents, plus Bluetooth and uConnect electronics options. With the additional awards for the 2011 Grand Cherokee, the Jeep Grand Cherokee has won 30 awards for off-road capability, luxury, value, best-in-class, and safety, making it the most awarded SUV ever.",
         "registeredAt": "2017-07-07T17:32:28.307Z",
         "comments": "",
         "history": [{
@@ -345,9 +345,9 @@
         ]
     },
     {
-        "_id": "5b9521bd6ffde8ffb42bedb6",
+        "id": 5,
         "model": "Volkswagen Jetta",
-        "type": "",
+        "type": "Small family / Compact size",
         "isAvailable": true,
         "isDamaged": true,
         "totalBalance": "10,269.21",
@@ -365,7 +365,7 @@
             "zip": 7653,
             "building": 112
         },
-        "description": "Nisi consequat veniam consectetur est aliqua sit aliqua id cupidatat elit excepteur consequat deserunt sunt. Fugiat ullamco magna magna ad consectetur minim sunt irure voluptate. Dolore ea labore pariatur sit ullamco. Cupidatat et aliquip aliqua consequat enim nulla amet. Lorem do adipisicing eu non pariatur eu esse reprehenderit laboris deserunt do. Elit officia incididunt irure dolore dolor non aliqua laboris ex laboris.",
+        "description": "The revised 2015 Jetta has secured the highest ratings from most of the key crash testing agencies across the world: Top pick+ in IIHS, 5 stars in NHTSA, 5 stars each in EURONCAP and AUSNCAP. It is recognised as one of the safest vehicles in its class.",
         "registeredAt": "2017-09-21T19:01:28.966Z",
         "comments": "",
         "history": [{
@@ -383,9 +383,9 @@
         ]
     },
     {
-        "_id": "5b9521bdd0146b36e8c81cf9",
+        "id": 6,
         "model": "Volkswagen Jetta",
-        "type": "",
+        "type": "Small family / Compact size",
         "isAvailable": false,
         "isDamaged": false,
         "totalBalance": "10,115.05",
@@ -403,7 +403,7 @@
             "zip": 5057,
             "building": 157
         },
-        "description": "Laborum aliquip eiusmod cupidatat laboris ullamco dolore aliqua id aliquip in velit. Quis magna nostrud enim nulla in sunt officia. Aute dolor est sunt velit ea. Mollit nulla sint minim culpa aliquip. Ad nostrud aliquip ad ad laboris esse sunt mollit est. Culpa non et ad minim ipsum id cillum ad non tempor.",
+        "description": "7th generation. Safety features on the Jetta include an Intelligent Crash Response System (ICRS), and a standard safety cage. An automatic post-collision braking system, a tire pressure monitoring system (TPMS), as well as seven safety and stability-enhancing systems all come as standard equipment.",
         "registeredAt": "2017-02-23T05:22:42.792Z",
         "comments": "",
         "history": [{
@@ -481,14 +481,14 @@
         ]
     },
     {
-        "_id": "5b9521bddc24ef8706e2f88c",
+        "id": 7,
         "model": "Ford Explorer",
-        "type": "",
+        "type": "Crossover SUV",
         "isAvailable": false,
         "isDamaged": false,
         "totalBalance": "16,516.67",
         "picture": "http://placehold.it/32x32",
-        "age": 4,
+        "age": 1,
         "location": {
             "latitude": "-63.005027",
             "longitude": "-176.48062"
@@ -501,7 +501,7 @@
             "zip": 630,
             "building": 396
         },
-        "description": "Dolore aute veniam ullamco nulla mollit excepteur et. Officia ullamco amet in Lorem eiusmod dolor dolore quis ea proident et elit voluptate. Culpa irure Lorem laboris voluptate velit excepteur aute aliquip. Dolore incididunt officia dolore ut exercitation nisi dolor incididunt in magna esse. Laboris esse sint laboris eiusmod aliqua. Do cillum nostrud dolore incididunt aliquip qui enim ex.",
+        "description": "This Ford Explorer offers a quiet cabin made with quality materials, seating for seven, and a range of engine choices. ",
         "registeredAt": "2018-02-09T08:22:25.010Z",
         "comments": "",
         "history": [{
@@ -567,89 +567,9 @@
         ]
     },
     {
-        "_id": "5b9521bd92af36c0c5be8e77",
-        "model": "Jeep Grand Cherokee",
-        "type": "",
-        "isAvailable": false,
-        "isDamaged": true,
-        "totalBalance": "14,344.93",
-        "picture": "http://placehold.it/32x32",
-        "age": 2,
-        "location": {
-            "latitude": "2.725199",
-            "longitude": "138.316252"
-        },
-        "address": {
-            "city": "Ogema",
-            "state": "New Jersey",
-            "country": "US",
-            "street": "Miami Court",
-            "zip": 2599,
-            "building": 491
-        },
-        "description": "Cillum ad aute qui est velit velit. Mollit sit est quis magna sint minim excepteur aliquip aliquip ea quis ullamco. Esse sit consequat pariatur culpa consequat mollit sunt est mollit sit duis do est. Reprehenderit Lorem labore qui occaecat aliquip dolor mollit velit in. Occaecat id minim occaecat ad cillum commodo excepteur quis dolor est est duis veniam.",
-        "registeredAt": "2017-12-23T11:03:54.949Z",
-        "comments": "",
-        "history": [{
-                "id": 0,
-                "event": "",
-                "amount": "3,549.16",
-                "timestamp": 1504482209564
-            },
-            {
-                "id": 1,
-                "event": "",
-                "amount": "4,426.32",
-                "timestamp": 1502010577476
-            },
-            {
-                "id": 2,
-                "event": "",
-                "amount": "5,032.89",
-                "timestamp": 1484948650612
-            },
-            {
-                "id": 3,
-                "event": "",
-                "amount": "-143.50",
-                "timestamp": 1512143437227
-            },
-            {
-                "id": 4,
-                "event": "",
-                "amount": "4,092.24",
-                "timestamp": 1489872104684
-            },
-            {
-                "id": 5,
-                "event": "",
-                "amount": "272.81",
-                "timestamp": 1524226607224
-            },
-            {
-                "id": 6,
-                "event": "",
-                "amount": "2,115.25",
-                "timestamp": 1512979847775
-            },
-            {
-                "id": 7,
-                "event": "",
-                "amount": "4,984.49",
-                "timestamp": 1483672154629
-            },
-            {
-                "id": 8,
-                "event": "",
-                "amount": "4,250.87",
-                "timestamp": 1515991786489
-            }
-        ]
-    },
-    {
-        "_id": "5b9521bd09756e4d18bb2a65",
+        "id": 9,
         "model": "Toyota RAV 4",
-        "type": "",
+        "type": "Crossover SUV",
         "isAvailable": true,
         "isDamaged": false,
         "totalBalance": "-4,457.92",
@@ -667,7 +587,7 @@
             "zip": 4037,
             "building": 567
         },
-        "description": "Ipsum aliqua tempor in ea pariatur esse consectetur dolor aliquip. Do nostrud aliquip esse veniam est mollit quis ex veniam exercitation. Eiusmod do mollit do cillum voluptate ipsum incididunt esse ad aliquip. Pariatur minim aliquip magna veniam aliqua irure commodo et voluptate. Fugiat laboris qui ut consequat esse minim culpa commodo labore.",
+        "description": "RAV4 offers increased cargo room, higher visibility, and the option of full-time four-wheel drive, along with the maneuverability and fuel economy of a compact car.",
         "registeredAt": "2017-12-31T13:11:51.045Z",
         "comments": "",
         "history": [{
@@ -727,9 +647,9 @@
         ]
     },
     {
-        "_id": "5b9521bdf28e17ffdcac1632",
+        "id": 10,
         "model": "Toyota Camry",
-        "type": "",
+        "type": "Large family / Mid-size",
         "isAvailable": true,
         "isDamaged": false,
         "totalBalance": "10,370.70",
@@ -747,7 +667,7 @@
             "zip": 6231,
             "building": 568
         },
-        "description": "Nulla irure laborum elit enim proident in eu quis fugiat culpa tempor. Sunt fugiat Lorem enim sit aliquip ut ad ad id laboris aliqua laboris sint. Aute occaecat proident fugiat proident. Ut laborum ullamco labore id culpa ex. In exercitation veniam cillum sint laboris id anim et nulla cupidatat incididunt esse id. Commodo ea mollit fugiat exercitation. Proident eiusmod veniam nisi Lorem dolore ipsum quis.",
+        "description": "2.5 liter 4 Cylinder engine; with top features including the braking assist,​ stability control,​ traction control,​ anti-lock brakes,​ dual airbags,​ side air bag system,​ digital display,​ and airbag deactivation.",
         "registeredAt": "2017-10-12T23:16:29.566Z",
         "comments": "",
         "history": [{
@@ -801,59 +721,9 @@
         ]
     },
     {
-        "_id": "5b9521bd3e037ddabac6ba7e",
-        "model": "Toyota RAV 4",
-        "type": "",
-        "isAvailable": false,
-        "isDamaged": true,
-        "totalBalance": "-5,311.82",
-        "picture": "http://placehold.it/32x32",
-        "age": 2,
-        "location": {
-            "latitude": "6.643192",
-            "longitude": "-47.481444"
-        },
-        "address": {
-            "city": "Bodega",
-            "state": "Nebraska",
-            "country": "US",
-            "street": "Gold Street",
-            "zip": 2942,
-            "building": 771
-        },
-        "description": "Ex mollit eu sunt sint commodo aliqua eu. Quis proident nisi exercitation in qui duis in non do pariatur voluptate. Consequat in veniam esse anim. Reprehenderit qui aute cupidatat qui id nisi. Duis ullamco sint consequat qui in. Incididunt commodo veniam nisi quis ad id commodo reprehenderit aliqua labore velit aliquip. Laboris mollit mollit consequat cillum non tempor eu.",
-        "registeredAt": "2017-02-14T20:42:45.037Z",
-        "comments": "",
-        "history": [{
-                "id": 0,
-                "event": "",
-                "amount": "-3,531.20",
-                "timestamp": 1516701111151
-            },
-            {
-                "id": 1,
-                "event": "",
-                "amount": "3,905.39",
-                "timestamp": 1519212198000
-            },
-            {
-                "id": 2,
-                "event": "",
-                "amount": "-3,178.17",
-                "timestamp": 1493269366294
-            },
-            {
-                "id": 3,
-                "event": "",
-                "amount": "-418.94",
-                "timestamp": 1486013965100
-            }
-        ]
-    },
-    {
-        "_id": "5b9521bd69ca290be8172566",
+        "id": 11,
         "model": "Jeep Grand Cherokee",
-        "type": "",
+        "type": "Crossover SUV",
         "isAvailable": true,
         "isDamaged": true,
         "totalBalance": "9,238.13",
@@ -871,7 +741,7 @@
             "zip": 697,
             "building": 281
         },
-        "description": "Duis aliqua minim nisi dolore voluptate ut cillum in quis proident amet eu ea labore. Nostrud qui ipsum sit exercitation nulla enim aute culpa consequat mollit. Ea ipsum consequat mollit laboris dolore officia laboris reprehenderit ex qui proident. Nostrud adipisicing adipisicing excepteur officia magna occaecat minim. Anim fugiat aliqua dolor aliqua commodo. Officia esse mollit veniam eiusmod amet ex. Labore dolor amet id ea sit non amet ad occaecat ad magna qui.",
+        "description": "Modern and sleek body style. The interior features leather trim and real wood accents, plus Bluetooth and uConnect electronics options. With the additional awards for the 2011 Grand Cherokee, the Jeep Grand Cherokee has won 30 awards for off-road capability, luxury, value, best-in-class, and safety, making it the most awarded SUV ever.",
         "registeredAt": "2017-03-29T07:47:04.789Z",
         "comments": "",
         "history": [{
@@ -943,71 +813,9 @@
         ]
     },
     {
-        "_id": "5b9521bda29701d8da6e5a8f",
-        "model": "Toyota Camry",
-        "type": "",
-        "isAvailable": true,
-        "isDamaged": false,
-        "totalBalance": "12,004.30",
-        "picture": "http://placehold.it/32x32",
-        "age": 0,
-        "location": {
-            "latitude": "-10.5847",
-            "longitude": "132.039934"
-        },
-        "address": {
-            "city": "Coyote",
-            "state": "California",
-            "country": "US",
-            "street": "Cambridge Place",
-            "zip": 8472,
-            "building": 783
-        },
-        "description": "Consectetur do exercitation enim velit pariatur nisi Lorem amet deserunt veniam aute. Mollit consequat minim commodo fugiat eu magna irure culpa ut nostrud enim. Et incididunt minim irure cupidatat laborum dolor sit elit et esse elit ad.",
-        "registeredAt": "2018-07-23T05:50:52.732Z",
-        "comments": "",
-        "history": [{
-                "id": 0,
-                "event": "",
-                "amount": "1,614.16",
-                "timestamp": 1528917321228
-            },
-            {
-                "id": 1,
-                "event": "",
-                "amount": "4,657.62",
-                "timestamp": 1527550441318
-            },
-            {
-                "id": 2,
-                "event": "",
-                "amount": "-2,867.89",
-                "timestamp": 1524497489559
-            },
-            {
-                "id": 3,
-                "event": "",
-                "amount": "-4,026.38",
-                "timestamp": 1514929384491
-            },
-            {
-                "id": 4,
-                "event": "",
-                "amount": "6,225.99",
-                "timestamp": 1483661668045
-            },
-            {
-                "id": 5,
-                "event": "",
-                "amount": "-2,232.26",
-                "timestamp": 1502746910542
-            }
-        ]
-    },
-    {
-        "_id": "5b9521bd26a8cdd0b9d02e7a",
+        "id": 12,
         "model": "Mercedez-Benz C-Class",
-        "type": "",
+        "type": "Luxury / Executive",
         "isAvailable": true,
         "isDamaged": true,
         "totalBalance": "7,690.80",
@@ -1025,7 +833,7 @@
             "zip": 3956,
             "building": 494
         },
-        "description": "Deserunt amet aliquip aliqua officia. Amet nostrud est veniam id pariatur ad consequat in reprehenderit eu. Non irure quis qui ex eiusmod officia voluptate. Incididunt esse exercitation in amet incididunt. Aute ea et enim labore consectetur velit est exercitation.",
+        "description": "5 seater Sedan with a diesel engine (2143 cc) with Automatic transmissions, EBD, ABS, parking sensors and full set of safety features.",
         "registeredAt": "2018-08-07T02:00:40.831Z",
         "comments": "",
         "history": [{
@@ -1091,9 +899,9 @@
         ]
     },
     {
-        "_id": "5b9521bd094111851c41ab06",
+        "id": 13,
         "model": "Nissan Rogue",
-        "type": "",
+        "type": "Crossover SUV",
         "isAvailable": false,
         "isDamaged": false,
         "totalBalance": "38,464.14",
@@ -1111,7 +919,7 @@
             "zip": 8088,
             "building": 439
         },
-        "description": "Aliquip Lorem amet pariatur ullamco amet ullamco cupidatat ullamco. Non ut tempor adipisicing laborum eu esse. Eiusmod commodo ex dolore nulla duis ut velit exercitation nostrud. Velit sit do velit in id. Id officia incididunt sit amet nisi. Voluptate est quis minim adipisicing.",
+        "description": "Factory equipped with anti-lock brakes; air conditioning; cruise control; power windows, locks, and mirrors; remote keyless entry; and AM/FM/CD stereo with four speakers and auxiliary input jack.",
         "registeredAt": "2018-02-20T07:46:45.578Z",
         "comments": "",
         "history": [{
@@ -1183,9 +991,9 @@
         ]
     },
     {
-        "_id": "5b9521bdb0417ad5a7fc554f",
+        "id": 14,
         "model": "Toyota Corolla",
-        "type": "",
+        "type": "Small Family / Compact size",
         "isAvailable": true,
         "isDamaged": true,
         "totalBalance": "12,227.64",
@@ -1203,7 +1011,7 @@
             "zip": 4972,
             "building": 772
         },
-        "description": "Esse Lorem ea mollit officia. Consequat irure fugiat consequat nisi minim sit anim duis elit ex quis. Lorem culpa incididunt ipsum eiusmod velit proident esse elit esse. Do irure est sunt ex labore laborum aliqua. Irure eu labore aliqua velit laborum commodo est sunt tempor consequat nulla.",
+        "description": "The new Corolla Axio with four-cylinder engine; all-wheel drive. CVT transmissions. 5 seats.",
         "registeredAt": "2018-05-04T22:10:56.749Z",
         "comments": "",
         "history": [{
@@ -1239,9 +1047,9 @@
         ]
     },
     {
-        "_id": "5b9521bd161a4a4b9ddd26e3",
+        "id": 15,
         "model": "Toyota Camry",
-        "type": "",
+        "type": "Large family / Mid-size",
         "isAvailable": false,
         "isDamaged": true,
         "totalBalance": "-1,228.74",
@@ -1259,7 +1067,7 @@
             "zip": 1987,
             "building": 585
         },
-        "description": "Eu est est duis laboris ipsum pariatur deserunt laborum laboris. Mollit proident anim reprehenderit do pariatur minim officia nulla. Quis labore eu culpa Lorem sunt. Voluptate fugiat ut ea ex aute ea id ullamco fugiat aute ullamco aliquip dolor. Do incididunt minim laborum commodo duis adipisicing. Et laboris laborum irure nostrud minim exercitation culpa duis culpa. Commodo occaecat labore velit reprehenderit culpa dolore excepteur sint enim irure officia et.",
+        "description": "2.5 liter 4 Cylinder engine; with top features including the braking assist,​ stability control,​ traction control,​ anti-lock brakes,​ dual airbags,​ side air bag system,​ digital display,​ and airbag deactivation.",
         "registeredAt": "2017-02-16T00:28:04.340Z",
         "comments": "",
         "history": [{
@@ -1313,47 +1121,9 @@
         ]
     },
     {
-        "_id": "5b9521bde8b50db9dbbdaba0",
-        "model": "Jeep Grand Cherokee",
-        "type": "",
-        "isAvailable": false,
-        "isDamaged": false,
-        "totalBalance": "42,168.13",
-        "picture": "http://placehold.it/32x32",
-        "age": 3,
-        "location": {
-            "latitude": "-78.011781",
-            "longitude": "51.064105"
-        },
-        "address": {
-            "city": "Cawood",
-            "state": "West Virginia",
-            "country": "US",
-            "street": "Hampton Place",
-            "zip": 7826,
-            "building": 534
-        },
-        "description": "Irure irure qui aliquip ullamco cupidatat. Culpa deserunt reprehenderit sit aliqua adipisicing enim anim dolore ad fugiat. Magna pariatur nostrud cupidatat est voluptate est non in Lorem aliqua officia ad.",
-        "registeredAt": "2018-07-12T04:21:54.978Z",
-        "comments": "",
-        "history": [{
-                "id": 0,
-                "event": "",
-                "amount": "280.23",
-                "timestamp": 1484558025132
-            },
-            {
-                "id": 1,
-                "event": "",
-                "amount": "1,674.84",
-                "timestamp": 1488886022778
-            }
-        ]
-    },
-    {
-        "_id": "5b9521bdae9856265b407d6f",
-        "model": "Nissan Rogue",
-        "type": "",
+        "id": 16,
+        "model": "Ford Fusion",
+        "type": "Small Family / Compact size",
         "isAvailable": false,
         "isDamaged": false,
         "totalBalance": "3,871.21",
@@ -1371,7 +1141,7 @@
             "zip": 4332,
             "building": 868
         },
-        "description": "Lorem est ullamco ea consectetur consectetur magna nostrud nulla ullamco commodo dolor Lorem ipsum ut. Anim qui in est eiusmod dolore labore exercitation. Ex ut mollit cillum eiusmod enim. Pariatur ut ullamco commodo commodo nisi quis proident minim anim. Dolore culpa tempor amet sunt pariatur cillum voluptate voluptate. Officia sit pariatur reprehenderit eiusmod et sit occaecat culpa incididunt consectetur elit ut. Nisi officia ad enim do incididunt ad reprehenderit quis cupidatat est.",
+        "description": "Four-door, five passenger mid-size sedan. Has several driver assistance technologies based on sensors, cameras and radar. Safety features include Lane Keeping System; adjust vehicle speed to changing traffic conditions through adaptive cruise control with Forward Collision Warning.",
         "registeredAt": "2017-03-01T10:36:49.951Z",
         "comments": "",
         "history": [{
@@ -1437,9 +1207,9 @@
         ]
     },
     {
-        "_id": "5b9521bd0372ca5800ab5064",
+        "id": 17,
         "model": "Toyota RAV 4",
-        "type": "",
+        "type": "Crossover SUV",
         "isAvailable": true,
         "isDamaged": false,
         "totalBalance": "39,400.74",
@@ -1457,7 +1227,7 @@
             "zip": 2445,
             "building": 942
         },
-        "description": "Duis ex adipisicing laborum ad eiusmod. Minim ipsum sunt dolore ipsum quis nulla et excepteur ullamco occaecat mollit ullamco. Aliqua voluptate tempor consectetur culpa occaecat deserunt ea culpa do est consequat sit. Aliquip aute sit laborum est dolor. Ut excepteur laborum nostrud tempor voluptate officia aliquip sunt in. Voluptate elit esse exercitation nostrud velit.",
+        "description": "Has increased cargo room, higher visibility, and the option of full-time four-wheel drive, along with the maneuverability and fuel economy of a compact car.",
         "registeredAt": "2017-12-22T17:36:32.521Z",
         "comments": "",
         "history": [{
@@ -1487,9 +1257,9 @@
         ]
     },
     {
-        "_id": "5b9521bdf1c57386ad0e51e6",
+        "id": 18,
         "model": "Ford Explorer",
-        "type": "",
+        "type": "Crossover SUV",
         "isAvailable": false,
         "isDamaged": false,
         "totalBalance": "17,499.30",
@@ -1507,7 +1277,7 @@
             "zip": 9767,
             "building": 676
         },
-        "description": "Ea sunt aute consequat ad duis. Voluptate cillum labore cupidatat esse Lorem sunt et eu officia voluptate ut Lorem tempor non. Consectetur sint duis quis laborum consequat enim occaecat. Sit irure id reprehenderit eiusmod sint esse ullamco. Consequat culpa eu consequat ipsum culpa est aliqua amet ut amet. Ipsum nostrud consectetur est officia.",
+        "description": "Upscale cabin; abundant high-tech features; excellent ride and handling balance; available fuel-efficient turbocharged four-cylinder.",
         "registeredAt": "2018-01-27T14:06:59.398Z",
         "comments": "",
         "history": [{
@@ -1561,9 +1331,9 @@
         ]
     },
     {
-        "_id": "5b9521bdbd9de28ee1f7d79c",
+        "id": 19,
         "model": "Mercedez-Benz C-Class",
-        "type": "",
+        "type": "Luxury / Executive",
         "isAvailable": true,
         "isDamaged": true,
         "totalBalance": "31,405.64",
@@ -1581,7 +1351,7 @@
             "zip": 1827,
             "building": 636
         },
-        "description": "Ad qui reprehenderit incididunt do velit anim ullamco sunt. Dolor exercitation anim in occaecat eiusmod incididunt esse ut sit aute eiusmod anim magna. Voluptate cillum laboris ea sunt ullamco magna exercitation. Voluptate enim sunt commodo consectetur est nulla pariatur labore ex voluptate reprehenderit laborum. Adipisicing incididunt id anim sit occaecat pariatur velit.",
+        "description": "5 seater Sedan with a diesel engine (2143 cc) with Automatic transmissions, EBD, ABS, parking sensors and full range of safety features.",
         "registeredAt": "2018-05-27T06:16:46.683Z",
         "comments": "",
         "history": [{
@@ -1611,9 +1381,9 @@
         ]
     },
     {
-        "_id": "5b9521bd830c72d37e42c7b8",
-        "model": "Nissan Rogue",
-        "type": "",
+        "id": 20,
+        "model": "Toyota Corolla",
+        "type": "Small Family / Compact size",
         "isAvailable": false,
         "isDamaged": true,
         "totalBalance": "44,667.26",
@@ -1631,7 +1401,7 @@
             "zip": 6047,
             "building": 807
         },
-        "description": "Elit dolor voluptate ipsum laboris non occaecat aliqua voluptate dolore proident officia dolor dolor. Id amet in excepteur laboris minim pariatur culpa incididunt aliquip commodo proident fugiat eu. Officia do sit aute quis voluptate. Sunt nostrud ad ut elit ipsum incididunt fugiat. Non labore occaecat sunt elit labore amet ut ea ea aliquip ullamco.",
+        "description": "The new Corolla Axio with four-cylinder engine; all-wheel drive. CVT transmissions. 5 seats.",
         "registeredAt": "2018-06-08T19:27:20.288Z",
         "comments": "",
         "history": [{
@@ -1691,9 +1461,9 @@
         ]
     },
     {
-        "_id": "5b9521bdd532297c9be183f1",
+        "id": 21,
         "model": "Nissan Rogue",
-        "type": "",
+        "type": "Crossover SUV",
         "isAvailable": true,
         "isDamaged": false,
         "totalBalance": "19,461.17",
@@ -1711,7 +1481,7 @@
             "zip": 2992,
             "building": 836
         },
-        "description": "Velit mollit commodo sunt excepteur officia incididunt nulla et magna labore mollit duis. Aute excepteur tempor aute aliqua anim non dolor nulla cillum commodo est. Consectetur fugiat ipsum eu proident fugiat eu ea exercitation ut pariatur nostrud id magna.",
+        "description": "Factory equipped with anti-lock brakes; air conditioning; cruise control; power windows, locks, and mirrors; remote keyless entry; and AM/FM/CD stereo with four speakers and auxiliary input jack.",
         "registeredAt": "2018-04-19T13:55:16.211Z",
         "comments": "",
         "history": [{
@@ -1789,9 +1559,9 @@
         ]
     },
     {
-        "_id": "5b9521bdc6c6666e9e5f7cba",
+        "id": 22,
         "model": "Ford Fusion",
-        "type": "",
+        "type": "Small Family / Compact size",
         "isAvailable": false,
         "isDamaged": false,
         "totalBalance": "41,226.07",
@@ -1809,7 +1579,7 @@
             "zip": 7378,
             "building": 309
         },
-        "description": "Consequat fugiat commodo quis aliqua. Et qui dolore proident non ipsum laborum cupidatat incididunt non ipsum reprehenderit. Deserunt nostrud adipisicing sunt qui fugiat ullamco ea cupidatat occaecat quis. Dolore dolor ullamco ea labore laborum mollit officia do sunt magna duis. Sint non ex nisi deserunt. Ipsum ut nostrud pariatur culpa ut adipisicing incididunt.",
+        "description": "Four-door, five passenger mid-size sedan. Has several driver assistance technologies based on sensors, cameras and radar. Safety features include Lane Keeping System; adjust vehicle speed to changing traffic conditions through adaptive cruise control with Forward Collision Warning; active park assist paired with a backup camera.",
         "registeredAt": "2017-07-02T15:27:13.342Z",
         "comments": "",
         "history": [{
@@ -1887,209 +1657,9 @@
         ]
     },
     {
-        "_id": "5b9521bdcaaa14aacd6f94dc",
-        "model": "Toyota Camry",
-        "type": "",
-        "isAvailable": true,
-        "isDamaged": false,
-        "totalBalance": "-4,318.29",
-        "picture": "http://placehold.it/32x32",
-        "age": 3,
-        "location": {
-            "latitude": "-83.75168",
-            "longitude": "-47.900005"
-        },
-        "address": {
-            "city": "Roeville",
-            "state": "North Carolina",
-            "country": "US",
-            "street": "Monitor Street",
-            "zip": 5521,
-            "building": 977
-        },
-        "description": "Enim minim consectetur mollit nulla culpa officia aute culpa. Sit adipisicing pariatur consequat occaecat. Dolore ea magna in qui commodo et elit voluptate laborum sint ipsum et. Sit labore in elit nostrud Lorem occaecat amet mollit est ullamco mollit irure sint.",
-        "registeredAt": "2018-07-29T16:10:39.364Z",
-        "comments": "",
-        "history": [{
-                "id": 0,
-                "event": "",
-                "amount": "128.75",
-                "timestamp": 1503127462550
-            },
-            {
-                "id": 1,
-                "event": "",
-                "amount": "-1,701.26",
-                "timestamp": 1489042668392
-            }
-        ]
-    },
-    {
-        "_id": "5b9521bd31c27741a649ca87",
-        "model": "Nissan Rogue",
-        "type": "",
-        "isAvailable": true,
-        "isDamaged": true,
-        "totalBalance": "9,709.42",
-        "picture": "http://placehold.it/32x32",
-        "age": 1,
-        "location": {
-            "latitude": "-63.864139",
-            "longitude": "38.172201"
-        },
-        "address": {
-            "city": "Brandermill",
-            "state": "North Dakota",
-            "country": "US",
-            "street": "Conway Street",
-            "zip": 4777,
-            "building": 472
-        },
-        "description": "Nisi duis commodo consectetur consectetur reprehenderit Lorem veniam aliquip incididunt anim. Consectetur est ipsum excepteur commodo duis reprehenderit magna sit cillum. Quis proident enim eu consequat aliqua nostrud sit incididunt cupidatat proident amet. Cillum cupidatat consequat ipsum nisi sint nostrud commodo nostrud non laboris sunt. Est minim do laboris quis voluptate. Culpa id mollit nostrud adipisicing magna dolore aliquip elit.",
-        "registeredAt": "2018-05-31T07:37:37.938Z",
-        "comments": "",
-        "history": [{
-                "id": 0,
-                "event": "",
-                "amount": "-173.67",
-                "timestamp": 1536254078810
-            },
-            {
-                "id": 1,
-                "event": "",
-                "amount": "-3,273.15",
-                "timestamp": 1517781652657
-            },
-            {
-                "id": 2,
-                "event": "",
-                "amount": "64.40",
-                "timestamp": 1516959120077
-            },
-            {
-                "id": 3,
-                "event": "",
-                "amount": "4,312.91",
-                "timestamp": 1509144456983
-            },
-            {
-                "id": 4,
-                "event": "",
-                "amount": "-1,794.73",
-                "timestamp": 1499945004324
-            },
-            {
-                "id": 5,
-                "event": "",
-                "amount": "1,431.60",
-                "timestamp": 1510632512145
-            },
-            {
-                "id": 6,
-                "event": "",
-                "amount": "2,773.65",
-                "timestamp": 1523571775952
-            },
-            {
-                "id": 7,
-                "event": "",
-                "amount": "6,589.55",
-                "timestamp": 1533879008739
-            }
-        ]
-    },
-    {
-        "_id": "5b9521bd14cae1e92a21f731",
-        "model": "Toyota RAV 4",
-        "type": "",
-        "isAvailable": true,
-        "isDamaged": true,
-        "totalBalance": "28,763.74",
-        "picture": "http://placehold.it/32x32",
-        "age": 5,
-        "location": {
-            "latitude": "77.561663",
-            "longitude": "172.395576"
-        },
-        "address": {
-            "city": "Frizzleburg",
-            "state": "Federated States Of Micronesia",
-            "country": "US",
-            "street": "Georgia Avenue",
-            "zip": 1903,
-            "building": 175
-        },
-        "description": "Nostrud aute enim consectetur sint officia ut. Irure ex amet duis sunt sint aliqua cillum cillum incididunt labore esse. Dolore et officia irure sunt id enim cillum laborum. Reprehenderit aute nostrud labore in labore. Minim aute Lorem reprehenderit magna aliqua cupidatat fugiat ex eiusmod nostrud. Non irure magna consectetur non laborum voluptate nisi veniam irure enim magna.",
-        "registeredAt": "2018-07-16T05:07:50.396Z",
-        "comments": "",
-        "history": [{
-                "id": 0,
-                "event": "",
-                "amount": "3,556.81",
-                "timestamp": 1525717721412
-            },
-            {
-                "id": 1,
-                "event": "",
-                "amount": "-4,745.26",
-                "timestamp": 1490519608609
-            },
-            {
-                "id": 2,
-                "event": "",
-                "amount": "-4,436.46",
-                "timestamp": 1535039505334
-            },
-            {
-                "id": 3,
-                "event": "",
-                "amount": "129.83",
-                "timestamp": 1522209070341
-            }
-        ]
-    },
-    {
-        "_id": "5b9521bdc571366fbc4b6291",
-        "model": "Ford Explorer",
-        "type": "",
-        "isAvailable": false,
-        "isDamaged": false,
-        "totalBalance": "27,733.06",
-        "picture": "http://placehold.it/32x32",
-        "age": 0,
-        "location": {
-            "latitude": "-3.386214",
-            "longitude": "124.564682"
-        },
-        "address": {
-            "city": "Rockbridge",
-            "state": "Indiana",
-            "country": "US",
-            "street": "Etna Street",
-            "zip": 101,
-            "building": 853
-        },
-        "description": "Sit duis labore cupidatat dolor. Elit ex sit aliquip aliquip. Id ullamco ipsum consequat aliqua laborum ea nostrud incididunt. Eiusmod in dolore elit ut duis qui sunt esse ullamco dolor et do elit incididunt. Aliquip fugiat eiusmod incididunt cupidatat qui cillum aliqua et nostrud Lorem mollit.",
-        "registeredAt": "2017-02-24T22:14:31.742Z",
-        "comments": "",
-        "history": [{
-                "id": 0,
-                "event": "",
-                "amount": "4,542.11",
-                "timestamp": 1489494888772
-            },
-            {
-                "id": 1,
-                "event": "",
-                "amount": "-4,667.13",
-                "timestamp": 1528280778628
-            }
-        ]
-    },
-    {
-        "_id": "5b9521bdac5191b04caf842a",
+        "id": 23,
         "model": "Jeep Grand Cherokee",
-        "type": "",
+        "type": "Crossover SUV",
         "isAvailable": false,
         "isDamaged": false,
         "totalBalance": "16,131.15",
@@ -2107,7 +1677,7 @@
             "zip": 2638,
             "building": 260
         },
-        "description": "Duis duis dolor anim adipisicing enim exercitation quis do ad ullamco consequat. Dolor adipisicing duis dolore non est enim ea proident pariatur. Do non amet veniam elit ipsum do mollit excepteur veniam occaecat et proident. Sint nisi duis esse incididunt est sunt nostrud laborum ullamco esse mollit deserunt commodo officia. Eiusmod fugiat irure in do proident aute amet veniam aute pariatur et aute.",
+        "description": "The interior features leather trim and real wood accents, plus Bluetooth and uConnect electronics options. With the additional awards for the 2011 Grand Cherokee, the Jeep Grand Cherokee has won 30 awards for off-road capability, luxury, value, best-in-class, and safety, making it the most awarded SUV ever.",
         "registeredAt": "2017-07-15T04:52:08.391Z",
         "comments": "",
         "history": [{
