@@ -4,7 +4,6 @@ const bodyParser = require('body-parser');
 const fs = require('fs');
 const app = express();
 let customers = JSON.parse(fs.readFileSync('data/properties.json', 'utf-8'));
-let states = JSON.parse(fs.readFileSync('data/states.json', 'utf-8'));
 let cars = JSON.parse(fs.readFileSync('data/cars.json', 'utf-8'));
 
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -101,6 +100,7 @@ app.get('/api/states', (req, res) => {
 
 app.post('/api/auth/login', (req, res) => {
     var userLogin = req.body;
+    console.log(req);
     //Add "real" auth here. Simulating it by returning a simple boolean.
     res.json(true);
 });

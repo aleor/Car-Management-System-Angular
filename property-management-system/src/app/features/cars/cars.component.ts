@@ -5,6 +5,7 @@ import { ViewMode } from './view-mode.enum';
 import { FilterService } from '../../core/services/filter.service';
 import { PagedResults } from '../../shared/models/paged-results.model';
 import { PageEvent } from '@angular/material';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'pms-cars',
@@ -27,7 +28,8 @@ export class CarsComponent implements OnInit {
 
   constructor(
     private dataService: DataService,
-    private filterService: FilterService) { }
+    private filterService: FilterService,
+    private router: Router) { }
 
   ngOnInit() {
     this.getCarsPage(this.currentPage);
@@ -68,5 +70,9 @@ export class CarsComponent implements OnInit {
   clearFilter(): any {
     this.searchString = '';
     this.applyFilter();
+  }
+
+  addNewCar() {
+    this.router.navigate(['/car/0/edit']);
   }
 }

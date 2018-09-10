@@ -1,5 +1,27 @@
 <div class="container">
-    <p>
-        cars-table-view works!
-    </p>
+<mat-table #table [dataSource]="dataSource" class="mat-elevation-z8">
+
+    <ng-container matColumnDef="model">
+      <mat-header-cell *matHeaderCellDef> Model </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.model}} </mat-cell>
+    </ng-container>
+  
+    <ng-container matColumnDef="age">
+      <mat-header-cell *matHeaderCellDef> Age </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.age}} </mat-cell>
+    </ng-container>
+  
+    <ng-container matColumnDef="totalBalance">
+      <mat-header-cell *matHeaderCellDef> Total Balance </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.totalBalance}} </mat-cell>
+    </ng-container>
+  
+    <ng-container matColumnDef="actions">
+      <mat-header-cell *matHeaderCellDef> Actions </mat-header-cell>
+      <mat-cell *matCellDef="let element"> Action1 </mat-cell>
+    </ng-container>
+  
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+</mat-table>
 </div>

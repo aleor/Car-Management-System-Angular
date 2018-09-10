@@ -5,6 +5,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AngularMaterialModule } from '../angular-material.module';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { throwIfAlreadyLoaded } from './module-import.guard';
+import { AuthService } from './services/auth.service';
 
 @NgModule({
   imports: [
@@ -19,7 +20,7 @@ import { throwIfAlreadyLoaded } from './module-import.guard';
       NavBarComponent
     ],
   declarations: [ NavBarComponent ],
-  providers: [] 
+  providers: [ AuthService ] 
 })
 // CoreModule should be loaded once and only in AppModule, as it stores services which intended to be singletones
 export class CoreModule {

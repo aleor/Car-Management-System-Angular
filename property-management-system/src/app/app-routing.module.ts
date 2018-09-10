@@ -4,7 +4,7 @@ import { RouterModule, Routes, PreloadAllModules } from '@angular/router';
 
 const app_routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: '/cars' },
-  // { path: 'property/:id', loadChildren: 'app/features/properties/properties.module#PropertiesModule' },
+  { path: 'car/:id', loadChildren: 'app/features/car/car.module#CarModule' },
   { path: 'cars', loadChildren: 'app/features/cars/cars.module#CarsModule' },
   // { path: 'bookings', loadChildren: 'app/features/bookings/bookings.module' },
   { path: '**', pathMatch: 'full', redirectTo: '/cars' }

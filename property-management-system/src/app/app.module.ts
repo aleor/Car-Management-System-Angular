@@ -6,6 +6,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { CoreModule } from './core/core.module';
 
 import { AppComponent } from './app.component';
+import { LoginFormModule } from './features/login-form/login-form.module';
+import { SharedModule } from './shared/shared.module';
 
 
 @NgModule({
@@ -16,8 +18,10 @@ import { AppComponent } from './app.component';
     BrowserAnimationsModule,
     BrowserModule,
     AngularMaterialModule,
+    LoginFormModule,
     AppRoutingModule,
-    CoreModule
+    CoreModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
