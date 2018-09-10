@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Car } from '../../../shared/models/car.model';
+import { CarTypes } from '../../../shared/models/types.const';
 
 @Component({
   selector: 'pms-car-edit',
@@ -6,6 +8,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./car-edit.component.scss']
 })
 export class CarEditComponent implements OnInit {
+
+  car: Car = new Car();
+  carTypes = CarTypes;
 
   constructor() { }
 

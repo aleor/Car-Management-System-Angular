@@ -14,7 +14,8 @@ import {
   MatFormFieldModule,
   MatInputModule,
   MatDividerModule,
-  MatTooltipModule
+  MatTooltipModule,
+  MatSelectModule
  } from '@angular/material';
 
 @NgModule({
@@ -33,7 +34,8 @@ import {
     MatFormFieldModule,
     MatInputModule,
     MatDividerModule,
-    MatTooltipModule
+    MatTooltipModule,
+    MatSelectModule
   ],
   exports: [
     MatButtonModule,
@@ -50,7 +52,8 @@ import {
     MatFormFieldModule,
     MatInputModule,
     MatDividerModule,
-    MatTooltipModule
+    MatTooltipModule,
+    MatSelectModule
   ],
   declarations: []
 })
