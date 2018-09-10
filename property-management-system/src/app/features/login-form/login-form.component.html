@@ -15,7 +15,7 @@
               <br />
               <div class="row">
                   <mat-form-field>
-                      <input matInput placeholder="Enter your password" formControlName="password" required>
+                      <input type="password" matInput placeholder="Enter your password" formControlName="password" required>
                       <mat-error *ngIf="password.invalid">
                         Invalid password, it should have 6 to 30 symbols, at least 1 digit and no spaces
                       </mat-error>

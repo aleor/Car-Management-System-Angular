@@ -17,9 +17,20 @@
             <input type="number" matInput placeholder="Age" name="age" [(ngModel)]="car.age" #age="ngModel" required>
             <mat-error *ngIf="!car.age">Age is required and should be greater than 0</mat-error>
         </mat-form-field>
+
+        <mat-form-field>
+            <input matInput [matDatepicker]="picker" placeholder="Last maintenance date" [value]="car.lastMaintenance">
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+          </mat-form-field>
         
         <mat-form-field>
             <textarea type="text" matInput placeholder="Description" name="description" [(ngModel)]="car.description" #description="ngModel">
+              </textarea>
+        </mat-form-field>
+
+        <mat-form-field>
+            <textarea type="text" matInput placeholder="Comments" name="comments" [(ngModel)]="car.comments" #comments="ngModel">
               </textarea>
         </mat-form-field>
           

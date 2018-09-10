@@ -1,7 +1,7 @@
 [{
         "id": 1,
         "model": "Ford Fusion",
-        "type": "Small Family / Compact size",
+        "type": "Small family / Compact",
         "isAvailable": false,
         "isDamaged": false,
         "totalBalance": "25,465.56",
@@ -20,7 +20,7 @@
             "building": 841
         },
         "description": "Four-door, five passenger mid-size sedan. Has several driver assistance technologies based on sensors, cameras and radar. Safety features include Lane Keeping System; adjust vehicle speed to changing traffic conditions through adaptive cruise control with Forward Collision Warning.",
-        "registeredAt": "2017-01-07T10:16:41.147Z",
+        "lastMaintenance": "2017-01-07T10:16:41.147Z",
         "comments": "",
         "history": [{
                 "id": 0,
@@ -88,7 +88,7 @@
             "building": 120
         },
         "description": "Upscale cabin; abundant high-tech features; excellent ride and handling balance; available fuel-efficient turbocharged four-cylinder.",
-        "registeredAt": "2018-03-29T10:09:44.529Z",
+        "lastMaintenance": "2018-03-29T10:09:44.529Z",
         "comments": "",
         "history": [{
                 "id": 0,
@@ -156,7 +156,7 @@
             "building": 828
         },
         "description": "2.5 liter 4 Cylinder engine; with top features including the braking assist,​ stability control,​ traction control,​ anti-lock brakes,​ dual airbags,​ side air bag system,​ digital display,​ and airbag deactivation.",
-        "registeredAt": "2018-04-13T01:47:19.206Z",
+        "lastMaintenance": "2018-04-13T01:47:19.206Z",
         "comments": "",
         "history": [{
                 "id": 0,
@@ -236,7 +236,7 @@
             "building": 298
         },
         "description": "The vehicle was designed for consumers wanting a vehicle that had most of the benefits of SUVs, such as increased cargo room, higher visibility, and the option of full-time four-wheel drive, along with the maneuverability and fuel economy of a compact car.",
-        "registeredAt": "2017-08-01T04:33:59.901Z",
+        "lastMaintenance": "2017-08-01T04:33:59.901Z",
         "comments": "",
         "history": [{
                 "id": 0,
@@ -316,7 +316,7 @@
             "building": 500
         },
         "description": "The fourth-generation Grand Cherokee retains its classic Jeep styling combined with a modern and sleek body style. The interior features leather trim and real wood accents, plus Bluetooth and uConnect electronics options. With the additional awards for the 2011 Grand Cherokee, the Jeep Grand Cherokee has won 30 awards for off-road capability, luxury, value, best-in-class, and safety, making it the most awarded SUV ever.",
-        "registeredAt": "2017-07-07T17:32:28.307Z",
+        "lastMaintenance": "2017-07-07T17:32:28.307Z",
         "comments": "",
         "history": [{
                 "id": 0,
@@ -347,7 +347,7 @@
     {
         "id": 5,
         "model": "Volkswagen Jetta",
-        "type": "Small family / Compact size",
+        "type": "Small family / Compact",
         "isAvailable": true,
         "isDamaged": true,
         "totalBalance": "10,269.21",
@@ -366,7 +366,7 @@
             "building": 112
         },
         "description": "The revised 2015 Jetta has secured the highest ratings from most of the key crash testing agencies across the world: Top pick+ in IIHS, 5 stars in NHTSA, 5 stars each in EURONCAP and AUSNCAP. It is recognised as one of the safest vehicles in its class.",
-        "registeredAt": "2017-09-21T19:01:28.966Z",
+        "lastMaintenance": "2017-09-21T19:01:28.966Z",
         "comments": "",
         "history": [{
                 "id": 0,
@@ -385,7 +385,7 @@
     {
         "id": 6,
         "model": "Volkswagen Jetta",
-        "type": "Small family / Compact size",
+        "type": "Small family / Compact",
         "isAvailable": false,
         "isDamaged": false,
         "totalBalance": "10,115.05",
@@ -404,7 +404,7 @@
             "building": 157
         },
         "description": "7th generation. Safety features on the Jetta include an Intelligent Crash Response System (ICRS), and a standard safety cage. An automatic post-collision braking system, a tire pressure monitoring system (TPMS), as well as seven safety and stability-enhancing systems all come as standard equipment.",
-        "registeredAt": "2017-02-23T05:22:42.792Z",
+        "lastMaintenance": "2017-02-23T05:22:42.792Z",
         "comments": "",
         "history": [{
                 "id": 0,
@@ -502,7 +502,7 @@
             "building": 396
         },
         "description": "This Ford Explorer offers a quiet cabin made with quality materials, seating for seven, and a range of engine choices. ",
-        "registeredAt": "2018-02-09T08:22:25.010Z",
+        "lastMaintenance": "2018-02-09T08:22:25.010Z",
         "comments": "",
         "history": [{
                 "id": 0,
@@ -588,7 +588,7 @@
             "building": 567
         },
         "description": "RAV4 offers increased cargo room, higher visibility, and the option of full-time four-wheel drive, along with the maneuverability and fuel economy of a compact car.",
-        "registeredAt": "2017-12-31T13:11:51.045Z",
+        "lastMaintenance": "2017-12-31T13:11:51.045Z",
         "comments": "",
         "history": [{
                 "id": 0,
@@ -668,7 +668,7 @@
             "building": 568
         },
         "description": "2.5 liter 4 Cylinder engine; with top features including the braking assist,​ stability control,​ traction control,​ anti-lock brakes,​ dual airbags,​ side air bag system,​ digital display,​ and airbag deactivation.",
-        "registeredAt": "2017-10-12T23:16:29.566Z",
+        "lastMaintenance": "2017-10-12T23:16:29.566Z",
         "comments": "",
         "history": [{
                 "id": 0,
@@ -742,7 +742,7 @@
             "building": 281
         },
         "description": "Modern and sleek body style. The interior features leather trim and real wood accents, plus Bluetooth and uConnect electronics options. With the additional awards for the 2011 Grand Cherokee, the Jeep Grand Cherokee has won 30 awards for off-road capability, luxury, value, best-in-class, and safety, making it the most awarded SUV ever.",
-        "registeredAt": "2017-03-29T07:47:04.789Z",
+        "lastMaintenance": "2017-03-29T07:47:04.789Z",
         "comments": "",
         "history": [{
                 "id": 0,
@@ -834,7 +834,7 @@
             "building": 494
         },
         "description": "5 seater Sedan with a diesel engine (2143 cc) with Automatic transmissions, EBD, ABS, parking sensors and full set of safety features.",
-        "registeredAt": "2018-08-07T02:00:40.831Z",
+        "lastMaintenance": "2018-08-07T02:00:40.831Z",
         "comments": "",
         "history": [{
                 "id": 0,
@@ -920,7 +920,7 @@
             "building": 439
         },
         "description": "Factory equipped with anti-lock brakes; air conditioning; cruise control; power windows, locks, and mirrors; remote keyless entry; and AM/FM/CD stereo with four speakers and auxiliary input jack.",
-        "registeredAt": "2018-02-20T07:46:45.578Z",
+        "lastMaintenance": "2018-02-20T07:46:45.578Z",
         "comments": "",
         "history": [{
                 "id": 0,
@@ -993,7 +993,7 @@
     {
         "id": 14,
         "model": "Toyota Corolla",
-        "type": "Small Family / Compact size",
+        "type": "Small family / Compact",
         "isAvailable": true,
         "isDamaged": true,
         "totalBalance": "12,227.64",
@@ -1012,7 +1012,7 @@
             "building": 772
         },
         "description": "The new Corolla Axio with four-cylinder engine; all-wheel drive. CVT transmissions. 5 seats.",
-        "registeredAt": "2018-05-04T22:10:56.749Z",
+        "lastMaintenance": "2018-05-04T22:10:56.749Z",
         "comments": "",
         "history": [{
                 "id": 0,
@@ -1068,7 +1068,7 @@
             "building": 585
         },
         "description": "2.5 liter 4 Cylinder engine; with top features including the braking assist,​ stability control,​ traction control,​ anti-lock brakes,​ dual airbags,​ side air bag system,​ digital display,​ and airbag deactivation.",
-        "registeredAt": "2017-02-16T00:28:04.340Z",
+        "lastMaintenance": "2017-02-16T00:28:04.340Z",
         "comments": "",
         "history": [{
                 "id": 0,
@@ -1123,7 +1123,7 @@
     {
         "id": 16,
         "model": "Ford Fusion",
-        "type": "Small Family / Compact size",
+        "type": "Small family / Compact",
         "isAvailable": false,
         "isDamaged": false,
         "totalBalance": "3,871.21",
@@ -1142,7 +1142,7 @@
             "building": 868
         },
         "description": "Four-door, five passenger mid-size sedan. Has several driver assistance technologies based on sensors, cameras and radar. Safety features include Lane Keeping System; adjust vehicle speed to changing traffic conditions through adaptive cruise control with Forward Collision Warning.",
-        "registeredAt": "2017-03-01T10:36:49.951Z",
+        "lastMaintenance": "2017-03-01T10:36:49.951Z",
         "comments": "",
         "history": [{
                 "id": 0,
@@ -1228,7 +1228,7 @@
             "building": 942
         },
         "description": "Has increased cargo room, higher visibility, and the option of full-time four-wheel drive, along with the maneuverability and fuel economy of a compact car.",
-        "registeredAt": "2017-12-22T17:36:32.521Z",
+        "lastMaintenance": "2017-12-22T17:36:32.521Z",
         "comments": "",
         "history": [{
                 "id": 0,
@@ -1278,7 +1278,7 @@
             "building": 676
         },
         "description": "Upscale cabin; abundant high-tech features; excellent ride and handling balance; available fuel-efficient turbocharged four-cylinder.",
-        "registeredAt": "2018-01-27T14:06:59.398Z",
+        "lastMaintenance": "2018-01-27T14:06:59.398Z",
         "comments": "",
         "history": [{
                 "id": 0,
@@ -1352,7 +1352,7 @@
             "building": 636
         },
         "description": "5 seater Sedan with a diesel engine (2143 cc) with Automatic transmissions, EBD, ABS, parking sensors and full range of safety features.",
-        "registeredAt": "2018-05-27T06:16:46.683Z",
+        "lastMaintenance": "2018-05-27T06:16:46.683Z",
         "comments": "",
         "history": [{
                 "id": 0,
@@ -1383,7 +1383,7 @@
     {
         "id": 20,
         "model": "Toyota Corolla",
-        "type": "Small Family / Compact size",
+        "type": "Small family / Compact",
         "isAvailable": false,
         "isDamaged": true,
         "totalBalance": "44,667.26",
@@ -1402,7 +1402,7 @@
             "building": 807
         },
         "description": "The new Corolla Axio with four-cylinder engine; all-wheel drive. CVT transmissions. 5 seats.",
-        "registeredAt": "2018-06-08T19:27:20.288Z",
+        "lastMaintenance": "2018-06-08T19:27:20.288Z",
         "comments": "",
         "history": [{
                 "id": 0,
@@ -1482,7 +1482,7 @@
             "building": 836
         },
         "description": "Factory equipped with anti-lock brakes; air conditioning; cruise control; power windows, locks, and mirrors; remote keyless entry; and AM/FM/CD stereo with four speakers and auxiliary input jack.",
-        "registeredAt": "2018-04-19T13:55:16.211Z",
+        "lastMaintenance": "2018-04-19T13:55:16.211Z",
         "comments": "",
         "history": [{
                 "id": 0,
@@ -1561,7 +1561,7 @@
     {
         "id": 22,
         "model": "Ford Fusion",
-        "type": "Small Family / Compact size",
+        "type": "Small family / Compact",
         "isAvailable": false,
         "isDamaged": false,
         "totalBalance": "41,226.07",
@@ -1580,7 +1580,7 @@
             "building": 309
         },
         "description": "Four-door, five passenger mid-size sedan. Has several driver assistance technologies based on sensors, cameras and radar. Safety features include Lane Keeping System; adjust vehicle speed to changing traffic conditions through adaptive cruise control with Forward Collision Warning; active park assist paired with a backup camera.",
-        "registeredAt": "2017-07-02T15:27:13.342Z",
+        "lastMaintenance": "2017-07-02T15:27:13.342Z",
         "comments": "",
         "history": [{
                 "id": 0,
@@ -1678,7 +1678,7 @@
             "building": 260
         },
         "description": "The interior features leather trim and real wood accents, plus Bluetooth and uConnect electronics options. With the additional awards for the 2011 Grand Cherokee, the Jeep Grand Cherokee has won 30 awards for off-road capability, luxury, value, best-in-class, and safety, making it the most awarded SUV ever.",
-        "registeredAt": "2017-07-15T04:52:08.391Z",
+        "lastMaintenance": "2017-07-15T04:52:08.391Z",
         "comments": "",
         "history": [{
                 "id": 0,
