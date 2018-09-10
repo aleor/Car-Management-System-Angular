@@ -14,7 +14,7 @@ export class LoginFormComponent implements OnInit {
   email = new FormControl('', [Validators.required, ValidationService.emailValidator]);
   password = new FormControl('', [ Validators.required, ValidationService.passwordValidator]);
   loginForm: FormGroup;
-  errorMessage: string;
+  loginErrorMessage: string;
 
     constructor(private formBuilder: FormBuilder,
                 private router: Router,
@@ -36,19 +36,19 @@ export class LoginFormComponent implements OnInit {
 
     submit({ value, valid }: { value: LoginData, valid: boolean }) {
         this.authService.login(value)
-            .subscribe((status: boolean) => {
-                if (status) {
+            .subscribe((success: boolean) => {
+                if (success) {
                     //this.growler.growl('Logged in', GrowlerMessageType.Info);
                     if (this.authService.redirectUrl) {
                         const redirectUrl = this.authService.redirectUrl;
                         this.authService.redirectUrl = '';
                         this.router.navigate([redirectUrl]);
                     } else {
-                        this.router.navigate(['/customers']);
+                        this.router.navigate(['/cars']);
                     }
                 } else {
-                    const loginError = 'Unable to login';
-                    this.errorMessage = loginError;
+                    const loginError = 'Unable to login, please check your e-mail and password';
+                    this.loginErrorMessage = loginError;
                     //this.growler.growl(loginError, GrowlerMessageType.Danger);
                 }
             },
@@ -57,10 +57,4 @@ export class LoginFormComponent implements OnInit {
             //  this.logger.log(err);
             });
     }
-
-    getErrors() {
-      return this.email.hasError('required') ? 'You must enter a value' :
-        this.email.hasError('email') ? 'Not a valid email' :
-            '';
-  }
 }

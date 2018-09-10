@@ -35,10 +35,13 @@
                   </span>
               </div>
               <br />
-              <div class="statusRow">
+              <div class="row demo">
+                <span>*For demo/task mode, please use demo@domain.com/demo01 as a login and password</span>
+              </div>
+              <div class="login-errors">
                   <br />
-                  <div class="label label-important" *ngIf="errorMessage">
-                      <span class="glyphicon glyphicon-thumbs-down icon-white"></span>&nbsp;&nbsp;Error: {{ errorMessage }}
+                  <div class="" *ngIf="loginErrorMessage">
+                      <span class="">{{ loginErrorMessage }}</span>
                   </div>
               </div>
           </div>

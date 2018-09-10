@@ -14,6 +14,11 @@ export class AuthService {
     redirectUrl: string;
     @Output() authChanged: EventEmitter<boolean> = new EventEmitter<boolean>();
 
+    private readonly demoCredentials = {
+        email: 'demo@domain.com',
+        password: 'demo01'
+    } as LoginData;
+
     constructor(private http: HttpClient) { }
 
     private userAuthChanged(status: boolean) {
@@ -24,9 +29,16 @@ export class AuthService {
         return this.http.post<boolean>(this.authUrl + '/login', userLogin)
             .pipe(
                 map(loggedIn => {
-                    this.isAuthenticated = loggedIn;
+                    // demo hack
+                    if (userLogin.email === this.demoCredentials.email &&
+                        userLogin.password === this.demoCredentials.password) {
+                            this.isAuthenticated = true;
+                        } else {
+                            this.isAuthenticated = false;
+                        }
+                    // this.isAuthenticated = loggedIn;
                     this.userAuthChanged(loggedIn);
-                    return loggedIn;
+                    return this.isAuthenticated;
                 }),
                 catchError(this.handleError)
             );

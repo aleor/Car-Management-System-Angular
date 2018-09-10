@@ -17,4 +17,17 @@
     .centered {
         justify-content: center;
     }
+
+    .demo {
+        margin-top: 15px;
+        font-style: italic;
+        font-size: 14px;
+        color: gray;
+        max-width: 400px;
+        text-align: center;
+    }
+
+    .login-errors {
+        color: firebrick;
+    }
 }
