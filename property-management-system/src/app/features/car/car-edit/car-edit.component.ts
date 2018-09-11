@@ -5,6 +5,7 @@ import { Router, ActivatedRoute, Params } from '@angular/router';
 import { DataService } from '../../../core/services/data.service';
 import { NgForm, FormControl } from '@angular/forms';
 import { Address } from '../../../shared/models/address.model';
+import { MatSnackBar } from '@angular/material';
 
 @Component({
   selector: 'pms-car-edit',
@@ -20,7 +21,8 @@ export class CarEditComponent implements OnInit {
 
   constructor(private router: Router,
     private route: ActivatedRoute,
-    private dataService: DataService) { }
+    private dataService: DataService,
+    private snackService: MatSnackBar) { }
 
   ngOnInit() {
     this.car.address = new Address();
@@ -57,9 +59,23 @@ export class CarEditComponent implements OnInit {
       .subscribe((createdCar: Car) => {
       if (createdCar) {
         this.carForm.form.markAsPristine();
+        this.snackService.open('New car has been successfully added', 
+                    null, 
+                    { duration: 2500,
+                    horizontalPosition: 'right',
+                    verticalPosition: 'top',
+                    panelClass: ['success-message'] 
+                    });
         this.router.navigate(['/cars']);
       } else {
-        const msg = 'Unable to add a new car';
+        this.snackService.open('There was a problem adding a new car, please try again later', 
+                    null, 
+                    { duration: 2500,
+                    horizontalPosition: 'right',
+                    verticalPosition: 'top',
+                    panelClass: ['success-message'] 
+                    });
+                  
         // this.growler.growl(msg, GrowlerMessageType.Danger);
         // this.errorMessage = msg;
       }
@@ -71,9 +87,23 @@ export class CarEditComponent implements OnInit {
     this.dataService.updateCar(this.car).subscribe(success => {
       if (success) {
         this.carForm.form.markAsPristine();
-        console.log('success');
+        this.snackService.open('Changes successfully applied', 
+                    null, 
+                    { duration: 2500,
+                    horizontalPosition: 'right',
+                    verticalPosition: 'top',
+                    panelClass: ['success-message'] 
+                    });
+          this.router.navigate(['/cars']);
       } else {
-        console.log('error');
+        this.snackService.open('There was a problem with saving changes, please try again', 
+                    null, 
+                    { duration: 2500,
+                    horizontalPosition: 'right',
+                    verticalPosition: 'top',
+                    panelClass: ['success-message'] 
+                    });
+                  
       }
     });
   }
@@ -95,6 +125,31 @@ export class CarEditComponent implements OnInit {
         if (control instanceof FormControl) {
           control.markAsTouched({ onlySelf: true });
     }
+  });
+}
+
+deleteCar() {
+  this.dataService.deleteCar(this.car.id).subscribe(success => {
+    if (success) {
+      this.snackService.open('Car has been removed', 
+                    null, 
+                    { duration: 2500,
+                    horizontalPosition: 'right',
+                    verticalPosition: 'top',
+                    panelClass: ['success-message'] 
+                    });
+    }
+    else {
+      this.snackService.open('There was a problem with removing the car, please try again', 
+                    null, 
+                    { duration: 2500,
+                    horizontalPosition: 'right',
+                    verticalPosition: 'top',
+                    panelClass: ['success-message'] 
+                    });
+    }
+
+    this.router.navigate(['/cars']);
   });
 }
 }

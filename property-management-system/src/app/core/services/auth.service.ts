@@ -37,7 +37,7 @@ export class AuthService {
                             this.isAuthenticated = false;
                         }
                     // this.isAuthenticated = loggedIn;
-                    this.userAuthChanged(loggedIn);
+                    this.userAuthChanged(this.isAuthenticated);
                     return this.isAuthenticated;
                 }),
                 catchError(this.handleError)

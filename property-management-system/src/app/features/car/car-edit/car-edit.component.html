@@ -51,6 +51,15 @@
         </span>
     </button>
 
+    <div *ngIf="car.id > 0">
+            <button mat-raised-button color="warn" (click)="deleteCar()">
+                <mat-icon>delete_outline</mat-icon>
+                <span>
+                    Delete
+                </span>
+            </button>
+        </div>
+        
     <button mat-raised-button (click)="cancel()">
         <mat-icon>replay</mat-icon>
         <span>
@@ -58,18 +67,3 @@
         </span>
     </button>
 </div>
-
-<!-- 
-      <div *ngIf="customer">
-        <div class="alert alert-warning" *ngIf="customer.id && deleteMessageEnabled">
-           Delete Customer?&nbsp;&nbsp;<button class="btn btn-danger" (click)="delete($event)">Yes</button>&nbsp;&nbsp;
-           <button class="btn btn-default" (click)="deleteMessageEnabled = false">No</button>
-        </div>
-        <button class="btn btn-danger" *ngIf="customer.id && !deleteMessageEnabled" (click)="deleteMessageEnabled = true">Delete</button>&nbsp;&nbsp;
-  
-        <div class="pull-right" *ngIf="!deleteMessageEnabled">
-          <button class="btn btn-default" (click)="cancel($event)">Cancel</button>&nbsp;&nbsp;
-          <button type="submit" class="btn btn-success" [disabled]="customerForm.pristine || !customerForm.valid">{{ operationText }}</button>
-        </div>
-      </div>
-      <div class="alert alert-danger" *ngIf="errorMessage != null">{{ errorMessage }}</div> -->

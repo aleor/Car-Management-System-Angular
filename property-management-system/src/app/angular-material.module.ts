@@ -17,7 +17,10 @@ import {
   MatTooltipModule,
   MatSelectModule,
   MatListModule,
-  MatNativeDateModule
+  MatNativeDateModule,
+  MatSnackBarModule,
+  MatDialog,
+  MatDialogModule
  } from '@angular/material';
 
 @NgModule({
@@ -39,7 +42,9 @@ import {
     MatTooltipModule,
     MatSelectModule,
     MatListModule,
-    MatNativeDateModule
+    MatNativeDateModule,
+    MatSnackBarModule,
+    MatDialogModule
   ],
   exports: [
     MatButtonModule,
@@ -59,7 +64,8 @@ import {
     MatTooltipModule,
     MatSelectModule,
     MatListModule,
-    MatNativeDateModule
+    MatNativeDateModule,
+    MatDialogModule
   ],
   declarations: []
 })
