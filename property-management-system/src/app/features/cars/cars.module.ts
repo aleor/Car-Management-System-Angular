@@ -6,6 +6,7 @@ import { AngularMaterialModule } from '../../angular-material.module';
 import { CarsRoutingModule } from './cars-routing.module';
 import { DataService } from '../../core/services/data.service';
 import { FilterService } from '../../core/services/filter.service';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   imports: [
@@ -13,12 +14,13 @@ import { FilterService } from '../../core/services/filter.service';
     AngularMaterialModule,
     CarsRoutingModule,
     SharedModule,
-    FormsModule
+    FormsModule,
+    RouterModule
   ],
   declarations: [CarsRoutingModule.components],
   providers: [
     DataService,
-    FilterService 
+    FilterService
   ]
 })
 export class CarsModule { }

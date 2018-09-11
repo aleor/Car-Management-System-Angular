@@ -1,5 +1,5 @@
 [{
-        "id": 1,
+        "id": 194093,
         "model": "Ford Fusion",
         "type": "Small family / Compact",
         "isAvailable": false,
@@ -67,7 +67,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": 62154,
         "model": "Ford Explorer",
         "type": "Crossover SUV",
         "isAvailable": true,
@@ -135,7 +135,7 @@
         ]
     },
     {
-        "id": 3,
+        "id": 246468,
         "model": "Toyota Camry",
         "type": "Large family / Mid-size",
         "isAvailable": false,
@@ -215,7 +215,7 @@
         ]
     },
     {
-        "id": 4,
+        "id": 252977,
         "model": "Toyota RAV 4",
         "type": "Crossover SUV",
         "isAvailable": false,
@@ -295,7 +295,7 @@
         ]
     },
     {
-        "id": 5,
+        "id": 275611,
         "model": "Jeep Grand Cherokee",
         "type": "Crossover SUV",
         "isAvailable": true,
@@ -345,7 +345,7 @@
         ]
     },
     {
-        "id": 5,
+        "id": 187821,
         "model": "Volkswagen Jetta",
         "type": "Small family / Compact",
         "isAvailable": true,
@@ -383,7 +383,7 @@
         ]
     },
     {
-        "id": 6,
+        "id": 253805,
         "model": "Volkswagen Jetta",
         "type": "Small family / Compact",
         "isAvailable": false,
@@ -481,7 +481,7 @@
         ]
     },
     {
-        "id": 7,
+        "id": 98045,
         "model": "Ford Explorer",
         "type": "Crossover SUV",
         "isAvailable": false,
@@ -567,7 +567,7 @@
         ]
     },
     {
-        "id": 9,
+        "id": 42268,
         "model": "Toyota RAV 4",
         "type": "Crossover SUV",
         "isAvailable": true,
@@ -647,7 +647,7 @@
         ]
     },
     {
-        "id": 10,
+        "id": 50405,
         "model": "Toyota Camry",
         "type": "Large family / Mid-size",
         "isAvailable": true,
@@ -721,7 +721,7 @@
         ]
     },
     {
-        "id": 11,
+        "id": 178801,
         "model": "Jeep Grand Cherokee",
         "type": "Crossover SUV",
         "isAvailable": true,
@@ -813,7 +813,7 @@
         ]
     },
     {
-        "id": 12,
+        "id": 244256,
         "model": "Mercedez-Benz C-Class",
         "type": "Luxury / Executive",
         "isAvailable": true,
@@ -899,7 +899,7 @@
         ]
     },
     {
-        "id": 13,
+        "id": 269463,
         "model": "Nissan Rogue",
         "type": "Crossover SUV",
         "isAvailable": false,
@@ -991,7 +991,7 @@
         ]
     },
     {
-        "id": 14,
+        "id": 153293,
         "model": "Toyota Corolla",
         "type": "Small family / Compact",
         "isAvailable": true,
@@ -1047,7 +1047,7 @@
         ]
     },
     {
-        "id": 15,
+        "id": 150514,
         "model": "Toyota Camry",
         "type": "Large family / Mid-size",
         "isAvailable": false,
@@ -1121,7 +1121,7 @@
         ]
     },
     {
-        "id": 16,
+        "id": 75191,
         "model": "Ford Fusion",
         "type": "Small family / Compact",
         "isAvailable": false,
@@ -1207,7 +1207,7 @@
         ]
     },
     {
-        "id": 17,
+        "id": 293921,
         "model": "Toyota RAV 4",
         "type": "Crossover SUV",
         "isAvailable": true,
@@ -1257,7 +1257,7 @@
         ]
     },
     {
-        "id": 18,
+        "id": 221643,
         "model": "Ford Explorer",
         "type": "Crossover SUV",
         "isAvailable": false,
@@ -1331,7 +1331,7 @@
         ]
     },
     {
-        "id": 19,
+        "id": 48169,
         "model": "Mercedez-Benz C-Class",
         "type": "Luxury / Executive",
         "isAvailable": true,
@@ -1381,7 +1381,7 @@
         ]
     },
     {
-        "id": 20,
+        "id": 156302,
         "model": "Toyota Corolla",
         "type": "Small family / Compact",
         "isAvailable": false,
@@ -1461,7 +1461,7 @@
         ]
     },
     {
-        "id": 21,
+        "id": 19110,
         "model": "Nissan Rogue",
         "type": "Crossover SUV",
         "isAvailable": true,
@@ -1559,7 +1559,7 @@
         ]
     },
     {
-        "id": 22,
+        "id": 26824,
         "model": "Ford Fusion",
         "type": "Small family / Compact",
         "isAvailable": false,
@@ -1657,7 +1657,7 @@
         ]
     },
     {
-        "id": 23,
+        "id": 175318,
         "model": "Jeep Grand Cherokee",
         "type": "Crossover SUV",
         "isAvailable": false,

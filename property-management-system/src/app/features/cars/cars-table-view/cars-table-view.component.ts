@@ -9,9 +9,9 @@ import { Car } from '../../../shared/models/car.model';
 export class CarsTableViewComponent implements OnInit {
   @Input() cars: Car[] = [];
   dataSource: Car[];
-  displayedColumns = ['model', 'age', 'totalBalance', 'actions'];
+  displayedColumns = ['model', 'type', 'city', 'age', 'isDamaged', 'isAvailable', 'totalBalance', 'actions'];
   constructor() { }
-  
+
   ngOnInit() {
     this.dataSource = this.cars;
   }

@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 
-import { Observable } from 'rxjs';
+import { Observable } from 'rxjs/Observable';
 import { map, catchError } from 'rxjs/operators';
 import { Booking } from '../../shared/models/booking.model';
 import { Property } from '../../shared/models/property.model';
@@ -17,7 +17,7 @@ export class DataService {
     private readonly carsBaseUrl = '/api/cars';
     private readonly propertiesBaseUrl = '/api/properties';
     orders: Booking[];
-    
+
     constructor(private http: HttpClient) { }
 
     takeAllCars(): Observable<Car[]> {
@@ -53,7 +53,7 @@ export class DataService {
         return this.http.get<Car>(this.carsBaseUrl + '/' + id)
             .pipe(
                 map(car => {
-                    //this.calculateCustomersOrderTotal([customer]);
+                    // this.calculateCustomersOrderTotal([customer]);
                     return car;
                 }),
                 catchError(this.handleError)

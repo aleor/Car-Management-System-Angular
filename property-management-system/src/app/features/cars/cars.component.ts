@@ -46,9 +46,9 @@ export class CarsComponent implements OnInit {
   }
 
   applyFilter() {
-    console.log('apply');
     if (!this.searchString) {
       this.filteredCars = this.cars;
+      return;
     }
     const filterBy = this.searchString.toUpperCase();
     const propsToFilterBy = ['model', 'type', 'address.city'];

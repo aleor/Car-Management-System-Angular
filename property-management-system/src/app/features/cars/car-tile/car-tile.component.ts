@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { Car } from '../../../shared/models/car.model';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'pms-car-tile',
@@ -8,6 +9,14 @@ import { Car } from '../../../shared/models/car.model';
 })
 export class CarTileComponent {
   @Input() car: Car;
-  
-  constructor() { }
+
+  constructor(private router: Router) { }
+
+  onEdit() {
+    this.router.navigate(['/car', this.car.id, 'edit']);
+  }
+
+  onDetails() {
+    this.router.navigate(['/car', this.car.id, 'details']);
+  }
 }

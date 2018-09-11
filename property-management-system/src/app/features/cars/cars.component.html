@@ -14,11 +14,7 @@
                 <pms-view-selector (viewModeChanged)="changeViewMode($event)"></pms-view-selector>
             </div>
             <mat-form-field>
-                <input matInput 
-                    (ngModelChange)="applyFilter()"
-                    [(ngModel)]="searchString"
-                    matTooltip="Filter by model, type or city"
-                    placeholder="Filter" />
+                <input matInput (keyup)="applyFilter()" [(ngModel)]="searchString" matTooltip="Filter by model, type or city" placeholder="Filter" />
                 <button mat-button *ngIf="searchString" matSuffix mat-icon-button aria-label="Clear" (click)="clearFilter()">
                     <mat-icon>close</mat-icon>
                   </button>
@@ -31,9 +27,7 @@
         <pms-cars-table-view *ngSwitchCase="viewMode.Table" [cars]="filteredCars"></pms-cars-table-view>
     </div>
 
-    <pms-pagination [totalItems]="totalRecords"
-        [itemsPerPage]="pageSize"
-        (pageChanges)="onPageParamsChanged($event)">
+    <pms-pagination [totalItems]="totalRecords" [itemsPerPage]="pageSize" (pageChanges)="onPageParamsChanged($event)">
     </pms-pagination>
 </div>
 

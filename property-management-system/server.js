@@ -46,11 +46,11 @@ app.post('/api/cars', (req, res) => {
     let postedCar = req.body;
     let currentMaxId = Math.max.apply(Math, cars.map((car) => car.id));
     postedCar.id = currentMaxId++;
-    cars.push(postedCar);
+    cars.unshift(postedCar);
     res.json(postedCar);
 });
 
-app.put('/api/carss/:id', (req, res) => {
+app.put('/api/cars/:id', (req, res) => {
     let putCar = req.body;
     let id = +req.params.id;
     let status = false;

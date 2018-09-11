@@ -1,29 +1,19 @@
 import { HistoryRecord } from './history-record.model';
+import { Address } from './address.model';
 
 export class Car {
     id: number;
     model: string;
     type: string;
     isAvailable: boolean;
-    isDamaged: boolean;
-    totalBalance: number;
+    isDamaged = false;
+    totalBalance = 0;
     picture: string;
     age: number;
-    location: {
-      latitude: number;
-      longitude: number;
-    };
-    address: {
-      city: string;
-      state: string;
-      country: string;
-      street: string;
-      zip: number;
-      building: number;
-    };
-    country: string = 'US';
+    location: Location;
+    address: Address;
     description: string;
     registeredAt: Date;
     comments: string[];
-    history: HistoryRecord[]
+    history: HistoryRecord[];
 }

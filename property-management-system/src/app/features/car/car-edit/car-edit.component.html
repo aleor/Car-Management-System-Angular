@@ -1,17 +1,22 @@
 <div class="car-edit">
     <form (ngSubmit)="submit()" #carForm="ngForm" class="car-edit-form" novalidate>
         <mat-form-field>
-          <input type="text" matInput placeholder="Model" name="model" [(ngModel)]="car.model" #model="ngModel" required>
-          <mat-error *ngIf="!car.model">Model is required</mat-error>
+            <input type="text" matInput placeholder="Model" name="model" [(ngModel)]="car.model" #model="ngModel" required>
+            <mat-error *ngIf="!car.model">Model is required</mat-error>
         </mat-form-field>
-      
-          <mat-form-field>
-              <mat-select placeholder="Type" [(ngModel)]="car.type" name="type" required>
+
+        <mat-form-field>
+            <mat-select placeholder="Type" [(ngModel)]="car.type" name="type" required>
                 <mat-option *ngFor="let type of carTypes" [value]="type">
-                  {{type}}
+                    {{type}}
                 </mat-option>
-              </mat-select>
-            </mat-form-field>
+            </mat-select>
+        </mat-form-field>
+
+        <mat-form-field>
+            <input type="string" matInput placeholder="City" name="city" [(ngModel)]="car.address.city" #city="ngModel" required>
+            <mat-error *ngIf="!car.address?.city">Please provide a city where the car is currently located</mat-error>
+        </mat-form-field>
 
         <mat-form-field>
             <input type="number" matInput placeholder="Age" name="age" [(ngModel)]="car.age" #age="ngModel" required>
@@ -22,8 +27,8 @@
             <input matInput [matDatepicker]="picker" placeholder="Last maintenance date" [value]="car.lastMaintenance">
             <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
             <mat-datepicker #picker></mat-datepicker>
-          </mat-form-field>
-        
+        </mat-form-field>
+
         <mat-form-field>
             <textarea type="text" matInput placeholder="Description" name="description" [(ngModel)]="car.description" #description="ngModel">
               </textarea>
@@ -33,26 +38,26 @@
             <textarea type="text" matInput placeholder="Comments" name="comments" [(ngModel)]="car.comments" #comments="ngModel">
               </textarea>
         </mat-form-field>
-          
+
         <mat-checkbox [(ngModel)]="car.isAvailable" name="available" #available="ngModel">Available</mat-checkbox>
         <mat-checkbox [(ngModel)]="car.isDamaged" name="damaged" #damaged="ngModel">Damaged</mat-checkbox>
-      </form>
+    </form>
 </div>
 <div class="actions">
-    <button mat-raised-button color="primary">
+    <button mat-raised-button color="primary" (click)="postCar()">
         <mat-icon>done</mat-icon>
         <span>
           {{addOrUpdate}}
         </span>
     </button>
 
-    <button mat-raised-button>
+    <button mat-raised-button (click)="cancel()">
         <mat-icon>replay</mat-icon>
         <span>
           Cancel
         </span>
     </button>
-  </div>
+</div>
 
 <!-- 
       <div *ngIf="customer">
@@ -68,4 +73,3 @@
         </div>
       </div>
       <div class="alert alert-danger" *ngIf="errorMessage != null">{{ errorMessage }}</div> -->
-
