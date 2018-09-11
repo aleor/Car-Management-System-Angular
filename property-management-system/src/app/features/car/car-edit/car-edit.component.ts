@@ -1,11 +1,11 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild, Inject } from '@angular/core';
 import { Car } from '../../../shared/models/car.model';
 import { CarTypes } from '../../../shared/models/types.const';
 import { Router, ActivatedRoute, Params } from '@angular/router';
 import { DataService } from '../../../core/services/data.service';
 import { NgForm, FormControl } from '@angular/forms';
 import { Address } from '../../../shared/models/address.model';
-import { MatSnackBar } from '@angular/material';
+import { MatSnackBar, MatDialog, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material';
 
 @Component({
   selector: 'pms-car-edit',
@@ -22,7 +22,8 @@ export class CarEditComponent implements OnInit {
   constructor(private router: Router,
     private route: ActivatedRoute,
     private dataService: DataService,
-    private snackService: MatSnackBar) { }
+    private snackService: MatSnackBar,
+    private dialog: MatDialog) { }
 
   ngOnInit() {
     this.car.address = new Address();
@@ -115,8 +116,17 @@ export class CarEditComponent implements OnInit {
     }
 
     // todo: pop-up/toast
-    window.alert('Form changed, changes will be lost');
-    this.router.navigate(['/cars']);
+    const dialogRef = this.dialog.open(PmsConfirmationDialog, {
+      width: '250px',
+      disableClose: true
+    });
+
+    dialogRef.afterClosed().subscribe(confirmed => {
+      if (confirmed) {
+        console.log(confirmed);
+        this.router.navigate(['/cars']);
+      }
+    });
   }
 
   validateAllFormFields() {
@@ -152,4 +162,22 @@ deleteCar() {
     this.router.navigate(['/cars']);
   });
 }
+}
+
+@Component({
+  selector: 'pms-confirmation-dialog',
+  template: `
+  <h3 mat-dialog-title>Confirmation</h3>
+  <mat-dialog-content>test</mat-dialog-content>
+  <mat-dialog-actions>
+    <button mat-button (click)="dialogRef.close(true)">Confirm</button>
+    <button mat-button (click)="dialogRef.close(false)">Cancel</button>
+  </mat-dialog-actions>
+  `
+})
+export class PmsConfirmationDialog {
+
+  constructor(
+    public dialogRef: MatDialogRef<PmsConfirmationDialog>
+    ) {}
 }

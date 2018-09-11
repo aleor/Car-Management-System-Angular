@@ -38,7 +38,7 @@ export class NavBarComponent implements OnInit, OnDestroy {
                   // this.setLoginButtonText();
                   this.snackService.open('You\'ve been successfully logged out', 
                     null, 
-                    { duration: 3000,
+                    { duration: 2500,
                     horizontalPosition: 'right',
                     verticalPosition: 'top',
                     panelClass: ['success-message'] 

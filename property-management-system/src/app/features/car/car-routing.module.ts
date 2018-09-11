@@ -4,7 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { CarComponent } from './car.component';
 import { CarHistoryComponent } from './car-history/car-history.component';
 import { CarDetailsComponent } from './car-details/car-details.component';
-import { CarEditComponent } from './car-edit/car-edit.component';
+import { CarEditComponent, PmsConfirmationDialog } from './car-edit/car-edit.component';
 import { AuthGuard } from '../../core/guards/auth.guard';
 //import { CanDeactivateGuard } from './can-deactivate.guard';
 
@@ -37,7 +37,8 @@ export class CarRoutingModule {
       CarComponent,
       CarHistoryComponent, 
       CarDetailsComponent, 
-      CarEditComponent
+      CarEditComponent,
+      PmsConfirmationDialog
     ];
 }
 
