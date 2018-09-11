@@ -11,9 +11,9 @@
             <mat-cell *matCellDef="let element"> {{element.type}} </mat-cell>
         </ng-container>
 
-        <ng-container matColumnDef="city">
+        <ng-container matColumnDef="address.city">
             <mat-header-cell *matHeaderCellDef> City </mat-header-cell>
-            <mat-cell *matCellDef="let element"> {{element.city}} </mat-cell>
+            <mat-cell *matCellDef="let element"> {{element.address?.city}} </mat-cell>
         </ng-container>
 
         <ng-container matColumnDef="isAvailable">

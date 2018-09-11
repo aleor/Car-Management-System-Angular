@@ -2,11 +2,11 @@
     <mat-toolbar color="primary">
         <mat-icon class="logo">commute</mat-icon>
         <span class="title">Car Rental Management System</span>
-        <!--<span class="space-filler"></span>-->
         <div class="menu-buttons">
-            <button mat-button>Cars</button>
-            <button mat-button>Bookings</button>
-            <button mat-button>Login</button>
+            <a mat-button routerLink="/cars">Cars</a>
+            <a mat-button routerLink="/reports">Reports</a>
         </div>
+        <span class="space-filler"></span>
+        <a mat-button routerLink="/login">Login</a>
     </mat-toolbar>
 </div>

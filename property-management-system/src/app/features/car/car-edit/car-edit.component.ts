@@ -3,7 +3,7 @@ import { Car } from '../../../shared/models/car.model';
 import { CarTypes } from '../../../shared/models/types.const';
 import { Router, ActivatedRoute, Params } from '@angular/router';
 import { DataService } from '../../../core/services/data.service';
-import { NgForm } from '@angular/forms';
+import { NgForm, FormControl } from '@angular/forms';
 import { Address } from '../../../shared/models/address.model';
 
 @Component({
@@ -41,6 +41,10 @@ export class CarEditComponent implements OnInit {
   }
 
   postCar() {
+    this.validateAllFormFields();
+    if (!this.carForm.form.valid) {
+      return;
+    }
     if (this.addOrUpdate === 'Add') {
       this.addCar();
     } else {
@@ -50,7 +54,7 @@ export class CarEditComponent implements OnInit {
 
   addCar() {
     this.dataService.addCar(this.car)
-    .subscribe((createdCar: Car) => {
+      .subscribe((createdCar: Car) => {
       if (createdCar) {
         this.carForm.form.markAsPristine();
         this.router.navigate(['/cars']);
@@ -84,4 +88,13 @@ export class CarEditComponent implements OnInit {
     window.alert('Form changed, changes will be lost');
     this.router.navigate(['/cars']);
   }
+
+  validateAllFormFields() {
+    Object.keys(this.carForm.controls).forEach(field => {
+        const control = this.carForm.controls[field];
+        if (control instanceof FormControl) {
+          control.markAsTouched({ onlySelf: true });
+    }
+  });
+}
 }
