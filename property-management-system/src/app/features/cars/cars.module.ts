@@ -7,6 +7,7 @@ import { CarsRoutingModule } from './cars-routing.module';
 import { DataService } from '../../core/services/data.service';
 import { FilterService } from '../../core/services/filter.service';
 import { RouterModule } from '@angular/router';
+import { FakeDataService } from '../../core/services/fake-data.service';
 
 @NgModule({
   imports: [
@@ -21,7 +22,8 @@ import { RouterModule } from '@angular/router';
   declarations: [CarsRoutingModule.components],
   providers: [
     DataService,
-    FilterService
+    FilterService,
+    FakeDataService
   ]
 })
 export class CarsModule { }

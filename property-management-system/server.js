@@ -3,7 +3,6 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const fs = require('fs');
 const app = express();
-let customers = JSON.parse(fs.readFileSync('data/properties.json', 'utf-8'));
 let cars = JSON.parse(fs.readFileSync('data/cars.json', 'utf-8'));
 
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -55,13 +54,6 @@ app.put('/api/cars/:id', (req, res) => {
     let id = +req.params.id;
     let status = false;
 
-    //Ensure state name is in sync with state abbreviation 
-    // const filteredStates = states.filter((state) => state.abbreviation === putCustomer.state.abbreviation);
-    // if (filteredStates && filteredStates.length) {
-    //     putCustomer.state.name = filteredStates[0].name;
-    //     console.log('Updated putCustomer state to ' + putCustomer.state.name);
-    // }
-
     for (let i = 0, len = cars.length; i < len; i++) {
         if (cars[i].id === id) {
             cars[i] = putCar;
@@ -82,16 +74,6 @@ app.delete('/api/cars/:id', function(req, res) {
     }
     res.json({ status: true });
 });
-
-// app.get('/api/orders/:id', function(req, res) {
-//     let carId = +req.params.id;
-//     for (let cust of customers) {
-//         if (cust.customerId === customerId) {
-//             return res.json(cust);
-//         }
-//     }
-//     res.json([]);
-// });
 
 app.get('/api/states', (req, res) => {
     res.json(states);

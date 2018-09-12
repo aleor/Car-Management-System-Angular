@@ -3,6 +3,7 @@ import { Car } from '../../../shared/models/car.model';
 import { HistoryRecord } from '../../../shared/models/history-record.model';
 import { ActivatedRoute, Params } from '@angular/router';
 import { DataService } from '../../../core/services/data.service';
+import { FakeDataService } from '../../../core/services/fake-data.service';
 
 @Component({
   selector: 'pms-car-history',
@@ -16,7 +17,8 @@ export class CarHistoryComponent implements OnInit {
   displayedColumns = ['timestamp', 'event', 'amount'];
 
   constructor(private route: ActivatedRoute,
-    private dataService: DataService) { }
+    private dataService: DataService,
+    private fakeDataService: FakeDataService) { }
 
   ngOnInit() {
     this.route.parent.params.subscribe((params: Params) => {
@@ -28,7 +30,7 @@ export class CarHistoryComponent implements OnInit {
   }
 
   getCar(id: number) {
-    this.dataService.getCar(id).subscribe((car: Car) => {
+    this.fakeDataService.getCar(id).subscribe((car: Car) => {
       this.car = car;
       this.historyData = car.history;
     });

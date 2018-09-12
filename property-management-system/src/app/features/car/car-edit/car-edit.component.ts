@@ -9,6 +9,7 @@ import { MatSnackBar, MatDialog, DateAdapter, MAT_DATE_LOCALE, MAT_DATE_FORMATS 
 import { DialogModalComponent } from '../../../shared/dialog-modal/dialog-modal.component';
 import { MomentDateAdapter, MAT_MOMENT_DATE_FORMATS } from '@angular/material-moment-adapter';
 import * as moment from 'moment';
+import { FakeDataService } from '../../../core/services/fake-data.service';
 
 @Component({
   selector: 'pms-car-edit',
@@ -30,6 +31,7 @@ export class CarEditComponent implements OnInit {
   constructor(private router: Router,
     private route: ActivatedRoute,
     private dataService: DataService,
+    private fakeDataService: FakeDataService,
     private snackService: MatSnackBar,
     private dialog: MatDialog) { }
 
@@ -46,7 +48,7 @@ export class CarEditComponent implements OnInit {
   }
 
   getCar(id: number) {
-    this.dataService.getCar(id).subscribe((car: Car) => {
+    this.fakeDataService.getCar(id).subscribe((car: Car) => {
       this.car = car;
     });
   }
@@ -64,7 +66,7 @@ export class CarEditComponent implements OnInit {
   }
 
   addCar() {
-    this.dataService.addCar(this.car)
+    this.fakeDataService.addCar(this.car)
       .subscribe((createdCar: Car) => {
       if (createdCar) {
         this.carForm.form.markAsPristine();
@@ -90,7 +92,7 @@ export class CarEditComponent implements OnInit {
   }
 
   updateCar() {
-    this.dataService.updateCar(this.car).subscribe(success => {
+    this.fakeDataService.updateCar(this.car).subscribe(success => {
       if (success) {
         this.carForm.form.markAsPristine();
         this.snackService.open('Changes successfully applied',
@@ -162,7 +164,7 @@ deleteCar() {
 }
 
   private delete() {
-    this.dataService.deleteCar(this.car.id).subscribe(success => {
+    this.fakeDataService.deleteCar(this.car.id).subscribe(success => {
       if (success) {
         this.snackService.open('Car has been removed',
                       null,

@@ -15,8 +15,6 @@ import { ApiResponse } from '../../shared/models/api-response.model';
 export class DataService {
 
     private readonly carsBaseUrl = '/api/cars';
-    private readonly propertiesBaseUrl = '/api/properties';
-    orders: Booking[];
 
     constructor(private http: HttpClient) { }
 
@@ -80,11 +78,6 @@ export class DataService {
                 catchError(this.handleError)
             );
     }
-
-    // getStates(): Observable<IState[]> {
-    //     return this.http.get<IState[]>('/api/states')
-    //         .pipe(catchError(this.handleError));
-    // }
 
     private handleError(error: HttpErrorResponse) {
         console.error('server error:', error);

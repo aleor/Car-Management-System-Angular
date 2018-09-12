@@ -26,9 +26,9 @@ export class AuthService {
     }
 
     login(userLogin: LoginData): Observable<boolean> {
-        return this.http.post<boolean>(this.authUrl + '/login', userLogin)
-            .pipe(
-                map(loggedIn => {
+        // return this.http.post<boolean>(this.authUrl + '/login', userLogin)
+        //     .pipe(
+        //         map(loggedIn => {
                     // demo hack
                     if (userLogin.email === this.demoCredentials.email &&
                         userLogin.password === this.demoCredentials.password) {
@@ -38,22 +38,26 @@ export class AuthService {
                         }
                     // this.isAuthenticated = loggedIn;
                     this.userAuthChanged(this.isAuthenticated);
-                    return this.isAuthenticated;
-                }),
-                catchError(this.handleError)
-            );
+            //         return this.isAuthenticated;
+            //     }),
+            //     catchError(this.handleError)
+            // );
+
+            return Observable.of(this.isAuthenticated);
     }
 
     logout(): Observable<boolean> {
-        return this.http.post<boolean>(this.authUrl + '/logout', null)
-            .pipe(
-                map(loggedOut => {
-                    this.isAuthenticated = !loggedOut;
+        const loggedOut = true;
+        // return this.http.post<boolean>(this.authUrl + '/logout', null)
+        //     .pipe(
+        //         map(loggedOut => {
+        //             this.isAuthenticated = !loggedOut;
                     this.userAuthChanged(!loggedOut);
-                    return loggedOut;
-                }),
-                catchError(this.handleError)
-            );
+            //         return loggedOut;
+            //     }),
+            //     catchError(this.handleError)
+            // );
+            return Observable.of(loggedOut);
     }
 
     private handleError(error: HttpErrorResponse) {
