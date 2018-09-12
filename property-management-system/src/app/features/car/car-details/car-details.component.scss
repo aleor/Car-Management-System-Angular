@@ -1,0 +1,15 @@
+.info {
+    margin: 20px;
+    .common-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .detailed-content {
+        display: flex;
+        flex-direction: column;
+    }
+    label {
+        color: dimgray;
+        margin-bottom: 10px;
+    }
+}

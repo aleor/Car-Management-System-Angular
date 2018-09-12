@@ -19,7 +19,7 @@ import {
   MatListModule,
   MatNativeDateModule,
   MatSnackBarModule,
-  MatDialogModule,
+  MatDialogModule
  } from '@angular/material';
 
 import { MatMomentDateModule } from '@angular/material-moment-adapter';

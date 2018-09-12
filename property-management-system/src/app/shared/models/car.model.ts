@@ -13,7 +13,7 @@ export class Car {
     location: Location;
     address: Address;
     description: string;
-    registeredAt: Date;
+    lastMaintenance: Date;
     comments: string[];
     history: HistoryRecord[];
 }
