@@ -4,9 +4,9 @@ import { RouterModule, Routes } from '@angular/router';
 import { CarComponent } from './car.component';
 import { CarHistoryComponent } from './car-history/car-history.component';
 import { CarDetailsComponent } from './car-details/car-details.component';
-import { CarEditComponent, PmsConfirmationDialog } from './car-edit/car-edit.component';
+import { CarEditComponent } from './car-edit/car-edit.component';
 import { AuthGuard } from '../../core/guards/auth.guard';
-//import { CanDeactivateGuard } from './can-deactivate.guard';
+// import { CanDeactivateGuard } from './can-deactivate.guard';
 
 const routes: Routes = [
   {
@@ -19,7 +19,7 @@ const routes: Routes = [
         path: 'edit',
         component: CarEditComponent,
         canActivate: [ AuthGuard ],
-        //canDeactivate: [CanDeactivateGuard]
+        // canDeactivate: [CanDeactivateGuard]
       }
     ]
   }
@@ -28,17 +28,16 @@ const routes: Routes = [
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
-  providers: [AuthGuard, 
-    //CanDeactivateGuard
+  providers: [AuthGuard,
+    // CanDeactivateGuard
 ]
 })
 export class CarRoutingModule {
   static components = [
       CarComponent,
-      CarHistoryComponent, 
-      CarDetailsComponent, 
-      CarEditComponent,
-      PmsConfirmationDialog
+      CarHistoryComponent,
+      CarDetailsComponent,
+      CarEditComponent
     ];
 }
 
