@@ -2,7 +2,8 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Router } from '@angular/router';
 import { AuthService } from '../services/auth.service';
 import { Subscription } from 'rxjs';
-import { MatSnackBar } from '@angular/material';
+import { MatSnackBar, MatDialog } from '@angular/material';
+import { DialogModalComponent } from '../../shared/dialog-modal/dialog-modal.component';
 
 @Component({
   selector: 'pms-nav-bar',
@@ -15,9 +16,10 @@ export class NavBarComponent implements OnInit, OnDestroy {
   isLoggedIn = false;
 
   constructor(
-    private router: Router, 
+    private router: Router,
     private authService: AuthService,
-    private snackService: MatSnackBar
+    private snackService: MatSnackBar,
+    private dialog: MatDialog
     ) { }
 
   ngOnInit() {
@@ -55,8 +57,22 @@ export class NavBarComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy() {
-    if(this.authSubscription) {
+    if (this.authSubscription) {
       this.authSubscription.unsubscribe();
     }
+  }
+
+  reports() {
+    const dialogRef = this.dialog.open(DialogModalComponent, {
+      width: '300px',
+      disableClose: false,
+      autoFocus: false,
+      data: {
+        message: 'Feature is under development. Please check later.',
+        confirmButtonText: 'OK',
+        cancelButton: false,
+        headerText: 'Under development'
+      }
+    });
   }
 }

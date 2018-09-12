@@ -123,7 +123,11 @@ export class CarEditComponent implements OnInit {
       width: '300px',
       disableClose: true,
       autoFocus: false,
-      data: {message: 'All changes will be lost. Are you sure you want to continue?'}
+      data: {
+        message: 'All changes will be lost. Are you sure you want to continue?',
+        cancelButton: true,
+        confirmButtonText: 'Confirm'
+      }
     });
 
     dialogRef.afterClosed().subscribe(confirmed => {

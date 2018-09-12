@@ -4,7 +4,7 @@
         <span class="title">Car Rental Management System</span>
         <div class="menu-buttons">
             <a mat-button routerLink="/cars">Cars</a>
-            <a mat-button routerLink="/reports">Reports</a>
+            <button mat-button (click)="reports()">Reports</button>
         </div>
         <span class="space-filler"></span>
         <div *ngIf="!isLoggedIn">
