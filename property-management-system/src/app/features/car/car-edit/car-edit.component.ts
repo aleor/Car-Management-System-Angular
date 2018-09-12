@@ -153,7 +153,11 @@ deleteCar() {
     width: '300px',
     disableClose: true,
     autoFocus: false,
-    data: {message: `Are you sure you want to delete ${this.car.model} ?`}
+    data: {
+      message: `Are you sure you want to delete ${this.car.model} ?`,
+      cancelButton: true,
+      confirmButtonText: 'Confirm'
+    }
   });
 
   dialogRef.afterClosed().subscribe(confirmed => {

@@ -5,7 +5,6 @@ import { SharedModule } from '../../shared/shared.module';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { DataService } from '../../core/services/data.service';
-import { FakeDataService } from '../../core/services/fake-data.service';
 
 @NgModule({
   imports: [
@@ -16,6 +15,6 @@ import { FakeDataService } from '../../core/services/fake-data.service';
     FormsModule
   ],
   declarations: [CarRoutingModule.components],
-  providers: [DataService, FakeDataService]
+  providers: [DataService]
 })
 export class CarModule { }
