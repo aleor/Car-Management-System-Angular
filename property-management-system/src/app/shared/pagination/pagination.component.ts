@@ -15,7 +15,7 @@ export class PaginationComponent {
 
   constructor() { }
 
-  pageParamChanged(some: PageEvent) {
-    this.pageChanges.emit(some);
+  pageParamChanged(params: PageEvent) {
+    this.pageChanges.emit(params);
   }
 }

@@ -36,13 +36,13 @@ export class CarsComponent implements OnInit {
   }
 
   getCarsPage(page: number) {
-    this.dataService.takeCars(page * this.pageSize, this.pageSize)
+    this.dataService.takeCars(page, this.pageSize)
         .subscribe((response: PagedResults<Car[]>) => {
           this.cars = response.results;
           this.filteredCars = response.results;
           this.totalRecords = response.totalRecords;
         },
-        (err: any) => {console.log(err)});
+        (err: any) => { console.log(err); });
   }
 
   applyFilter() {
@@ -62,6 +62,7 @@ export class CarsComponent implements OnInit {
   onPageParamsChanged(params: PageEvent) {
     if (this.pageSize !== params.pageSize || this.currentPage !== params.pageIndex) {
       this.pageSize = params.pageSize;
+      this.currentPage = params.pageIndex;
       this.getCarsPage(params.pageIndex);
       this.clearFilter();
     }

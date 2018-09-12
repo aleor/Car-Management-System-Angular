@@ -33,7 +33,7 @@ export class DataService {
 
     takeCars(page: number, pageSize: number): Observable<PagedResults<Car[]>> {
         return this.http.get<Car[]>(
-            `${this.carsBaseUrl}/page/${page}/${pageSize}`,
+            `${this.carsBaseUrl}/page/${page * pageSize}/${pageSize}`,
             { observe: 'response' })
             .pipe(
                 map(res => {

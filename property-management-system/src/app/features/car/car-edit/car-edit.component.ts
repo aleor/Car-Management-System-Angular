@@ -171,9 +171,8 @@ deleteCar() {
                       panelClass: ['success-message']
                       });
       }
-  
       this.router.navigate(['/cars']);
-  }
+  });
 }
 }
 
