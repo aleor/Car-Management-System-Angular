@@ -30,21 +30,3 @@
     <pms-pagination [totalItems]="totalRecords" [itemsPerPage]="pageSize" (pageChanges)="onPageParamsChanged($event)">
     </pms-pagination>
 </div>
-
-<!-- 
-    
-        <cm-customers-grid 
-          [customers]="filteredCustomers" 
-          [hidden]="displayMode !== displayModeEnum.Grid"></cm-customers-grid>
-
-        <cm-map *ngIf="filteredCustomers.length" 
-            [zoom]="2" 
-            [enabled]="displayMode === displayModeEnum.Map" 
-            [hidden]="displayMode !== displayModeEnum.Map">
-          <cm-map-point 
-            *ngFor="let customer of filteredCustomers" 
-            [latitude]="customer.latitude" 
-            [longitude]="customer.longitude"
-            [markerText]="'<h3>' + customer.firstName + ' ' + customer.lastName + '</a></h3>' + customer.city + ', ' + customer.state.name"></cm-map-point>
-        </cm-map>
--->

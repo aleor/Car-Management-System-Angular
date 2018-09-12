@@ -24,7 +24,7 @@
         </mat-form-field>
 
         <mat-form-field>
-            <input matInput [matDatepicker]="picker" placeholder="Last maintenance date" [value]="car.lastMaintenance">
+            <input matInput [matDatepicker]="picker" [max]="maxDate" placeholder="Last maintenance date" name="lastMaintenance" [(ngModel)]="car.lastMaintenance">
             <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
             <mat-datepicker #picker></mat-datepicker>
         </mat-form-field>
@@ -52,14 +52,14 @@
     </button>
 
     <div *ngIf="car.id > 0">
-            <button mat-raised-button color="warn" (click)="deleteCar()">
+        <button mat-raised-button color="warn" (click)="deleteCar()">
                 <mat-icon>delete_outline</mat-icon>
                 <span>
                     Delete
                 </span>
             </button>
-        </div>
-        
+    </div>
+
     <button mat-raised-button (click)="cancel()">
         <mat-icon>replay</mat-icon>
         <span>

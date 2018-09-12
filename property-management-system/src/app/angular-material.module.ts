@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { 
+import {
   MatButtonModule,
   MatCardModule,
   MatCheckboxModule,
@@ -19,9 +19,10 @@ import {
   MatListModule,
   MatNativeDateModule,
   MatSnackBarModule,
-  MatDialog,
-  MatDialogModule
+  MatDialogModule,
  } from '@angular/material';
+
+import { MatMomentDateModule } from '@angular/material-moment-adapter';
 
 @NgModule({
   imports: [
@@ -44,7 +45,8 @@ import {
     MatListModule,
     MatNativeDateModule,
     MatSnackBarModule,
-    MatDialogModule
+    MatDialogModule,
+    MatMomentDateModule
   ],
   exports: [
     MatButtonModule,
@@ -65,7 +67,8 @@ import {
     MatSelectModule,
     MatListModule,
     MatNativeDateModule,
-    MatDialogModule
+    MatDialogModule,
+    MatMomentDateModule
   ],
   declarations: []
 })

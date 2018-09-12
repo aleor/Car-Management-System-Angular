@@ -7,12 +7,12 @@ import { CommonModule } from '@angular/common';
 import { AngularMaterialModule } from '../../angular-material.module';
 
 @NgModule({
-  imports: [ 
+  imports: [
     ReactiveFormsModule,
-    SharedModule, 
-    LoginFormRoutingModule, 
+    SharedModule,
+    LoginFormRoutingModule,
     CommonModule,
-    AngularMaterialModule 
+    AngularMaterialModule
   ],
   declarations: [ LoginFormRoutingModule.components ],
   providers: [ValidationService]

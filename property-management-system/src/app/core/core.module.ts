@@ -20,7 +20,7 @@ import { AuthService } from './services/auth.service';
       NavBarComponent
     ],
   declarations: [ NavBarComponent ],
-  providers: [ AuthService ] 
+  providers: [ AuthService ]
 })
 // CoreModule should be loaded once and only in AppModule, as it stores services which intended to be singletones
 export class CoreModule {

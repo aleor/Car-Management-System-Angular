@@ -18,9 +18,7 @@ export class LoginFormComponent implements OnInit {
 
     constructor(private formBuilder: FormBuilder,
                 private router: Router,
-                private authService: AuthService,
-                //private growler: GrowlerService,
-                //private logger: LoggerService
+                private authService: AuthService
                 ) { }
 
     ngOnInit() {
@@ -38,7 +36,6 @@ export class LoginFormComponent implements OnInit {
         this.authService.login(value)
             .subscribe((success: boolean) => {
                 if (success) {
-                    //this.growler.growl('Logged in', GrowlerMessageType.Info);
                     if (this.authService.redirectUrl) {
                         const redirectUrl = this.authService.redirectUrl;
                         this.authService.redirectUrl = '';
@@ -49,12 +46,10 @@ export class LoginFormComponent implements OnInit {
                 } else {
                     const loginError = 'Unable to login, please check your e-mail and password';
                     this.loginErrorMessage = loginError;
-                    //this.growler.growl(loginError, GrowlerMessageType.Danger);
                 }
             },
             (err: any) => {
               console.log(err);
-            //  this.logger.log(err);
             });
     }
 }

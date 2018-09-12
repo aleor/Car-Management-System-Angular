@@ -36,14 +36,14 @@ export class NavBarComponent implements OnInit, OnDestroy {
     this.authService.logout()
               .subscribe((status: boolean) => {
                   // this.setLoginButtonText();
-                  this.snackService.open('You\'ve been successfully logged out', 
-                    null, 
+                  this.snackService.open('You\'ve been successfully logged out',
+                    null,
                     { duration: 2500,
                     horizontalPosition: 'right',
                     verticalPosition: 'top',
-                    panelClass: ['success-message'] 
+                    panelClass: ['success-message']
                     });
-                  // this.growler.growl('Logged Out', GrowlerMessageType.Info);
+
                   this.router.navigate(['/cars']);
                   return;
               },

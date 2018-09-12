@@ -5,13 +5,19 @@ import { Router, ActivatedRoute, Params } from '@angular/router';
 import { DataService } from '../../../core/services/data.service';
 import { NgForm, FormControl } from '@angular/forms';
 import { Address } from '../../../shared/models/address.model';
-import { MatSnackBar, MatDialog, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material';
+import { MatSnackBar, MatDialog, DateAdapter, MAT_DATE_LOCALE, MAT_DATE_FORMATS } from '@angular/material';
 import { DialogModalComponent } from '../../../shared/dialog-modal/dialog-modal.component';
+import { MomentDateAdapter, MAT_MOMENT_DATE_FORMATS } from '@angular/material-moment-adapter';
+import * as moment from 'moment';
 
 @Component({
   selector: 'pms-car-edit',
   templateUrl: './car-edit.component.html',
-  styleUrls: ['./car-edit.component.scss']
+  styleUrls: ['./car-edit.component.scss'],
+  providers: [
+    {provide: DateAdapter, useClass: MomentDateAdapter, deps: [MAT_DATE_LOCALE]},
+    {provide: MAT_DATE_FORMATS, useValue: MAT_MOMENT_DATE_FORMATS},
+  ]
 })
 export class CarEditComponent implements OnInit {
 
@@ -19,6 +25,7 @@ export class CarEditComponent implements OnInit {
   car = new Car();
   carTypes = CarTypes;
   addOrUpdate = 'Add';
+  maxDate = moment();
 
   constructor(private router: Router,
     private route: ActivatedRoute,
@@ -77,8 +84,6 @@ export class CarEditComponent implements OnInit {
                     verticalPosition: 'top',
                     panelClass: ['success-message']
                     });
-        // this.growler.growl(msg, GrowlerMessageType.Danger);
-        // this.errorMessage = msg;
       }
     },
       (err: any) => console.log(err));

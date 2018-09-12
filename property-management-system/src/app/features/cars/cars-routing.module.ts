@@ -16,11 +16,11 @@ const routes: Routes = [
   exports: [ RouterModule ]
 })
 export class CarsRoutingModule {
-  static components = [ 
-      CarsComponent, 
+  static components = [
+      CarsComponent,
       CarTileComponent,
       CarsTileViewComponent,
       ViewSelectorComponent,
-      CarsTableViewComponent 
+      CarsTableViewComponent
     ];
 }
