@@ -4,6 +4,7 @@ import { AngularMaterialModule } from '../angular-material.module';
 import { PaginationModule } from './pagination/pagination.module';
 import { DateFormatterPipe } from './pipes/date-formatter.pipe';
 import { DialogModalComponent } from './dialog-modal/dialog-modal.component';
+import { YesNoPipe } from './pipes/yes-no.pipe';
 
 @NgModule({
   imports: [
@@ -11,8 +12,8 @@ import { DialogModalComponent } from './dialog-modal/dialog-modal.component';
     CommonModule,
     AngularMaterialModule
   ],
-  exports: [PaginationModule, DateFormatterPipe, DialogModalComponent],
-  declarations: [DateFormatterPipe, DialogModalComponent],
+  exports: [PaginationModule, DateFormatterPipe, DialogModalComponent, YesNoPipe],
+  declarations: [DateFormatterPipe, DialogModalComponent, YesNoPipe],
   entryComponents: [DialogModalComponent]
 })
 export class SharedModule { }

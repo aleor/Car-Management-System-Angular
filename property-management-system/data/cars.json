@@ -2,7 +2,7 @@
         "id": 194093,
         "model": "Ford Fusion",
         "type": "Small family / Compact",
-        "isAvailable": false,
+        "isAvailable": true,
         "isDamaged": false,
         "totalBalance": "25,465.56",
         "picture": "http://placehold.it/32x32",

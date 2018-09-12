@@ -15,7 +15,8 @@ import { RouterModule } from '@angular/router';
     CarsRoutingModule,
     SharedModule,
     FormsModule,
-    RouterModule
+    RouterModule,
+    SharedModule
   ],
   declarations: [CarsRoutingModule.components],
   providers: [

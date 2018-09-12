@@ -18,12 +18,12 @@
 
         <ng-container matColumnDef="isAvailable">
             <mat-header-cell *matHeaderCellDef> Available </mat-header-cell>
-            <mat-cell *matCellDef="let element"> {{element.isAvailable}} </mat-cell>
+            <mat-cell *matCellDef="let element"> {{element.isAvailable | yesNo }} </mat-cell>
         </ng-container>
 
         <ng-container matColumnDef="isDamaged">
             <mat-header-cell *matHeaderCellDef> Damaged </mat-header-cell>
-            <mat-cell *matCellDef="let element"> {{element.isDamaged}} </mat-cell>
+            <mat-cell *matCellDef="let element"> {{element.isDamaged | yesNo }} </mat-cell>
         </ng-container>
 
         <ng-container matColumnDef="age">
