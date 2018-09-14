@@ -8,7 +8,7 @@ import { PaginationComponent } from './pagination.component';
     CommonModule,
     AngularMaterialModule
   ],
-  exports: [PaginationComponent], 
+  exports: [PaginationComponent],
   declarations: [PaginationComponent]
 })
 export class PaginationModule { }

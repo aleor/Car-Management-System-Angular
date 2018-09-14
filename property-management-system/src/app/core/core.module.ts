@@ -6,7 +6,7 @@ import { AngularMaterialModule } from '../angular-material.module';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { throwIfAlreadyLoaded } from './module-import.guard';
 import { AuthService } from './services/auth.service';
-import { FakeDataService } from './services/fake-data.service';
+import { DataService } from './services/data.service';
 
 @NgModule({
   imports: [
@@ -21,7 +21,7 @@ import { FakeDataService } from './services/fake-data.service';
       NavBarComponent
     ],
   declarations: [ NavBarComponent ],
-  providers: [ AuthService, FakeDataService ]
+  providers: [ AuthService, DataService ]
 })
 // CoreModule should be loaded once and only in AppModule, as it stores services which intended to be singletones
 export class CoreModule {

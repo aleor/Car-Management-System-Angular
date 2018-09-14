@@ -18,8 +18,7 @@ const routes: Routes = [
       {
         path: 'edit',
         component: CarEditComponent,
-        canActivate: [ AuthGuard ],
-        // canDeactivate: [CanDeactivateGuard]
+        canActivate: [ AuthGuard ]
       }
     ]
   }
@@ -28,9 +27,7 @@ const routes: Routes = [
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
-  providers: [AuthGuard,
-    // CanDeactivateGuard
-]
+  providers: [AuthGuard]
 })
 export class CarRoutingModule {
   static components = [

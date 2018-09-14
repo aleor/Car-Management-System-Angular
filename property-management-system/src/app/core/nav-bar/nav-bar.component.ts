@@ -1,7 +1,7 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Router } from '@angular/router';
 import { AuthService } from '../services/auth.service';
-import { Subscription } from 'rxjs';
+import { Subscription } from 'rxjs/Subscription';
 import { MatSnackBar, MatDialog } from '@angular/material';
 import { DialogModalComponent } from '../../shared/dialog-modal/dialog-modal.component';
 
@@ -37,13 +37,11 @@ export class NavBarComponent implements OnInit, OnDestroy {
   logOut() {
     this.authService.logout()
               .subscribe((status: boolean) => {
-                  // this.setLoginButtonText();
                   this.snackService.open('You\'ve been successfully logged out',
                     null,
                     { duration: 2500,
-                    horizontalPosition: 'right',
-                    verticalPosition: 'top',
-                    panelClass: ['success-message']
+                      horizontalPosition: 'right',
+                      verticalPosition: 'top'
                     });
 
                   this.router.navigate(['/cars']);

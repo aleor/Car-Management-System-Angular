@@ -9,7 +9,6 @@ import { MatSnackBar, MatDialog, DateAdapter, MAT_DATE_LOCALE, MAT_DATE_FORMATS 
 import { DialogModalComponent } from '../../../shared/dialog-modal/dialog-modal.component';
 import { MomentDateAdapter, MAT_MOMENT_DATE_FORMATS } from '@angular/material-moment-adapter';
 import * as moment from 'moment';
-import { FakeDataService } from '../../../core/services/fake-data.service';
 
 @Component({
   selector: 'pms-car-edit',
@@ -31,7 +30,6 @@ export class CarEditComponent implements OnInit {
   constructor(private router: Router,
     private route: ActivatedRoute,
     private dataService: DataService,
-    private fakeDataService: FakeDataService,
     private snackService: MatSnackBar,
     private dialog: MatDialog) { }
 
@@ -48,7 +46,7 @@ export class CarEditComponent implements OnInit {
   }
 
   getCar(id: number) {
-    this.fakeDataService.getCar(id).subscribe((car: Car) => {
+    this.dataService.getCar(id).subscribe((car: Car) => {
       this.car = car;
     });
   }
@@ -58,15 +56,12 @@ export class CarEditComponent implements OnInit {
     if (!this.carForm.form.valid) {
       return;
     }
-    if (this.addOrUpdate === 'Add') {
-      this.addCar();
-    } else {
-      this.updateCar();
-    }
+
+    this.car.id === 0 ? this.addCar() : this.updateCar();
   }
 
   addCar() {
-    this.fakeDataService.addCar(this.car)
+    this.dataService.addCar(this.car)
       .subscribe((createdCar: Car) => {
       if (createdCar) {
         this.carForm.form.markAsPristine();
@@ -74,8 +69,7 @@ export class CarEditComponent implements OnInit {
                     null,
                     { duration: 2500,
                     horizontalPosition: 'right',
-                    verticalPosition: 'top',
-                    panelClass: ['success-message']
+                    verticalPosition: 'top'
                     });
         this.router.navigate(['/cars']);
       } else {
@@ -83,8 +77,7 @@ export class CarEditComponent implements OnInit {
                     null,
                     { duration: 2500,
                     horizontalPosition: 'right',
-                    verticalPosition: 'top',
-                    panelClass: ['success-message']
+                    verticalPosition: 'top'
                     });
       }
     },
@@ -92,7 +85,7 @@ export class CarEditComponent implements OnInit {
   }
 
   updateCar() {
-    this.fakeDataService.updateCar(this.car).subscribe(success => {
+    this.dataService.updateCar(this.car).subscribe(success => {
       if (success) {
         this.carForm.form.markAsPristine();
         this.snackService.open('Changes successfully applied',
@@ -100,7 +93,6 @@ export class CarEditComponent implements OnInit {
                     { duration: 2500,
                     horizontalPosition: 'right',
                     verticalPosition: 'top',
-                    panelClass: ['success-message']
                     });
           this.router.navigate(['/cars']);
       } else {
@@ -109,7 +101,6 @@ export class CarEditComponent implements OnInit {
                     { duration: 2500,
                     horizontalPosition: 'right',
                     verticalPosition: 'top',
-                    panelClass: ['success-message']
                     });
       }
     });
@@ -168,22 +159,20 @@ deleteCar() {
 }
 
   private delete() {
-    this.fakeDataService.deleteCar(this.car.id).subscribe(success => {
+    this.dataService.deleteCar(this.car.id).subscribe(success => {
       if (success) {
         this.snackService.open('Car has been removed',
                       null,
                       { duration: 2500,
                       horizontalPosition: 'right',
-                      verticalPosition: 'top',
-                      panelClass: ['success-message']
+                      verticalPosition: 'top'
                       });
       } else {
         this.snackService.open('There was a problem with removing the car, please try again',
                       null,
                       { duration: 2500,
                       horizontalPosition: 'right',
-                      verticalPosition: 'top',
-                      panelClass: ['success-message']
+                      verticalPosition: 'top'
                       });
       }
       this.router.navigate(['/cars']);

@@ -1,12 +1,10 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes, PreloadAllModules } from '@angular/router';
-// import { PreloadModulesStrategy } from './core/strategies/preload-modules.strategy';
+import { RouterModule, Routes } from '@angular/router';
 
 const app_routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: '/cars' },
   { path: 'car/:id', loadChildren: 'app/features/car/car.module#CarModule' },
   { path: 'cars', loadChildren: 'app/features/cars/cars.module#CarsModule' },
-  // { path: 'bookings', loadChildren: 'app/features/bookings/bookings.module' },
   { path: '**', pathMatch: 'full', redirectTo: '/cars' }
 ];
 

@@ -6,7 +6,6 @@ import { FilterService } from '../../core/services/filter.service';
 import { PagedResults } from '../../shared/models/paged-results.model';
 import { PageEvent } from '@angular/material';
 import { Router } from '@angular/router';
-import { FakeDataService } from '../../core/services/fake-data.service';
 
 @Component({
   selector: 'pms-cars',
@@ -30,15 +29,14 @@ export class CarsComponent implements OnInit {
   constructor(
     private dataService: DataService,
     private filterService: FilterService,
-    private router: Router,
-    private fakeDataService: FakeDataService) { }
+    private router: Router) { }
 
   ngOnInit() {
     this.getCarsPage(this.currentPage);
   }
 
   getCarsPage(page: number) {
-    this.fakeDataService.takeCars(page, this.pageSize)
+    this.dataService.takeCars(page, this.pageSize)
         .subscribe((response: PagedResults<Car[]>) => {
           this.cars = response.results;
           this.filteredCars = response.results;

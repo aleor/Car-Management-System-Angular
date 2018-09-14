@@ -3,13 +3,9 @@ import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 
 import { Observable } from 'rxjs/Observable';
 import { map, catchError } from 'rxjs/operators';
-import { Booking } from '../../shared/models/booking.model';
-import { Property } from '../../shared/models/property.model';
 import { PagedResults } from '../../shared/models/paged-results.model';
 import { Car } from '../../shared/models/car.model';
 import { ApiResponse } from '../../shared/models/api-response.model';
-
-// import { ICustomer, IOrder, IState, IPagedResults, IApiResponse } from '../../shared/interfaces';
 
 @Injectable()
 export class DataService {
@@ -88,15 +84,15 @@ export class DataService {
         return Observable.throw(error || 'Node.js server error');
     }
 
-    calculateCustomersOrderTotal(properties: Property[]) {
-        for (const property of properties) {
-            if (property && property.orders) {
-                let total = 0;
-                for (const order of property.orders) {
-                    total += order.itemCost;
-                }
-                property.orderTotal = total;
-            }
-        }
-    }
+    // calculateCustomersOrderTotal(properties: Property[]) {
+    //     for (const property of properties) {
+    //         if (property && property.orders) {
+    //             let total = 0;
+    //             for (const order of property.orders) {
+    //                 total += order.itemCost;
+    //             }
+    //             property.orderTotal = total;
+    //         }
+    //     }
+    // }
 }
