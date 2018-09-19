@@ -61,7 +61,7 @@ export class NavBarComponent implements OnInit, OnDestroy {
   }
 
   reports() {
-    const dialogRef = this.dialog.open(DialogModalComponent, {
+    this.dialog.open(DialogModalComponent, {
       width: '300px',
       disableClose: false,
       autoFocus: false,

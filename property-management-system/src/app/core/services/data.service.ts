@@ -18,7 +18,7 @@ export class DataService {
         return this.http.get<Car[]>(this.carsBaseUrl)
             .pipe(
                 map(car => {
-                    // this.calculateCustomersOrderTotal(properties);
+                    // ToDo: Calculate real total balance
                     return car;
                 }),
                 catchError(this.handleError)
@@ -33,7 +33,7 @@ export class DataService {
                 map(res => {
                     const totalRecords = +res.headers.get('X-InlineCount');
                     const cars = res.body as Car[];
-                    // this.calculateCustomersOrderTotal(properties);
+                    // ToDo: Calculate real total balance
                     return {
                         results: cars,
                         totalRecords: totalRecords
@@ -47,7 +47,7 @@ export class DataService {
         return this.http.get<Car>(this.carsBaseUrl + '/' + id)
             .pipe(
                 map(car => {
-                    // this.calculateCustomersOrderTotal([customer]);
+                    // ToDo: Calculate real total balance
                     return car;
                 }),
                 catchError(this.handleError)
@@ -81,18 +81,6 @@ export class DataService {
             const errMessage = error.error.message;
             return Observable.throw(errMessage);
         }
-        return Observable.throw(error || 'Node.js server error');
+        return Observable.throw(error || 'Server error');
     }
-
-    // calculateCustomersOrderTotal(properties: Property[]) {
-    //     for (const property of properties) {
-    //         if (property && property.orders) {
-    //             let total = 0;
-    //             for (const order of property.orders) {
-    //                 total += order.itemCost;
-    //             }
-    //             property.orderTotal = total;
-    //         }
-    //     }
-    // }
 }

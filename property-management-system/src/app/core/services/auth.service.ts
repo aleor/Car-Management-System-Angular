@@ -29,7 +29,7 @@ export class AuthService {
         return this.http.post<boolean>(this.authUrl + '/login', userLogin)
             .pipe(
                 map(loggedIn => {
-                    // demo hack
+                    // simplified check, to be moved into server
                     if (userLogin.email === this.demoCredentials.email &&
                         userLogin.password === this.demoCredentials.password) {
                             this.isAuthenticated = true;

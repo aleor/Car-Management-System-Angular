@@ -1,7 +1,12 @@
-// Original version created by Cory Rylan: https://coryrylan.com/blog/angular-2-form-builder-and-validation-management
 import { AbstractControl } from '@angular/forms';
 
 export class ValidationService {
+
+    private static passwordRegex = /^(?=.*\d)(?=.*[a-zA-Z!@#$%^&*])(?!.*\s).{6,20}$/;
+    
+    // RFC 2822
+    // tslint:disable-next-line    
+    private static emailRegex = /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/;
 
     static getValidatorErrorMessage(code: string) {
         const config = {
@@ -13,23 +18,12 @@ export class ValidationService {
     }
 
     static emailValidator(control: AbstractControl) {
-        // RFC 2822 compliant regex
-        // tslint:disable-next-line
-        if (control.value.match(/[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/)) {
-            return null;
-        } else {
-            return { 'invalidEmailAddress': true };
-        }
+        return control.value.match(this.emailRegex) ?
+            null : { 'invalidEmailAddress': true };
     }
 
     static passwordValidator(control: AbstractControl) {
-        // {6,30}           - Assert password is between 6 and 30 characters
-        // (?=.*[0-9])       - Assert a string has at least one number
-        // (?!.*\s)          - Spaces are not allowed
-        if (control.value.match(/^(?=.*\d)(?=.*[a-zA-Z!@#$%^&*])(?!.*\s).{6,30}$/)) {
-            return null;
-        } else {
-            return { 'invalidPassword': true };
-        }
+        return (control.value.match(this.passwordRegex)) ?
+            null : { 'invalidPassword': true };
     }
 }
